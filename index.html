@@ -26,14 +26,9 @@
   .updated .dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--accent);margin-right:4px;animation:pulse 1.6s infinite}
   @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
 
-  .controls{max-width:1400px;margin:0 auto;padding:10px 20px 4px;display:flex;flex-direction:column;gap:9px}
-  @media (min-width:820px){
-    .controls{flex-direction:row;align-items:center}
-    .sorts{flex:0 0 300px}
-    .search{flex:1}
-  }
-  .sorts{display:flex;gap:7px}
-  .sort-btn{flex:1;padding:9px 0;border-radius:10px;border:1px solid var(--border);background:var(--surface);color:var(--muted);font-size:13px;font-weight:600;cursor:pointer}
+  .controls{max-width:1400px;margin:0 auto;padding:10px 20px 4px}
+  .sorts{display:flex;gap:6px;margin-left:auto}
+  .sort-btn{padding:7px 14px;border-radius:9px;border:1px solid var(--border);background:var(--surface);color:var(--muted);font-size:12px;font-weight:600;cursor:pointer;white-space:nowrap}
   .sort-btn.active{background:var(--accent-dim);border-color:var(--accent);color:var(--accent)}
   .search{width:100%;padding:10px 13px;border-radius:10px;border:1px solid var(--border);background:var(--surface);color:var(--text);font-size:14px;outline:none}
   .search:focus{border-color:var(--accent)}
@@ -88,10 +83,6 @@
 </header>
 
 <div class="controls">
-  <div class="sorts">
-    <button class="sort-btn active" data-sort="viewers">🔥 시청자순</button>
-    <button class="sort-btn" data-sort="followers">⭐ 팔로워순</button>
-  </div>
   <input class="search" id="search" type="search" placeholder="스트리머, 방송 제목, 태그 검색" autocomplete="off">
 </div>
 
@@ -109,6 +100,10 @@
     <div class="section-head">
       <h2 id="listTitle">실시간 라이브</h2>
       <span class="count-line" id="countLine"></span>
+      <div class="sorts">
+        <button class="sort-btn active" data-sort="viewers">🔥 시청자순</button>
+        <button class="sort-btn" data-sort="followers">⭐ 팔로워순</button>
+      </div>
     </div>
     <div class="grid" id="grid"></div>
     <div class="empty" id="empty" style="display:none">표시할 방송이 없어요.<br>검색어를 바꾸거나 잠시 후 다시 확인해 주세요.</div>
