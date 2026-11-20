@@ -54,18 +54,32 @@ def is_virtual(live):
     )
 
 
-def follower_count(channel_id, cache):
+def channel_info(channel_id, cache):
+    """팔로워 수와 호버 미리보기용 HLS 재생 주소를 채널당 한 번씩 가져온다."""
     if channel_id in cache:
         return cache[channel_id]
-    count = None
+    followers = None
+    playback = None
     try:
         content = get(f"{API}/channels/{channel_id}").get("content") or {}
-        count = content.get("followerCount")
+        followers = content.get("followerCount")
     except Exception:
-        count = None
-    cache[channel_id] = count
+        followers = None
+    try:
+        detail = get(
+            f"https://api.chzzk.naver.com/service/v2/channels/{channel_id}/live-detail"
+        ).get("content") or {}
+        raw = detail.get("livePlaybackJson")
+        if raw:
+            media = json.loads(raw).get("media") or []
+            hls = [m for m in media if m.get("mediaId") == "HLS"]
+            if hls:
+                playback = hls[0].get("path")
+    except Exception:
+        playback = None
+    cache[channel_id] = (followers, playback)
     time.sleep(0.1)
-    return count
+    return followers, playback
 
 
 def load_prev():
@@ -96,11 +110,13 @@ def main():
         if before:
             delta = viewers - before
             trend = {"delta": delta, "pct": round(delta / before * 100)}
+        followers, playback = channel_info(channel_id, cache)
         out.append(
             {
                 "liveId": live.get("liveId"),
                 "title": live.get("liveTitle"),
                 "thumbnail": thumb,
+                "playback": playback,
                 "viewers": viewers,
                 "trend": trend,
                 "openDate": live.get("openDate"),
@@ -112,7 +128,7 @@ def main():
                     "name": channel.get("channelName"),
                     "image": channel.get("channelImageUrl"),
                     "verified": bool(channel.get("verifiedMark")),
-                    "followers": follower_count(channel_id, cache),
+                    "followers": followers,
                 },
             }
         )
