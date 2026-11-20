@@ -63,7 +63,7 @@
   .thumb{position:relative;aspect-ratio:16/9;background:var(--surface2)}
   .thumb img{width:100%;height:100%;object-fit:cover;display:block}
   .thumb video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background:#000}
-  .card:hover .thumb{box-shadow:inset 0 0 0 2px var(--accent)}
+  .card:hover{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent),0 10px 28px rgba(0,0,0,.45)}
   .preview-tag{position:absolute;top:9px;right:48px;background:var(--accent);color:#04150c;font-size:11px;font-weight:800;padding:3px 8px;border-radius:6px;opacity:0;transition:opacity .15s;pointer-events:none;z-index:3}
   .card:hover .preview-tag{opacity:1}
   .thumb .noimg{display:flex;align-items:center;justify-content:center;height:100%;color:var(--muted);font-size:13px}
