@@ -29,7 +29,7 @@
   .controls{max-width:1400px;margin:0 auto;padding:10px 20px 4px;display:flex;flex-direction:column;gap:9px}
   @media (min-width:820px){
     .controls{flex-direction:row;align-items:center}
-    .sorts{flex:0 0 400px}
+    .sorts{flex:0 0 300px}
     .search{flex:1}
   }
   .sorts{display:flex;gap:7px}
@@ -39,11 +39,16 @@
   .search:focus{border-color:var(--accent)}
   .search::placeholder{color:var(--muted)}
 
-  .count-line{font-size:12px;color:var(--muted);padding:10px 2px 2px}
-  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:16px;padding-top:8px}
+  .section-head{display:flex;align-items:center;gap:8px;padding:16px 2px 2px}
+  .section-head h2{font-size:16px;font-weight:800}
+  .section-head .sub{font-size:12px;color:var(--muted)}
+  .reroll{margin-left:auto;padding:7px 14px;border-radius:9px;border:1px solid var(--accent);background:var(--accent-dim);color:var(--accent);font-size:13px;font-weight:700;cursor:pointer}
+  .count-line{font-size:12px;color:var(--muted)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:16px;padding-top:10px}
 
   .card{background:var(--surface);border:1px solid var(--border);border-radius:14px;overflow:hidden;cursor:pointer;transition:border-color .15s}
   .card:active{border-color:var(--accent)}
+  .card.spot{border-color:rgba(0,255,163,.35)}
   .thumb{position:relative;aspect-ratio:16/9;background:var(--surface2)}
   .thumb img{width:100%;height:100%;object-fit:cover;display:block}
   .thumb .noimg{display:flex;align-items:center;justify-content:center;height:100%;color:var(--muted);font-size:13px}
@@ -86,16 +91,29 @@
   <div class="sorts">
     <button class="sort-btn active" data-sort="viewers">🔥 시청자순</button>
     <button class="sort-btn" data-sort="followers">⭐ 팔로워순</button>
-    <button class="sort-btn" data-sort="random">🎲 랜덤 픽</button>
   </div>
   <input class="search" id="search" type="search" placeholder="스트리머, 방송 제목, 태그 검색" autocomplete="off">
 </div>
 
 <main class="wrap">
-  <div class="count-line" id="countLine"></div>
-  <div class="grid" id="grid"></div>
-  <div class="empty" id="empty" style="display:none">표시할 방송이 없어요.<br>검색어를 바꾸거나 잠시 후 다시 확인해 주세요.</div>
-  <div class="error" id="errorBox" style="display:none">데이터를 불러오지 못했어요.<br>잠시 후 자동으로 다시 시도합니다.</div>
+  <section id="spotSection">
+    <div class="section-head">
+      <h2>🎲 숨은 방송 찾기</h2>
+      <span class="sub">시청자 많은 방송에 묻힌 방송을 랜덤으로 골라드려요</span>
+      <button class="reroll" id="reroll">다시 뽑기</button>
+    </div>
+    <div class="grid" id="spotGrid"></div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <h2 id="listTitle">실시간 라이브</h2>
+      <span class="count-line" id="countLine"></span>
+    </div>
+    <div class="grid" id="grid"></div>
+    <div class="empty" id="empty" style="display:none">표시할 방송이 없어요.<br>검색어를 바꾸거나 잠시 후 다시 확인해 주세요.</div>
+    <div class="error" id="errorBox" style="display:none">데이터를 불러오지 못했어요.<br>잠시 후 자동으로 다시 시도합니다.</div>
+  </section>
 </main>
 
 <footer>
@@ -111,45 +129,31 @@
 </nav>
 
 <script>
-const state = { lives: [], sort: 'viewers', tab: 'live', query: '', shuffleSeed: [] };
+const state = { lives: [], sort: 'viewers', tab: 'live', query: '', picks: [] };
 const FAV_KEY = 'vchzzk-favs';
 const favs = new Set(JSON.parse(localStorage.getItem(FAV_KEY) || '[]'));
+const SPOT_COUNT = 4;
 
 const $ = (id) => document.getElementById(id);
 const fmt = (n) => n == null ? '-' : n >= 10000 ? (n / 10000).toFixed(1).replace(/\.0$/, '') + '만' : n.toLocaleString('ko-KR');
+const escapeHtml = (s) => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
 function saveFavs(){ localStorage.setItem(FAV_KEY, JSON.stringify([...favs])); }
 
-function currentList(){
-  let list = [...state.lives];
-  if (state.tab === 'fav') list = list.filter(l => favs.has(l.channel.id));
-  const q = state.query.trim().toLowerCase();
-  if (q) list = list.filter(l =>
-    (l.title || '').toLowerCase().includes(q) ||
-    (l.channel.name || '').toLowerCase().includes(q) ||
-    (l.category || '').toLowerCase().includes(q) ||
-    (l.tags || []).some(t => String(t).toLowerCase().includes(q)));
-  if (state.sort === 'viewers') list.sort((a, b) => b.viewers - a.viewers);
-  else if (state.sort === 'followers') list.sort((a, b) => (b.channel.followers || 0) - (a.channel.followers || 0));
-  else if (state.sort === 'random') {
-    const order = new Map(state.shuffleSeed.map((id, i) => [id, i]));
-    list.sort((a, b) => (order.get(a.liveId) ?? 9999) - (order.get(b.liveId) ?? 9999));
+function pickHidden(){
+  const sorted = [...state.lives].sort((a, b) => b.viewers - a.viewers);
+  const pool = sorted.slice(20).length >= SPOT_COUNT ? sorted.slice(20) : sorted;
+  const copy = [...pool];
+  const picks = [];
+  while (picks.length < Math.min(SPOT_COUNT, copy.length)) {
+    picks.push(copy.splice(Math.floor(Math.random() * copy.length), 1)[0]);
   }
-  return list;
+  state.picks = picks.map(l => l.liveId);
 }
 
-function reshuffle(){
-  const ids = state.lives.map(l => l.liveId);
-  for (let i = ids.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [ids[i], ids[j]] = [ids[j], ids[i]]; }
-  state.shuffleSeed = ids;
-}
-
-function render(){
-  const list = currentList();
-  $('countLine').textContent = state.tab === 'fav' ? `즐겨찾기 ${list.length}개 방송 중` : `지금 방송 중 ${list.length}개`;
-  $('empty').style.display = list.length ? 'none' : 'block';
-  $('grid').innerHTML = list.map(l => `
-    <article class="card" data-live="${l.liveId}">
+function cardHtml(l, spot){
+  return `
+    <article class="card ${spot ? 'spot' : ''}" data-live="${l.liveId}">
       <div class="thumb">
         ${l.thumbnail ? `<img src="${l.thumbnail}" alt="" loading="lazy" onerror="this.outerHTML='<div class=&quot;noimg&quot;>화면 준비 중</div>'">` : '<div class="noimg">화면 준비 중</div>'}
         <div class="badges"><span class="badge-live">LIVE</span>${l.adult ? '<span class="badge-adult">19</span>' : ''}</div>
@@ -169,27 +173,35 @@ function render(){
           ${(l.tags || []).map(t => `<span class="tag">#${escapeHtml(String(t))}</span>`).join('')}
         </div>
       </div>
-    </article>`).join('');
-
-  $('grid').querySelectorAll('.card').forEach(card => {
-    card.addEventListener('click', (e) => {
-      if (e.target.closest('.fav')) return;
-      const live = state.lives.find(l => String(l.liveId) === card.dataset.live);
-      if (live) window.open(`https://chzzk.naver.com/live/${live.channel.id}`, '_blank');
-    });
-  });
-  $('grid').querySelectorAll('.fav').forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      e.stopPropagation();
-      const id = btn.dataset.fav;
-      favs.has(id) ? favs.delete(id) : favs.add(id);
-      saveFavs(); render();
-    });
-  });
+    </article>`;
 }
 
-function escapeHtml(s){
-  return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function currentList(){
+  let list = [...state.lives];
+  if (state.tab === 'fav') list = list.filter(l => favs.has(l.channel.id));
+  const q = state.query.trim().toLowerCase();
+  if (q) list = list.filter(l =>
+    (l.title || '').toLowerCase().includes(q) ||
+    (l.channel.name || '').toLowerCase().includes(q) ||
+    (l.category || '').toLowerCase().includes(q) ||
+    (l.tags || []).some(t => String(t).toLowerCase().includes(q)));
+  if (state.sort === 'viewers') list.sort((a, b) => b.viewers - a.viewers);
+  else list.sort((a, b) => (b.channel.followers || 0) - (a.channel.followers || 0));
+  return list;
+}
+
+function render(){
+  const showSpot = state.tab === 'live' && !state.query.trim() && state.picks.length;
+  $('spotSection').style.display = showSpot ? 'block' : 'none';
+  if (showSpot) {
+    const byId = new Map(state.lives.map(l => [l.liveId, l]));
+    $('spotGrid').innerHTML = state.picks.map(id => byId.get(id)).filter(Boolean).map(l => cardHtml(l, true)).join('');
+  }
+  const list = currentList();
+  $('listTitle').textContent = state.tab === 'fav' ? '⭐ 즐겨찾기' : '실시간 라이브';
+  $('countLine').textContent = `${list.length}개 방송 중`;
+  $('empty').style.display = list.length ? 'none' : 'block';
+  $('grid').innerHTML = list.map(l => cardHtml(l, false)).join('');
 }
 
 async function load(){
@@ -198,7 +210,7 @@ async function load(){
     if (!res.ok) throw new Error(res.status);
     const data = await res.json();
     state.lives = data.lives || [];
-    if (!state.shuffleSeed.length) reshuffle();
+    if (!state.picks.length) pickHidden();
     const d = new Date(data.updatedAt);
     $('updatedAt').textContent = `마지막 업데이트 ${d.toLocaleString('ko-KR', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' })} · ${data.count}개 방송`;
     $('errorBox').style.display = 'none';
@@ -208,12 +220,26 @@ async function load(){
   }
 }
 
+document.addEventListener('click', (e) => {
+  const favBtn = e.target.closest('[data-fav]');
+  if (favBtn) {
+    e.stopPropagation();
+    const id = favBtn.dataset.fav;
+    favs.has(id) ? favs.delete(id) : favs.add(id);
+    saveFavs(); render();
+    return;
+  }
+  const card = e.target.closest('.card');
+  if (card) {
+    const live = state.lives.find(l => String(l.liveId) === card.dataset.live);
+    if (live) window.open(`https://chzzk.naver.com/live/${live.channel.id}`, '_blank');
+  }
+});
 document.querySelectorAll('.sort-btn').forEach(btn => {
   btn.addEventListener('click', () => {
     document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     state.sort = btn.dataset.sort;
-    if (state.sort === 'random') reshuffle();
     render();
   });
 });
@@ -225,6 +251,7 @@ document.querySelectorAll('.nav-btn').forEach(btn => {
     render();
   });
 });
+$('reroll').addEventListener('click', () => { pickHidden(); render(); });
 $('search').addEventListener('input', (e) => { state.query = e.target.value; render(); });
 
 load();
