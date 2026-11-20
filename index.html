@@ -57,6 +57,8 @@
   .card:active{border-color:var(--accent)}
   .card.spot{border-color:rgba(0,255,163,.35)}
   .trend-badge{position:absolute;left:9px;bottom:9px;background:var(--up);color:#fff;font-size:12px;font-weight:800;padding:3px 8px;border-radius:6px}
+  .badge-new{background:#ffd60a;color:#191c1f;font-size:11px;font-weight:800;padding:3px 7px;border-radius:6px;letter-spacing:.4px}
+  .ratio-badge{position:absolute;left:9px;bottom:9px;background:#7c5cff;color:#fff;font-size:12px;font-weight:800;padding:3px 8px;border-radius:6px}
   .chips{display:flex;gap:6px;flex-wrap:wrap;max-width:1400px;margin:0 auto;padding:8px 20px 0}
   .chip{padding:6px 12px;border-radius:20px;border:1px solid var(--border);background:var(--surface);color:var(--muted);font-size:12px;font-weight:600;cursor:pointer}
   .chip.active{background:var(--accent-dim);border-color:var(--accent);color:var(--accent)}
@@ -101,7 +103,7 @@
       <div class="mark">V<span class="mark-dot"></span></div>
       <div>
         <div class="logo"><b>V-CHZZK</b> 라운지</div>
-        <div class="tagline">치지직 버추얼 스트리머를 한곳에 — 급상승과 숨은 방송까지</div>
+        <div class="tagline">치지직 버추얼 스트리머를 한곳에</div>
       </div>
       <div class="metrics">
         <div class="metric"><span class="m-val" id="statCount">–</span><span class="m-label">방송 중</span></div>
@@ -126,6 +128,14 @@
       <span class="sub" id="trendSub">시청자가 빠르게 느는 중</span>
     </div>
     <div class="grid" id="trendGrid"></div>
+  </section>
+
+  <section id="ratioSection">
+    <div class="section-head">
+      <h2>💎 시청률 TOP</h2>
+      <span class="sub">팔로워 대비 시청자가 몰린 방송</span>
+    </div>
+    <div class="grid" id="ratioGrid"></div>
   </section>
 
   <section id="spotSection">
@@ -187,15 +197,15 @@ function pickHidden(){
   state.picks = picks.map(l => l.liveId);
 }
 
-function cardHtml(l, spot){
+function cardHtml(l, spot, mode){
   return `
     <article class="card ${spot ? 'spot' : ''}" data-live="${l.liveId}">
       <div class="thumb">
         ${l.thumbnail ? `<img src="${l.thumbnail}" alt="" loading="lazy" onerror="this.outerHTML='<div class=&quot;noimg&quot;>화면 준비 중</div>'">` : '<div class="noimg">화면 준비 중</div>'}
-        <div class="badges"><span class="badge-live">LIVE</span>${l.adult ? '<span class="badge-adult">19</span>' : ''}</div>
+        <div class="badges"><span class="badge-live">LIVE</span>${l.adult ? '<span class="badge-adult">19</span>' : ''}${l.isNew ? '<span class="badge-new">NEW</span>' : ''}</div>
         <button class="fav ${favs.has(l.channel.id) ? 'on' : ''}" data-fav="${l.channel.id}" aria-label="즐겨찾기">★</button>
         <span class="preview-tag">미리보기</span>
-        ${l.trend && l.trend.pct >= 10 ? `<span class="trend-badge">▲ +${l.trend.pct}%</span>` : ''}
+        ${mode === 'ratio' ? `<span class="ratio-badge">시청률 ${Math.round(l.viewers / l.channel.followers * 100)}%</span>` : (l.trend && l.trend.pct >= 10 ? `<span class="trend-badge">▲ +${l.trend.pct}%</span>` : '')}
         <span class="viewers">👁 ${fmt(l.viewers)}명</span>
       </div>
       <div class="body">
@@ -217,7 +227,8 @@ function cardHtml(l, spot){
 function currentList(){
   let list = [...state.lives];
   if (state.tab === 'fav') list = list.filter(l => favs.has(l.channel.id));
-  if (state.category) list = list.filter(l => (l.category || '') === state.category);
+  if (state.category === '__new__') list = list.filter(l => l.isNew);
+  else if (state.category) list = list.filter(l => (l.category || '') === state.category);
   const q = state.query.trim().toLowerCase();
   if (q) list = list.filter(l =>
     (l.title || '').toLowerCase().includes(q) ||
@@ -234,8 +245,10 @@ function renderChips(){
   state.lives.forEach(l => { const c = l.category || ''; if (c) counts.set(c, (counts.get(c) || 0) + 1); });
   const top = [...counts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 8).map(([c]) => c);
   const cats = ['', ...top];
+  const hasNew = state.lives.some(l => l.isNew);
   $('chips').innerHTML = cats.map(c =>
-    `<button class="chip ${state.category === c ? 'active' : ''}" data-cat="${escapeHtml(c)}">${c ? escapeHtml(c) : '전체'}</button>`).join('');
+    `<button class="chip ${state.category === c ? 'active' : ''}" data-cat="${escapeHtml(c)}">${c ? escapeHtml(c) : '전체'}</button>`).join('')
+    + (hasNew ? `<button class="chip ${state.category === '__new__' ? 'active' : ''}" data-cat="__new__">🆕 오늘의 신규</button>` : '');
 }
 
 function render(){
@@ -253,6 +266,13 @@ function render(){
     }
     $('trendGrid').innerHTML = trending.map(l => cardHtml(l, true)).join('');
   }
+  const ratioTop = state.lives
+    .filter(l => l.channel.followers >= 100 && l.viewers >= 30)
+    .sort((a, b) => (b.viewers / b.channel.followers) - (a.viewers / a.channel.followers))
+    .slice(0, 4);
+  const showRatio = browsing && ratioTop.length > 0;
+  $('ratioSection').style.display = showRatio ? 'block' : 'none';
+  if (showRatio) $('ratioGrid').innerHTML = ratioTop.map(l => cardHtml(l, true, 'ratio')).join('');
   const showSpot = browsing && state.picks.length;
   $('spotSection').style.display = showSpot ? 'block' : 'none';
   if (showSpot) {
@@ -274,6 +294,8 @@ async function load(){
     state.lives = data.lives || [];
     state.prevAt = data.prevAt || null;
     state.updatedAt = data.updatedAt || null;
+    const todayKst = new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Seoul' });
+    state.lives.forEach(l => { l.isNew = !!l.firstSeen && l.firstSeen === todayKst && !!data.trackingSince && todayKst > data.trackingSince; });
     renderChips();
     if (!state.picks.length) pickHidden();
     const d = new Date(data.updatedAt);
