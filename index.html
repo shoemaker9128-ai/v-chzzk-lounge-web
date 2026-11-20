@@ -27,12 +27,13 @@
   .mark{position:relative;width:44px;height:44px;border-radius:13px;background:linear-gradient(145deg,#182720,#0a120e);display:flex;align-items:center;justify-content:center;flex:none;box-shadow:0 6px 16px rgba(10,30,20,.22),inset 0 0 0 1px rgba(0,255,163,.22)}
   .mark svg{width:25px;height:25px;display:block}
   .mark-dot{position:absolute;top:-2px;right:-2px;width:9px;height:9px;border-radius:50%;background:var(--live);border:2px solid var(--bg);animation:pulse 1.6s infinite}
-  .metrics{display:flex;margin-left:auto}
-  .metric{padding:2px 15px;border-left:1px solid var(--border)}
-  .metric:first-child{border-left:none}
+  .metrics{display:flex;gap:8px;margin-left:auto}
+  .metric{background:linear-gradient(180deg,rgba(0,190,110,.09),rgba(0,190,110,.02));border:1px solid var(--border);border-radius:12px;padding:7px 14px 6px;min-width:88px}
   .m-val{display:block;font-size:16px;font-weight:800;line-height:1.25;max-width:130px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-  .m-label{font-size:11px;font-weight:600;color:var(--muted);letter-spacing:.2px}
-  @media (max-width:760px){ .metrics{margin-left:0;width:100%;margin-top:6px} .metric{padding:2px 12px 2px 0;border-left:none} }
+  .m-label{display:flex;align-items:center;gap:4px;font-size:11px;font-weight:600;color:var(--muted);letter-spacing:.2px;margin-top:1px}
+  .m-label .ic{font-size:11px;line-height:1}
+  .m-label .live-dot{width:6px;height:6px;border-radius:50%;background:var(--live);animation:pulse 1.6s infinite;flex:none}
+  @media (max-width:760px){ .metrics{margin-left:0;width:100%;margin-top:10px;flex-wrap:wrap} .metric{flex:1;min-width:72px;padding:6px 10px 5px} }
   header::after{content:'';display:block;height:2px;background:linear-gradient(90deg,transparent,var(--accent),transparent);opacity:.45}
   .logo small{font-size:12px;color:var(--muted);font-weight:500;margin-left:6px}
   .updated{font-size:11px;color:var(--muted);margin-top:3px}
@@ -107,10 +108,10 @@
         <div class="tagline">치지직 버추얼 스트리머를 한곳에</div>
       </div>
       <div class="metrics">
-        <div class="metric"><span class="m-val" id="statCount">–</span><span class="m-label">방송 중</span></div>
-        <div class="metric"><span class="m-val" id="statViewers">–</span><span class="m-label">총 시청자</span></div>
-        <div class="metric"><span class="m-val" id="statTop">–</span><span class="m-label" id="statTopLabel">지금 1위</span></div>
-        <div class="metric"><span class="m-val" id="statRising">–</span><span class="m-label">급상승</span></div>
+        <div class="metric"><span class="m-val" id="statCount">–</span><span class="m-label"><span class="live-dot"></span>방송 중</span></div>
+        <div class="metric"><span class="m-val" id="statViewers">–</span><span class="m-label"><span class="ic">👥</span>총 시청자</span></div>
+        <div class="metric"><span class="m-val" id="statTop">–</span><span class="m-label"><span class="ic">👑</span><span id="statTopLabel">지금 1위</span></span></div>
+        <div class="metric"><span class="m-val" id="statRising">–</span><span class="m-label"><span class="ic">📈</span>급상승</span></div>
       </div>
     </div>
     <div class="updated"><span class="dot"></span><span id="updatedAt">불러오는 중…</span></div>
