@@ -1,12 +1,17 @@
 {
- "updatedAt": "2026-11-20T11:24:02+09:00",
- "count": 120,
+ "updatedAt": "2026-11-20T12:13:50+09:00",
+ "prevAt": "2026-11-20T12:08:17+09:00",
+ "count": 126,
  "lives": [
   {
    "liveId": 22309620,
    "title": "바츄얼이 고장 나서 ",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/26907815/live/22309620/publish/69122784/thumbnail/image_720.jpg",
-   "viewers": 1397,
+   "viewers": 1578,
+   "trend": {
+    "delta": 2,
+    "pct": 0
+   },
    "openDate": "2026-11-20 06:11:16",
    "adult": false,
    "tags": [
@@ -19,14 +24,18 @@
     "name": "백곰파",
     "image": "https://nng-phinf.pstatic.net/MjAyNjA0MDdfMjc3/MDAxNzc1NTY4OTExODEw.y8xIrT-hx9WBUgWFS6lbzf4AJSVEyeN5ocUJw2uvU4gg.HvgB_8VnaY-c0UipKFKK5b9a7mHDVywXXbydRivW6xwg.PNG/image.png",
     "verified": true,
-    "followers": 118344
+    "followers": 118362
    }
   },
   {
    "liveId": 22300352,
    "title": "그타6 제일싼집! @60프레임완비@ 옆집보다 싸다!",
    "thumbnail": null,
-   "viewers": 903,
+   "viewers": 847,
+   "trend": {
+    "delta": -7,
+    "pct": -1
+   },
    "openDate": "2026-11-19 19:29:17",
    "adult": true,
    "tags": [
@@ -39,14 +48,71 @@
     "name": "독케익",
     "image": "https://nng-phinf.pstatic.net/MjAyNjA5MTJfOTIg/MDAxNzg5MjA1ODMxMzM2.BSVPxony6a6nQ3tL-_2q7PB8YOdNlRaftZdn7nLWZ20g.amJRdI0Y-lFQWHrV85qRAzbuizoyFqF7dRx7JwO9lDsg.PNG/image.png",
     "verified": true,
-    "followers": 38540
+    "followers": 38543
+   }
+  },
+  {
+   "liveId": 22310757,
+   "title": "겜못동도 할수있따!!! 예비군 게임 !쭈꾸미 !숙제곡",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/26941061/live/22310757/publish/69125098/thumbnail/image_720.jpg",
+   "viewers": 752,
+   "trend": {
+    "delta": 13,
+    "pct": 2
+   },
+   "openDate": "2026-11-20 09:53:46",
+   "adult": false,
+   "tags": [
+    "인챈트",
+    "봉누도",
+    "밥돼길",
+    "노래",
+    "버튜버"
+   ],
+   "category": "예비군",
+   "channel": {
+    "id": "26253bf7ed6b95832c40f4f43f6d049d",
+    "name": "티뭉",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA4MjJfMTk4/MDAxNzg3Mzk1NjA1MjUy.CYayNDzFhTKpzK4YKqVAqByM_cwvZdTvnqLdspsxVggg.ufLvHhRcP685CfSY2YGlbeWfB5FwcD_RId9xUUEqKFMg.JPEG/image.jpg",
+    "verified": true,
+    "followers": 43963
+   }
+  },
+  {
+   "liveId": 22310854,
+   "title": "안녕하세요 거렁쉐이 입니다 오늘 입대합니다!",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27298472/live/22310854/publish/69125259/thumbnail/image_720.jpg",
+   "viewers": 657,
+   "trend": {
+    "delta": 57,
+    "pct": 10
+   },
+   "openDate": "2026-11-20 10:00:00",
+   "adult": false,
+   "tags": [
+    "버튜버",
+    "두뭉",
+    "버츄얼",
+    "찡켓몬2"
+   ],
+   "category": "예비군",
+   "channel": {
+    "id": "6f1ae352c78027acf1bd92589fc44128",
+    "name": "두뭉",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA3MzBfMTAx/MDAxNzg1MzgxNjU3NDc0.FDGuxm8TUtuFthwowJ51ebTGfopYskpRLQrg0rZim2cg.X7smKIdOY9RAhIMgt3s1IkW36RVwAbDCAkAtuze9pKEg.PNG/image.png",
+    "verified": false,
+    "followers": 24734
    }
   },
   {
    "liveId": 22305746,
    "title": "나홀로 노예",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/30918390/live/22305746/publish/69117082/thumbnail/image_720.jpg",
-   "viewers": 552,
+   "viewers": 572,
+   "trend": {
+    "delta": -15,
+    "pct": -3
+   },
    "openDate": "2026-11-19 22:02:17",
    "adult": false,
    "tags": [
@@ -64,55 +130,14 @@
    }
   },
   {
-   "liveId": 22310854,
-   "title": "안녕하세요 거렁쉐이 입니다 ",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27298472/live/22310854/publish/69125259/thumbnail/image_720.jpg",
-   "viewers": 543,
-   "openDate": "2026-11-20 10:00:00",
-   "adult": false,
-   "tags": [
-    "버튜버",
-    "두뭉",
-    "버츄얼",
-    "찡켓몬2"
-   ],
-   "category": "talk",
-   "channel": {
-    "id": "6f1ae352c78027acf1bd92589fc44128",
-    "name": "두뭉",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA3MzBfMTAx/MDAxNzg1MzgxNjU3NDc0.FDGuxm8TUtuFthwowJ51ebTGfopYskpRLQrg0rZim2cg.X7smKIdOY9RAhIMgt3s1IkW36RVwAbDCAkAtuze9pKEg.PNG/image.png",
-    "verified": false,
-    "followers": 24730
-   }
-  },
-  {
-   "liveId": 22310757,
-   "title": "겜못동도 할수있따!!! 예비군 게임 !쭈꾸미 !숙제곡",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/26941061/live/22310757/publish/69125098/thumbnail/image_720.jpg",
-   "viewers": 509,
-   "openDate": "2026-11-20 09:53:46",
-   "adult": false,
-   "tags": [
-    "인챈트",
-    "봉누도",
-    "밥돼길",
-    "노래",
-    "버튜버"
-   ],
-   "category": "예비군",
-   "channel": {
-    "id": "26253bf7ed6b95832c40f4f43f6d049d",
-    "name": "티뭉",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA4MjJfMTk4/MDAxNzg3Mzk1NjA1MjUy.CYayNDzFhTKpzK4YKqVAqByM_cwvZdTvnqLdspsxVggg.ufLvHhRcP685CfSY2YGlbeWfB5FwcD_RId9xUUEqKFMg.JPEG/image.jpg",
-    "verified": true,
-    "followers": 43957
-   }
-  },
-  {
    "liveId": 22309793,
    "title": "스타크래프트2 자유의 날개 2일차 렛츠고 ",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/26590898/live/22309793/publish/69123192/thumbnail/image_720.jpg",
-   "viewers": 489,
+   "viewers": 462,
+   "trend": {
+    "delta": 8,
+    "pct": 2
+   },
    "openDate": "2026-11-20 07:11:03",
    "adult": false,
    "tags": [
@@ -131,33 +156,14 @@
    }
   },
   {
-   "liveId": 22310313,
-   "title": "AI 스트리머 루미가 직접 푸는 2027 수능 영어 영역 ✏️ 18~45번 실시간 풀이 + 가채점",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/36434056/live/22310313/publish/69124214/thumbnail/image_720.jpg",
-   "viewers": 471,
-   "openDate": "2026-11-20 08:55:10",
-   "adult": false,
-   "tags": [
-    "vtuber",
-    "ai",
-    "vs",
-    "버튜버",
-    "버츄얼"
-   ],
-   "category": "talk",
-   "channel": {
-    "id": "624fb17e396331fb9da1124de0ca0db9",
-    "name": "루미 LUMI AI",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjAzMjhfMTUw/MDAxNzc0NjczNTc0NTM2.mUsFAplt1YG8Ys_DNLan9qc1AL-135TfZwp6rZyAA-kg.YQR2kX-3XMOwfW9oJtdbpGMWtR8THJ_fdHYsfa6V1hIg.PNG/image.png",
-    "verified": false,
-    "followers": 21607
-   }
-  },
-  {
    "liveId": 22310933,
    "title": "좋은 소식 하나, 안타까운 소식 하나 전달 드립니다",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/26620872/live/22310933/publish/69125382/thumbnail/image_720.jpg",
-   "viewers": 452,
+   "viewers": 341,
+   "trend": {
+    "delta": 0,
+    "pct": 0
+   },
    "openDate": "2026-11-20 10:02:33",
    "adult": false,
    "tags": [
@@ -169,14 +175,18 @@
     "name": "조이냥",
     "image": "https://nng-phinf.pstatic.net/MjAyNDEwMTRfMjMg/MDAxNzI4ODc1MTU0OTQx.lirwgQpTQyrZgAOJhT-rxKlJqHOH2n6_ApJZUKaW1MUg.8vKTgwWEmmGHbxcUbTP8cfbUW6w-67fR1hNY0imiLXIg.PNG/%EC%A0%9C%EB%AA%A9_%EC%97%86%EC%9D%8C.png",
     "verified": true,
-    "followers": 21897
+    "followers": 21900
    }
   },
   {
    "liveId": 22310939,
    "title": "DLSS 5 하기전으로는 못돌아가....................",
    "thumbnail": null,
-   "viewers": 304,
+   "viewers": 316,
+   "trend": {
+    "delta": -6,
+    "pct": -2
+   },
    "openDate": "2026-11-20 10:02:46",
    "adult": true,
    "tags": [
@@ -194,12 +204,43 @@
    }
   },
   {
-   "liveId": 22309991,
-   "title": "건방져진 4단계 스트리머 \"‎꜀( ꜆>ࡇ<)꜆",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/26704833/live/22309991/publish/69123571/thumbnail/image_720.jpg",
-   "viewers": 297,
-   "openDate": "2026-11-20 07:58:26",
+   "liveId": 22310313,
+   "title": "수능 영어 끝낸 AI 루미의 저챗 타임 ✏️ (12:10 방종)",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/36434056/live/22310313/publish/69124214/thumbnail/image_720.jpg",
+   "viewers": 269,
+   "trend": {
+    "delta": -6,
+    "pct": -2
+   },
+   "openDate": "2026-11-20 08:55:10",
    "adult": false,
+   "tags": [
+    "vtuber",
+    "ai",
+    "vs",
+    "버튜버",
+    "버츄얼"
+   ],
+   "category": "talk",
+   "channel": {
+    "id": "624fb17e396331fb9da1124de0ca0db9",
+    "name": "루미 LUMI AI",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjAzMjhfMTUw/MDAxNzc0NjczNTc0NTM2.mUsFAplt1YG8Ys_DNLan9qc1AL-135TfZwp6rZyAA-kg.YQR2kX-3XMOwfW9oJtdbpGMWtR8THJ_fdHYsfa6V1hIg.PNG/image.png",
+    "verified": false,
+    "followers": 21620
+   }
+  },
+  {
+   "liveId": 22309991,
+   "title": "이 도시에서 살아남기는 너무 어렵습니다 \"‎꜀( ꜆>ࡇ<)꜆",
+   "thumbnail": null,
+   "viewers": 221,
+   "trend": {
+    "delta": -7,
+    "pct": -3
+   },
+   "openDate": "2026-11-20 07:58:26",
+   "adult": true,
    "tags": [
     "리스텔라",
     "버튜버",
@@ -207,7 +248,7 @@
     "3d",
     "데뷔"
    ],
-   "category": "talk",
+   "category": "GTA 6",
    "channel": {
     "id": "e87999abca4fd0c3214e05ef414ce951",
     "name": "야토",
@@ -217,33 +258,14 @@
    }
   },
   {
-   "liveId": 22309763,
-   "title": "오랜만이야",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/43538671/live/22309763/publish/69123117/thumbnail/image_720.jpg",
-   "viewers": 237,
-   "openDate": "2026-11-20 07:01:25",
-   "adult": false,
-   "tags": [
-    "마무",
-    "헥시아",
-    "버튜버",
-    "스콘",
-    "치음동"
-   ],
-   "category": "음악/노래",
-   "channel": {
-    "id": "902744ac298720925b661711d76f7133",
-    "name": "마무 Mamuu",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjAzMDNfMjA2/MDAxNzcyNDk4MTI5ODI0.-1Jc5ET2_B53t02t-C0XUGMi-oa7nbsyZ7XRZxNIMrgg.Bi3ubkL_es8mLxTlUDheONnAaVEUz0THfyVUnY76lBQg.PNG/image.png",
-    "verified": false,
-    "followers": 8066
-   }
-  },
-  {
    "liveId": 22310777,
    "title": "[리스텔라] 유네랑 놀 사람 선착순 (1/999999)",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/48180465/live/22310777/publish/69125153/thumbnail/image_720.jpg",
-   "viewers": 174,
+   "viewers": 218,
+   "trend": {
+    "delta": 7,
+    "pct": 3
+   },
    "openDate": "2026-11-20 09:56:57",
    "adult": false,
    "tags": [
@@ -259,14 +281,45 @@
     "name": "아미하 유네",
     "image": "https://nng-phinf.pstatic.net/MjAyNjA3MTdfMjk4/MDAxNzg0MjkyMzMxMjgx.yQCBS7S1y9DZnanESNu0wl3500xRhkE7HxSIP7Z1-90g.u9zruf-DsNljWDUfCgbTfT7l57-VNMum90CL2WeU9_Ug.PNG/image.png",
     "verified": true,
-    "followers": 6694
+    "followers": 6695
+   }
+  },
+  {
+   "liveId": 22309763,
+   "title": "오랜만이야",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/43538671/live/22309763/publish/69123117/thumbnail/image_720.jpg",
+   "viewers": 196,
+   "trend": {
+    "delta": -22,
+    "pct": -10
+   },
+   "openDate": "2026-11-20 07:01:25",
+   "adult": false,
+   "tags": [
+    "마무",
+    "헥시아",
+    "버튜버",
+    "스콘",
+    "치음동"
+   ],
+   "category": "음악/노래",
+   "channel": {
+    "id": "902744ac298720925b661711d76f7133",
+    "name": "마무 Mamuu",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjAzMDNfMjA2/MDAxNzcyNDk4MTI5ODI0.-1Jc5ET2_B53t02t-C0XUGMi-oa7nbsyZ7XRZxNIMrgg.Bi3ubkL_es8mLxTlUDheONnAaVEUz0THfyVUnY76lBQg.PNG/image.png",
+    "verified": false,
+    "followers": 8067
    }
   },
   {
    "liveId": 22309760,
    "title": "[사령화] 감자 캐면서 백만년만에 영도데이💙 (사실처음)",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/43938078/live/22309760/publish/69123113/thumbnail/image_720.jpg",
-   "viewers": 166,
+   "viewers": 169,
+   "trend": {
+    "delta": 15,
+    "pct": 10
+   },
    "openDate": "2026-11-20 07:01:03",
    "adult": false,
    "tags": [
@@ -285,32 +338,14 @@
    }
   },
   {
-   "liveId": 22305872,
-   "title": "삼국지 안 본 뇌 1화부터",
-   "thumbnail": null,
-   "viewers": 142,
-   "openDate": "2026-11-19 22:05:58",
-   "adult": false,
-   "tags": [
-    "버튜버",
-    "버츄얼",
-    "신입",
-    "종합게임"
-   ],
-   "category": "드라마",
-   "channel": {
-    "id": "dac7140d8871c1eb40dfc9dbdbdc4671",
-    "name": "히모리 키코",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA4MThfNTYg/MDAxNzg2OTk1MjE0NzUw.hhUNRTUdiPXJZW-3TfubZh92HBzwhe3wezs9WxuekIkg.t_PN_pYqIMKNtqyMjdYNnTr93dgjyi3bawGYJ3cOc9cg.JPEG/image.jpg",
-    "verified": false,
-    "followers": 814
-   }
-  },
-  {
    "liveId": 22310930,
    "title": "나 겨울 다이소 찾았어!!!",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/26836574/live/22310930/publish/69125376/thumbnail/image_720.jpg",
-   "viewers": 134,
+   "viewers": 167,
+   "trend": {
+    "delta": 11,
+    "pct": 7
+   },
    "openDate": "2026-11-20 10:02:14",
    "adult": false,
    "tags": [
@@ -326,14 +361,45 @@
     "name": "포키쨩",
     "image": "https://nng-phinf.pstatic.net/MjAyNjAxMDNfMTk1/MDAxNzY3MzcwNDg2MTYy.0vTyLJqAtowVc-UjM2qzofBBv002OUQPyp05BrSPkiog.MEZvrdc9v88N0fsEVynHsBsnh1xxI27zRspK0vZm0VEg.PNG/image.png",
     "verified": true,
-    "followers": 30045
+    "followers": 30046
+   }
+  },
+  {
+   "liveId": 22311720,
+   "title": "[HEXIA] 혼신의 사과쇼",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/43307372/live/22311720/publish/69126850/thumbnail/image_720.jpg",
+   "viewers": 160,
+   "trend": {
+    "delta": 20,
+    "pct": 14
+   },
+   "openDate": "2026-11-20 11:30:00",
+   "adult": false,
+   "tags": [
+    "헥시아",
+    "버튜버",
+    "스콘",
+    "지도동",
+    "치레동"
+   ],
+   "category": "talk",
+   "channel": {
+    "id": "0b0dd269c4663fc36ee1eef8a8b1bea4",
+    "name": "루시 Luci",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA0MDFfMjcx/MDAxNzc1MDU0Njc1ODg4.PYr5X9dU8pQxnj6pmA5F-3a222fptCjc3Vpkh1tJfIsg.gCwUH3Xiy-t0OdVsWZ5L3qudsE_889KySVMH_qu2lD0g.JPEG/image.jpg",
+    "verified": false,
+    "followers": 9905
    }
   },
   {
    "liveId": 22310375,
    "title": "이터걸음마",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27759082/live/22310375/publish/69124331/thumbnail/image_720.jpg",
-   "viewers": 127,
+   "viewers": 133,
+   "trend": {
+    "delta": -1,
+    "pct": -1
+   },
    "openDate": "2026-11-20 09:00:20",
    "adult": false,
    "tags": [
@@ -348,36 +414,18 @@
     "name": "고다요",
     "image": "https://nng-phinf.pstatic.net/MjAyNTA4MDJfMTcz/MDAxNzU0MTI5NjY4MDYy.k0n0r5f9QkwPUa8ocQcK2ycvtSA5CbOmIS-rLJlnrksg.2zxY8uvnq_MKxi9fV_nn9QiD2-wRb8THH9hTHf1kyPAg.PNG/%ED%94%84%EB%A1%9C%ED%95%842.png",
     "verified": false,
-    "followers": 3858
-   }
-  },
-  {
-   "liveId": 22309732,
-   "title": "불금🎵",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27743442/live/22309732/publish/69123057/thumbnail/image_720.jpg",
-   "viewers": 116,
-   "openDate": "2026-11-20 06:56:21",
-   "adult": false,
-   "tags": [
-    "버츄얼",
-    "버튜버",
-    "vtuber",
-    "디톡스맛집"
-   ],
-   "category": "음악/노래",
-   "channel": {
-    "id": "376bbbc0fb98e5774e5d8a61f5de01a0",
-    "name": "앵츄",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA1MDRfMjQg/MDAxNzc3ODc2OTYwOTkx.1JfEVcDM-oYk2tBb3dUQ5GCWYxLt2m3oy7508F4PkSEg.0bmnDjCTkC-kbvBMb8EE3zl8owVpweW2Xebq0SxgaLUg.PNG/image.png",
-    "verified": false,
-    "followers": 4020
+    "followers": 3860
    }
   },
   {
    "liveId": 22310148,
    "title": "🦷 [쵸래방] 농ㅋㅋ염무쌍 쵸케 쬬-! 를 넣어 노래를 불러보자! ",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/49400681/live/22310148/publish/69123897/thumbnail/image_720.jpg",
-   "viewers": 104,
+   "viewers": 131,
+   "trend": {
+    "delta": 0,
+    "pct": 0
+   },
    "openDate": "2026-11-20 08:26:18",
    "adult": false,
    "tags": [
@@ -397,10 +445,40 @@
    }
   },
   {
+   "liveId": 22305872,
+   "title": "삼국지 안 본 뇌 1화부터",
+   "thumbnail": null,
+   "viewers": 127,
+   "trend": {
+    "delta": -7,
+    "pct": -5
+   },
+   "openDate": "2026-11-19 22:05:58",
+   "adult": false,
+   "tags": [
+    "버튜버",
+    "버츄얼",
+    "신입",
+    "종합게임"
+   ],
+   "category": "드라마",
+   "channel": {
+    "id": "dac7140d8871c1eb40dfc9dbdbdc4671",
+    "name": "히모리 키코",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA4MThfNTYg/MDAxNzg2OTk1MjE0NzUw.hhUNRTUdiPXJZW-3TfubZh92HBzwhe3wezs9WxuekIkg.t_PN_pYqIMKNtqyMjdYNnTr93dgjyi3bawGYJ3cOc9cg.JPEG/image.jpg",
+    "verified": false,
+    "followers": 818
+   }
+  },
+  {
    "liveId": 22310873,
    "title": "안녕하십니꽈배기",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/26616453/live/22310873/publish/69125285/thumbnail/image_720.jpg",
-   "viewers": 101,
+   "viewers": 123,
+   "trend": {
+    "delta": 0,
+    "pct": 0
+   },
    "openDate": "2026-11-20 10:00:15",
    "adult": false,
    "tags": [
@@ -420,96 +498,14 @@
    }
   },
   {
-   "liveId": 22309943,
-   "title": "레쮸고",
-   "thumbnail": null,
-   "viewers": 96,
-   "openDate": "2026-11-20 07:47:47",
-   "adult": true,
-   "tags": [
-    "슈향",
-    "포더모어",
-    "온사이드",
-    "버츄얼"
-   ],
-   "category": "GTA 6",
-   "channel": {
-    "id": "57482ec9b07718076a1692bc210d5fa0",
-    "name": "슈향",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA4MjdfODMg/MDAxNzg3ODM3MjEwMjY5.evZJQNNhso8IodtQlKdlvy-8ilbhYM327tWtIrfHGzwg.VOWSIj45_2Z456DUs_4Q6ELSAsVAtPEluv6Rv7RQTPAg.JPEG/image.jpg",
-    "verified": true,
-    "followers": 18836
-   }
-  },
-  {
-   "liveId": 22310283,
-   "title": "그림냥이 증명 그림 라이브",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/26778695/live/22310283/publish/69124168/thumbnail/image_720.jpg",
-   "viewers": 88,
-   "openDate": "2026-11-20 08:50:38",
-   "adult": false,
-   "tags": [
-    "버튜버",
-    "일러레",
-    "그림"
-   ],
-   "category": "talk",
-   "channel": {
-    "id": "943e6cdde63d2e473fe85f238633effc",
-    "name": "포냐",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjEwMDhfMjA4/MDAxNzkxNDIzNTU3Mjc1.UJJMiYhquybXmrL5egj52KGBEC9AHQjS-i4RBtGyYcYg.JgzZvhT6Uf0ywov-NqSZY4z6phPjE2kZIVcvLEWAWTMg.PNG/image.png",
-    "verified": false,
-    "followers": 11053
-   }
-  },
-  {
-   "liveId": 22310106,
-   "title": "아침 저점 매수게임룰렛) - 내일 괴식 캠킴",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/26889337/live/22310106/publish/69123789/thumbnail/image_720.jpg",
-   "viewers": 85,
-   "openDate": "2026-11-20 08:14:21",
-   "adult": false,
-   "tags": [
-    "vtuber",
-    "버튜버",
-    "쌍둥이",
-    "버츄얼"
-   ],
-   "category": "talk",
-   "channel": {
-    "id": "2cf1367e97d68909b024b368d2c4683c",
-    "name": "푸후",
-    "image": "https://nng-phinf.pstatic.net/MjAyNTA1MTZfMTc0/MDAxNzQ3MzczMDA0MjU0.1LOtnu65_pjmsziHF34rU0egu9O6WcVKevUYkMSfjHgg.0W1SZVbR2PwMyaJPJqdG3Nk7Koi1ycf1WtivA5AXQH8g.PNG/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2024-10-29_214413.png",
-    "verified": false,
-    "followers": 11357
-   }
-  },
-  {
-   "liveId": 22309745,
-   "title": "저녀석을매우쳐라",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/29665407/live/22309745/publish/69123087/thumbnail/image_720.jpg",
-   "viewers": 82,
-   "openDate": "2026-11-20 06:59:12",
-   "adult": false,
-   "tags": [
-    "신입",
-    "버튜버",
-    "버츄얼"
-   ],
-   "category": "talk",
-   "channel": {
-    "id": "c8ce4df6e6cf691f05df554739ad05ed",
-    "name": "그냥 뿌요",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjEwMDhfNDkg/MDAxNzkxNDQ0NTc5NDQ4.vrisZu-uGEIhAzsKpOHVIYs1c6j0f0_EgWZu9UxjZ0Ag.TfyKJNe-mvGE767AO2pfC2vUAUkXhhar0f-FVZgb6nQg.PNG/image.png",
-    "verified": false,
-    "followers": 6516
-   }
-  },
-  {
    "liveId": 22311231,
-   "title": "🔞 ㅈ탱뉴비 4일차, 어제 와포 터졌다는거 ㅈㅉㅇㅇ?",
+   "title": "🔞 ㅈ탱뉴비 4일차, 이정도면 재능 있는 거 아님? (고정덧글 참고)",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/26616918/live/22311231/publish/69125951/thumbnail/image_720.jpg",
-   "viewers": 68,
+   "viewers": 110,
+   "trend": {
+    "delta": 11,
+    "pct": 11
+   },
    "openDate": "2026-11-20 10:37:02",
    "adult": false,
    "tags": [
@@ -529,10 +525,39 @@
    }
   },
   {
+   "liveId": 22310283,
+   "title": "그림냥이 증명 그림 라이브",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/26778695/live/22310283/publish/69124168/thumbnail/image_720.jpg",
+   "viewers": 104,
+   "trend": {
+    "delta": 14,
+    "pct": 16
+   },
+   "openDate": "2026-11-20 08:50:38",
+   "adult": false,
+   "tags": [
+    "버튜버",
+    "일러레",
+    "그림"
+   ],
+   "category": "talk",
+   "channel": {
+    "id": "943e6cdde63d2e473fe85f238633effc",
+    "name": "포냐",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjEwMDhfMjA4/MDAxNzkxNDIzNTU3Mjc1.UJJMiYhquybXmrL5egj52KGBEC9AHQjS-i4RBtGyYcYg.JgzZvhT6Uf0ywov-NqSZY4z6phPjE2kZIVcvLEWAWTMg.PNG/image.png",
+    "verified": false,
+    "followers": 11053
+   }
+  },
+  {
    "liveId": 22310766,
-   "title": "노력한다고 오늘 만렙이 될 순 없겠지 하지만 만렙인 사람은 모두 노력했다는 걸 기억해",
+   "title": "본캐입니다.",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27736331/live/22310766/publish/69125111/thumbnail/image_720.jpg",
-   "viewers": 68,
+   "viewers": 92,
+   "trend": {
+    "delta": 0,
+    "pct": 0
+   },
    "openDate": "2026-11-20 09:55:12",
    "adult": false,
    "tags": [
@@ -547,79 +572,144 @@
     "name": "민지b",
     "image": "https://nng-phinf.pstatic.net/MjAyNTEyMDNfMjQ1/MDAxNzY0NzU3ODcwNTky.O2TnaOiR8_sLx1vu5WMmy5Gs4ayPjp2KHVnWI3Y0pcsg.bFsjo26mbmRMvs8Eiv2dArAwA8kFtVqo-vWbRpAr-Uwg.JPEG/image.jpg",
     "verified": false,
-    "followers": 2691
+    "followers": 2692
    }
   },
   {
-   "liveId": 22311016,
-   "title": "이삼둥을 괴롭게 할 벌칙 아이디어 받습니다",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27958922/live/22311016/publish/69125523/thumbnail/image_720.jpg",
-   "viewers": 63,
-   "openDate": "2026-11-20 10:10:09",
-   "adult": false,
-   "tags": [
-    "버튜버",
-    "버츄얼",
-    "vtuber",
-    "토크"
-   ],
-   "category": "talk",
-   "channel": {
-    "id": "4385ebf9aa154e1bdd55fd12b0039912",
-    "name": "이삼둥",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA3MjdfMTU5/MDAxNzg1MTQyNTE2Nzk2.0jLqHlBudddHqsOJaxTMrtzCO871eqkYwH_Mktf_Bx4g.AwJajOPaOgONCoIOWPPG9cE58Z9v68J-jgIzNARLGO0g.PNG/image.png",
-    "verified": false,
-    "followers": 5980
-   }
-  },
-  {
-   "liveId": 22310323,
-   "title": "노 래 합 니 다",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/46886919/live/22310323/publish/69124237/thumbnail/image_720.jpg",
-   "viewers": 59,
-   "openDate": "2026-11-20 08:56:33",
-   "adult": false,
-   "tags": [
-    "카페카르테",
-    "트윌릿",
-    "버튜버"
-   ],
-   "category": "음악/노래",
-   "channel": {
-    "id": "f794bcbf2cbab8f252b8e47d3c6e7fdf",
-    "name": "유우희 Uuhee",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA0MjBfMzkg/MDAxNzc2NjYyMTk2MzYy.2yNRzAAMC7iKFHOBbBeBqyidIwExrpHi9djrDQtyyOkg.p7P3Tc3LsgDgrxEiQDbYsibAK8JoiP6kCbxs3huSigcg.PNG/image.png",
-    "verified": false,
-    "followers": 1814
-   }
-  },
-  {
-   "liveId": 22303371,
-   "title": "GTA6 하려고 PS5 pro 샀다요",
+   "liveId": 22309943,
+   "title": "레쮸고",
    "thumbnail": null,
-   "viewers": 57,
-   "openDate": "2026-11-19 20:51:35",
+   "viewers": 92,
+   "trend": {
+    "delta": 3,
+    "pct": 3
+   },
+   "openDate": "2026-11-20 07:47:47",
    "adult": true,
    "tags": [
-    "버츄얼",
-    "검은사막",
-    "붉은사막",
-    "gta6"
+    "슈향",
+    "포더모어",
+    "온사이드",
+    "버츄얼"
    ],
    "category": "GTA 6",
    "channel": {
-    "id": "2dccdac2998bce6a95ab428179e9db48",
-    "name": "루나냥",
-    "image": "https://nng-phinf.pstatic.net/MjAyMzEyMTlfMTU5/MDAxNzAyOTYxMjAyNTIx.dMB1Uuy-C5ad_oWUumZ2Gz2At1QwjH4gFu8vusLaPuMg.KPGPwWfVSoh7sc6Sahf3M2ugKSNzC7EvSBXgQxSEq3Ug.JPEG/11111.jpg",
+    "id": "57482ec9b07718076a1692bc210d5fa0",
+    "name": "슈향",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA4MjdfODMg/MDAxNzg3ODM3MjEwMjY5.evZJQNNhso8IodtQlKdlvy-8ilbhYM327tWtIrfHGzwg.VOWSIj45_2Z456DUs_4Q6ELSAsVAtPEluv6Rv7RQTPAg.JPEG/image.jpg",
     "verified": true,
-    "followers": 6536
+    "followers": 18835
+   }
+  },
+  {
+   "liveId": 22311454,
+   "title": "닉네임 보고 프사 그려주기",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/52190968/live/22311454/publish/69126340/thumbnail/image_720.jpg",
+   "viewers": 89,
+   "trend": {
+    "delta": 0,
+    "pct": 0
+   },
+   "openDate": "2026-11-20 11:00:15",
+   "adult": false,
+   "tags": [
+    "버튜버"
+   ],
+   "category": "그림/아트",
+   "channel": {
+    "id": "bcc9ac3608837e5779d784f20264221f",
+    "name": "채 봄",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjEwMDlfMjc5/MDAxNzkxNTMzNjU5NDU3.cwdVFYav5LitzUPDaBrue5fK1WAqivf4J-JugNohBOsg.Ulq6duEreiiUfypNnaVDd_Es2RkWkckzy1yS6gXbYWgg.PNG/image.png",
+    "verified": false,
+    "followers": 10621
+   }
+  },
+  {
+   "liveId": 22310106,
+   "title": "아침 저점 매수게임룰렛) - 내일 괴식 캠킴",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/26889337/live/22310106/publish/69123789/thumbnail/image_720.jpg",
+   "viewers": 84,
+   "trend": {
+    "delta": 2,
+    "pct": 2
+   },
+   "openDate": "2026-11-20 08:14:21",
+   "adult": false,
+   "tags": [
+    "vtuber",
+    "버튜버",
+    "쌍둥이",
+    "버츄얼"
+   ],
+   "category": "talk",
+   "channel": {
+    "id": "2cf1367e97d68909b024b368d2c4683c",
+    "name": "푸후",
+    "image": "https://nng-phinf.pstatic.net/MjAyNTA1MTZfMTc0/MDAxNzQ3MzczMDA0MjU0.1LOtnu65_pjmsziHF34rU0egu9O6WcVKevUYkMSfjHgg.0W1SZVbR2PwMyaJPJqdG3Nk7Koi1ycf1WtivA5AXQH8g.PNG/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2024-10-29_214413.png",
+    "verified": false,
+    "followers": 11359
+   }
+  },
+  {
+   "liveId": 22311729,
+   "title": "오늘은왜그쪽으로갔어요원래이길로다니잖아요아니그냥궁금해서요혹시저마주치기싫어서그랬어요아그렇구나맞구나근데좀웃기지않아요저피하려고평소에안가던길까지찾아봤다는거잖아요그럼오늘아침부터제생각을했다는뜻",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/32848431/live/22311729/publish/69126870/thumbnail/image_720.jpg",
+   "viewers": 74,
+   "trend": {
+    "delta": 8,
+    "pct": 12
+   },
+   "openDate": "2026-11-20 11:30:39",
+   "adult": false,
+   "tags": [
+    "버츄얼",
+    "얀데레",
+    "스콘"
+   ],
+   "category": "talk",
+   "channel": {
+    "id": "3e948667805e7627459a599018d05853",
+    "name": "아홀로 루파",
+    "image": "https://nng-phinf.pstatic.net/MjAyNTA0MjFfMTEw/MDAxNzQ1MjM4ODQ1NjUz.L_8aOFyx1XHH5acByx6MeKHJq3a_ouBv2QegWziKQwog.OC4zAVzqsYJyBlRejJHBENV3oM7bgdYL0GNj5K7GFY0g.JPEG/%ED%8A%B8%EC%9C%84%ED%84%B0_%ED%97%A4%EB%8D%94_-_%EB%B3%B5%EC%82%AC%EB%B3%B8.jpg",
+    "verified": false,
+    "followers": 6916
+   }
+  },
+  {
+   "liveId": 22311459,
+   "title": "🍓 프리시즌 쉬었음 청년",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/35269557/live/22311459/publish/69126301/thumbnail/image_720.jpg",
+   "viewers": 69,
+   "trend": {
+    "delta": 2,
+    "pct": 3
+   },
+   "openDate": "2026-11-20 11:00:21",
+   "adult": false,
+   "tags": [
+    "이터널리턴",
+    "타지아",
+    "버츄얼",
+    "버튜버"
+   ],
+   "category": "이터널 리턴",
+   "channel": {
+    "id": "ddba126063cfa770d867aebfe37c318d",
+    "name": "딸기 DDALGI",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjAxMzFfMTYz/MDAxNzY5ODY0MTU1MzY0.UhDGINkv3xhi0gCZvU2Gtecg1pyZTv6eI5vxvZBZXwQg.CufSBXF3XAck0bpC8JYcURS9DfDl7b2D_ptinig2f2og.PNG/image.png",
+    "verified": false,
+    "followers": 3574
    }
   },
   {
    "liveId": 22310884,
    "title": "붕스 공략 유튜버의 촉각슈트 입고 시유방어전 하는 날",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/34490132/live/22310884/publish/69125300/thumbnail/image_720.jpg",
-   "viewers": 56,
+   "viewers": 67,
+   "trend": {
+    "delta": -8,
+    "pct": -11
+   },
    "openDate": "2026-11-20 10:00:33",
    "adult": false,
    "tags": [
@@ -639,449 +729,14 @@
    }
   },
   {
-   "liveId": 22310361,
-   "title": "모닝 여우",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/26691677/live/22310361/publish/69124311/thumbnail/image_720.jpg",
-   "viewers": 52,
-   "openDate": "2026-11-20 08:59:44",
-   "adult": false,
-   "tags": [
-    "버츄얼",
-    "여우무녀",
-    "귀여움"
-   ],
-   "category": "talk",
-   "channel": {
-    "id": "dc132ee274a3c2034db4e6e188aa4bed",
-    "name": "아리스마나",
-    "image": "https://nng-phinf.pstatic.net/MjAyNTA5MDFfMTMy/MDAxNzU2Njk2NTU5MTgw.ylAy5zdRc2dgohNyC-BsZ6Oas7TrI7nxrQNU-R_bMVYg.mtvGEN7lAkjdf-KniXZPP7eAk8nPr_isfdqCWCQ9QEkg.JPEG/bESKvElr_400x400.jpg",
-    "verified": false,
-    "followers": 9927
-   }
-  },
-  {
-   "liveId": 22310400,
-   "title": "열쇠 120개 돌파...",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/28179885/live/22310400/publish/69124382/thumbnail/image_720.jpg",
-   "viewers": 46,
-   "openDate": "2026-11-20 09:02:16",
-   "adult": false,
-   "tags": [
-    "오타쿠호소인",
-    "버튜버",
-    "버츄얼"
-   ],
-   "category": "로스트아크",
-   "channel": {
-    "id": "b28d617a1d981cfff65d163f116cab7d",
-    "name": "디또띠",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjEwMjBfMjg0/MDAxNzkyNDk4NzQ2MDY0.7nIUz-SykQayDglmAZHLd2bRJv24QhNKpcFl6L1bT3Ag.722qhIM-4nmINC51KVKamYOLzY0GwVLVC084IOlvxS8g.PNG/image.png",
-    "verified": false,
-    "followers": 3238
-   }
-  },
-  {
-   "liveId": 22310662,
-   "title": "╰(*°▽°*)╯오늘도 또 치려 왔데~",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27975906/live/22310662/publish/69124914/thumbnail/image_720.jpg",
-   "viewers": 43,
-   "openDate": "2026-11-20 09:36:58",
-   "adult": false,
-   "tags": [
-    "버츄얼",
-    "버튜버"
-   ],
-   "category": "명조:워더링 웨이브",
-   "channel": {
-    "id": "eeda20327df27e5c6f88054d3071ccfe",
-    "name": "은서 Eun Seo",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjExMTlfMTIx/MDAxNzk1MDg5NzQ2NTEz.LED6BRYNsPbL27_0JfgINMCNS9FTTNnhK1g54S0mZh8g.BU_EQ2dqe6qBNEVdvXo5V5Si5SjTsu_sWClOmdbdK_gg.PNG/image.png",
-    "verified": false,
-    "followers": 1342
-   }
-  },
-  {
-   "liveId": 22310370,
-   "title": "장점은 성실함. 단점은 졸림.",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/29693944/live/22310370/publish/69124321/thumbnail/image_720.jpg",
-   "viewers": 43,
-   "openDate": "2026-11-20 09:00:04",
-   "adult": false,
-   "tags": [
-    "천재",
-    "능능",
-    "버튜버",
-    "농농단"
-   ],
-   "category": "talk",
-   "channel": {
-    "id": "cd0b9939c10ac951dbb5fd4cd00567a9",
-    "name": "쫀득찹쌀도넛",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjEwMThfMTM2/MDAxNzkyMjgyMDU1MzIx.5N6CtLfYR5m71-_LjqcGz-CF6996zxa46pBUYIIQnI4g.jUg-X4XaBMvlWWJa678_7_oXnpZ0UUhq1YTObNoJYr8g.PNG/image.png",
-    "verified": false,
-    "followers": 1996
-   }
-  },
-  {
-   "liveId": 22311454,
-   "title": "추워추워추워추워",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/52190968/live/22311454/publish/69126340/thumbnail/image_720.jpg",
-   "viewers": 41,
-   "openDate": "2026-11-20 11:00:15",
-   "adult": false,
-   "tags": [
-    "버튜버"
-   ],
-   "category": "talk",
-   "channel": {
-    "id": "bcc9ac3608837e5779d784f20264221f",
-    "name": "채 봄",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjEwMDlfMjc5/MDAxNzkxNTMzNjU5NDU3.cwdVFYav5LitzUPDaBrue5fK1WAqivf4J-JugNohBOsg.Ulq6duEreiiUfypNnaVDd_Es2RkWkckzy1yS6gXbYWgg.PNG/image.png",
-    "verified": false,
-    "followers": 10622
-   }
-  },
-  {
-   "liveId": 22309735,
-   "title": "[신입] 연차 쓰고 방구석에서 게임 하기 🫯",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/49262555/live/22309735/publish/69123063/thumbnail/image_720.jpg",
-   "viewers": 39,
-   "openDate": "2026-11-20 06:57:00",
-   "adult": false,
-   "tags": [
-    "버튜버",
-    "퓨어블루",
-    "신입",
-    "뉴비",
-    "저챗"
-   ],
-   "category": "이환",
-   "channel": {
-    "id": "a6fe7b9c3f982b022eba1045ceab8ff2",
-    "name": "마요이 미아",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA3MzBfMjc4/MDAxNzg1MzQwNTI1MDg2.PvXGH9GpgN6JC_tAjfI7j7k66E13dBOe8Kp9GkHi0Wkg.P9gY4BrdlelD2UGLkWQNtFs3rSUtvevyWrLSu2fp6Lgg.PNG/image.png",
-    "verified": false,
-    "followers": 520
-   }
-  },
-  {
-   "liveId": 22308191,
-   "title": "코도를 타고 거센 바람과 거친 물결을 헤쳐나가며 이겨내는거야 - The Fruits 길드 길원 모집 합니당~10칸 가방 드려요~ 퀘 던전 레이드 정보 등 함께해요~:)/와우포에버",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27765299/live/22308191/publish/69120113/thumbnail/image_720.jpg",
-   "viewers": 38,
-   "openDate": "2026-11-20 00:21:01",
-   "adult": false,
-   "tags": [
-    "버튜버",
-    "유입환영",
-    "이것저것"
-   ],
-   "category": "월드 오브 워크래프트: 포에버",
-   "channel": {
-    "id": "75106a9fbcd60d7ec7b38fbe2d9ef756",
-    "name": "쥬시팝팝",
-    "image": "https://nng-phinf.pstatic.net/MjAyNDAzMDlfMjY5/MDAxNzA5OTQyNjI5NTQ1.7Zxaa88BXuht9xw3n9ufZESLetGypXEC91jLat-HPoEg.LEb_nMxZ8ldvmtUZD9zNDwtSUAz89LtS_DUKHDHS7Jcg.JPEG/NNG-17099426282966449813934074064410.jpg",
-    "verified": false,
-    "followers": 1197
-   }
-  },
-  {
-   "liveId": 22310961,
-   "title": "슈퍼 버거지들의 쉼터 개장합니다",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27804000/live/22310961/publish/69125427/thumbnail/image_720.jpg",
-   "viewers": 37,
-   "openDate": "2026-11-20 10:04:07",
-   "adult": false,
-   "tags": [
-    "버튜버",
-    "vtuber",
-    "버츄얼",
-    "저챗",
-    "라디오"
-   ],
-   "category": "talk",
-   "channel": {
-    "id": "dd666151d48cc02d648db1e2193b7912",
-    "name": "아야세 테라",
-    "image": "https://nng-phinf.pstatic.net/MjAyNTA5MjdfOTkg/MDAxNzU4OTg0NDc3NTIy.3jHya0VKh8JL3flSrGdPY0qPfSEBSoPEt4QmNVGJTDsg.2V3ul7VaNPBtGERqnmSwEM4T2iigrS3W2si6EqyEyHMg.PNG/image.png",
-    "verified": false,
-    "followers": 2874
-   }
-  },
-  {
-   "liveId": 22309750,
-   "title": "[신입21일차] 니케 처음 시작 하는 사람 어떻게 해요? 이거 좋아요?",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/49965235/live/22309750/publish/69123098/thumbnail/image_720.jpg",
-   "viewers": 37,
-   "openDate": "2026-11-20 07:00:12",
-   "adult": false,
-   "tags": [
-    "루미플래닛",
-    "버튜버",
-    "vtuber",
-    "신입",
-    "노래"
-   ],
-   "category": "승리의 여신: 니케",
-   "channel": {
-    "id": "12becf5fcf23a553b03fd5761fd17db8",
-    "name": "나비나 Navina",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjEwMDNfNDQg/MDAxNzkxMDIxMDg3OTUw.biWLXXLLpCmy26AAa_7r1MfHarhVUz7b6RWY5y9IXY0g.7ExtPYemVIGTO2q1wkMmMLfDHvokOnfnkiXADkDNY8sg.JPEG/image.jpg",
-    "verified": false,
-    "followers": 628
-   }
-  },
-  {
-   "liveId": 22310845,
-   "title": "[ 조립 Day ] RG / RX-78-2GUNDAM ver.2.0 -미쿠 버전 조립 2일차",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/26835066/live/22310845/publish/69125248/thumbnail/image_720.jpg",
-   "viewers": 36,
-   "openDate": "2026-11-20 09:59:48",
-   "adult": false,
-   "tags": [
-    "버튜버",
-    "스타게이저",
-    "모모노미야",
-    "유부녀즈",
-    "건프라"
-   ],
-   "category": "talk",
-   "channel": {
-    "id": "3553849193a26f157ba0b83d6ea1857d",
-    "name": "월야화랑",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjExMTdfOTcg/MDAxNzk0OTExNDgzNjAy.1I4_y9kZt9EFbzKh4l_mPMlloTBKtUx1osSUdy8dC3Ig.Te00oL2yPKTzOOjnH2DVC_q2gc1qzdZYKdduggZnJ18g.JPEG/image.jpg",
-    "verified": false,
-    "followers": 4078
-   }
-  },
-  {
-   "liveId": 22311033,
-   "title": "GTA6 때문에 일 그만두...고 싶은 청년",
-   "thumbnail": null,
-   "viewers": 35,
-   "openDate": "2026-11-20 10:11:48",
-   "adult": true,
-   "tags": [
-    "도마즈",
-    "패러블",
-    "노래",
-    "버튜버",
-    "종겜"
-   ],
-   "category": "GTA 6",
-   "channel": {
-    "id": "dcf8337aa57ed257b1c76bafbdb5c054",
-    "name": "레누 Lenu",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjEwMjZfMTQx/MDAxNzkyOTg4MDk0ODI5.h9bLFFn4G_mO731nNm7QQOJo1m7bPN1qToJnlLplNzQg.snoVuLWnMwYUeXmgiqjbJuhOxb8oVZVZ3sUeN3ACaA8g.PNG/image.png",
-    "verified": false,
-    "followers": 13998
-   }
-  },
-  {
-   "liveId": 22310793,
-   "title": "패치가 되었나요",
-   "thumbnail": null,
-   "viewers": 34,
-   "openDate": "2026-11-20 09:58:10",
-   "adult": false,
-   "tags": [
-    "버츄얼",
-    "버튜버",
-    "착한북극늑대",
-    "종겜"
-   ],
-   "category": "패스 오브 엑자일",
-   "channel": {
-    "id": "aa847cbd6e13b50434daaa279238e260",
-    "name": "동이리오너라",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA4MThfMjQ5/MDAxNzg2OTc5OTczNTc2.MzaG7EpZ56fjjszZ1arhDyGZmI-apf0ntC35d2hzSvMg.BLbva_R-VB5e-BeD501mi-adM819v6t6wLldZoe2swgg.PNG/image.png",
-    "verified": false,
-    "followers": 616
-   }
-  },
-  {
-   "liveId": 22311459,
-   "title": "🍓 프리시즌 쉬었음 청년",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/35269557/live/22311459/publish/69126301/thumbnail/image_720.jpg",
-   "viewers": 33,
-   "openDate": "2026-11-20 11:00:21",
-   "adult": false,
-   "tags": [
-    "이터널리턴",
-    "타지아",
-    "버츄얼",
-    "버튜버"
-   ],
-   "category": "이터널 리턴",
-   "channel": {
-    "id": "ddba126063cfa770d867aebfe37c318d",
-    "name": "딸기 DDALGI",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjAxMzFfMTYz/MDAxNzY5ODY0MTU1MzY0.UhDGINkv3xhi0gCZvU2Gtecg1pyZTv6eI5vxvZBZXwQg.CufSBXF3XAck0bpC8JYcURS9DfDl7b2D_ptinig2f2og.PNG/image.png",
-    "verified": false,
-    "followers": 3575
-   }
-  },
-  {
-   "liveId": 22310899,
-   "title": "[일본인/V] 27 수능 일본어 만점맞아 보자",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/50939372/live/22310899/publish/69125321/thumbnail/image_720.jpg",
-   "viewers": 32,
-   "openDate": "2026-11-20 10:00:50",
-   "adult": false,
-   "tags": [
-    "일본인",
-    "신입",
-    "버츄얼",
-    "루루",
-    "버튜버"
-   ],
-   "category": "talk",
-   "channel": {
-    "id": "80b428af42a25278ed9363c975acb912",
-    "name": "와루가키 루루",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA5MjFfMTUg/MDAxNzg5OTUwMzQyNTM0.mCRs1GQJfJfvykd2_glvrZEnypSFd5U5fenkAyi0iv4g.OR75lOvRpWh5CDWBEozv_A_NDqOUKEfDnXp03aGZA2Yg.PNG/image.png",
-    "verified": false,
-    "followers": 822
-   }
-  },
-  {
-   "liveId": 22311661,
-   "title": "✿ 목욕캐스..💕 🦊",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/26594032/live/22311661/publish/69126738/thumbnail/image_720.jpg",
-   "viewers": 31,
-   "openDate": "2026-11-20 11:20:55",
-   "adult": false,
-   "tags": [
-    "브이튜버",
-    "버튜버",
-    "여우",
-    "시야미아",
-    "전체이용가"
-   ],
-   "category": "talk",
-   "channel": {
-    "id": "a3c5623862d0d1dda383f5efbc39c6f4",
-    "name": "빵룽",
-    "image": "https://nng-phinf.pstatic.net/MjAyNTEwMDlfMTY0/MDAxNzYwMDA4MDAxNTk3.kB5pRfS1SqrGMNcS-ydEDp9gBcHHuEi-qlnF-QACOV8g.hV3F9J8bXlh9XoQT0sx0oqmFeOtiomjQdVlC1rfn7e8g.PNG/image.png",
-    "verified": false,
-    "followers": 20509
-   }
-  },
-  {
-   "liveId": 22310100,
-   "title": "친구창에 친구들이 접속을 안해여 ㅠㅠㅠㅠㅠ",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27607851/live/22310100/publish/69123778/thumbnail/image_720.jpg",
-   "viewers": 31,
-   "openDate": "2026-11-20 08:13:06",
-   "adult": false,
-   "tags": [
-    "로스트아크",
-    "바드",
-    "버튜버"
-   ],
-   "category": "로스트아크",
-   "channel": {
-    "id": "5a3635024d638003515c9f2be9236ded",
-    "name": "쀼 쀼",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjAxMThfNjcg/MDAxNzY4NjgzMTM2Njgx.Jh9EKlsZfTsx5YFAvBDeLNkdQFc9K2lgNiiQZo3uVtgg.C0U341K9bXRQBC59tr1vgjkTuo1aB-gpfY_yeqx2ILYg.PNG/image.png",
-    "verified": false,
-    "followers": 1357
-   }
-  },
-  {
-   "liveId": 22311189,
-   "title": "ㅇㅅㅇ",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27733184/live/22311189/publish/69125843/thumbnail/image_720.jpg",
-   "viewers": 29,
-   "openDate": "2026-11-20 10:30:13",
-   "adult": false,
-   "tags": [
-    "vtuber",
-    "버튜버",
-    "서브컬처",
-    "프문악귀"
-   ],
-   "category": "talk",
-   "channel": {
-    "id": "6ddd2ff1d43ae1e23e04e72409e40d84",
-    "name": "이 렌",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjExMTZfNzgg/MDAxNzk0ODMzMzM1OTE4.eVTjVm2YAtgtkRmo_S4Vp0TJHkqORd8kdTATZboFiYUg.MC95dkxKdE4dJbiY0YzT14BguA7J2aEqUbKcGdGPljAg.PNG/image.png",
-    "verified": false,
-    "followers": 6621
-   }
-  },
-  {
-   "liveId": 22303487,
-   "title": "[V] 복귀 모코코/ 잠시 동생 집에좀 다녀올게용!!!",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27440078/live/22303487/publish/69114109/thumbnail/image_720.jpg",
-   "viewers": 29,
-   "openDate": "2026-11-19 20:54:55",
-   "adult": false,
-   "tags": [
-    "버츄얼",
-    "늑대암컷",
-    "종합게임",
-    "영도"
-   ],
-   "category": "로스트아크",
-   "channel": {
-    "id": "6d92312348f17de35aa222ca3e159256",
-    "name": "꾸웅앗",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjExMDlfMTA4/MDAxNzk0MTk4NzQxMTIy._2HOZSgKLUoZ6nTTyMzCxi9xTuBStzJJr8SZ8T8mlHMg._H7x7OrreoRXuDHEyewHKMozmjmkO-G96IVSIMi4Qsog.PNG/image.png",
-    "verified": false,
-    "followers": 1149
-   }
-  },
-  {
-   "liveId": 22310416,
-   "title": "수능 끝났으니 재시작 study with me ^^",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/26856748/live/22310416/publish/69124417/thumbnail/image_720.jpg",
-   "viewers": 28,
-   "openDate": "2026-11-20 09:03:48",
-   "adult": false,
-   "tags": [
-    "버튜버",
-    "버츄얼",
-    "능능",
-    "일루전라이브",
-    "치레동"
-   ],
-   "category": "talk",
-   "channel": {
-    "id": "a63d77c588c72b4d09f203e1bd06edaa",
-    "name": "냐루 NYARU",
-    "image": "https://nng-phinf.pstatic.net/MjAyNDA5MDVfNTEg/MDAxNzI1NTA1OTE5ODQw.JWNM7n9EI4dSSthODc4lAXepVXeQJqWv6Xso6LPQmA0g.bZW9eFMpU24mh728KQUdBIRF2vlrivq0y48iQ54upisg.PNG/0C6F9152-B410-4DC1-A83C-4B0A831DC292-1725505919.png",
-    "verified": false,
-    "followers": 4001
-   }
-  },
-  {
-   "liveId": 22299708,
-   "title": "🐧₊˚ 선릿밸리 1억 벌기✦ ݁˖  🩵⚓",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/43775878/live/22299708/publish/69108256/thumbnail/image_720.jpg",
-   "viewers": 28,
-   "openDate": "2026-11-19 19:02:40",
-   "adult": false,
-   "tags": [
-    "버츄얼",
-    "버튜버",
-    "종합게임",
-    "허당"
-   ],
-   "category": "마인크래프트",
-   "channel": {
-    "id": "a242701c91ae3c4d47bfad996c557dc6",
-    "name": "쿠아 Qua",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA0MTFfMjcy/MDAxNzc1ODgxNDc2OTEz.7I6GYHyqGaKRJAE7y49qlFCuZyRr36A_yC5Q-mDdq3cg.VsJK8uTLHWopH5jXAixtiDF2TLAJC_NTM31dOAvYgOsg.PNG/image.png",
-    "verified": false,
-    "followers": 758
-   }
-  },
-  {
    "liveId": 22311607,
    "title": "피의축제앙카데이김리미",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/45035459/live/22311607/publish/69126634/thumbnail/image_720.jpg",
-   "viewers": 27,
+   "viewers": 59,
+   "trend": {
+    "delta": 2,
+    "pct": 4
+   },
    "openDate": "2026-11-20 11:13:46",
    "adult": false,
    "tags": [
@@ -1100,79 +755,39 @@
    }
   },
   {
-   "liveId": 22310957,
-   "title": "낭만에 살고 낭만에 뒤진다🔥그타6 60fp으로 즐겨봐여 ٩ʕ◕౪◕ʔو",
-   "thumbnail": null,
-   "viewers": 27,
-   "openDate": "2026-11-20 10:03:51",
-   "adult": true,
-   "tags": [
-    "아침10시",
-    "일본어",
-    "종합게임",
-    "버튜버",
-    "라디오"
-   ],
-   "category": "GTA 6",
-   "channel": {
-    "id": "d7fcdd7413c90d58e81f4720273795b2",
-    "name": "로쥬마리",
-    "image": "https://nng-phinf.pstatic.net/MjAyMzEyMjZfNDEg/MDAxNzAzNTU4MTU3ODM5.8K3FiY2zEoSXShU0x3MiBeU6ZC98N64JT3TLlUT4yd0g.jflB80yr92-4x12C9-m_FkVXLG8Tr304p5OLfc_LIEYg.PNG/%EC%A0%9C%EB%AA%A9_%EC%97%86%EC%9D%8C2.png",
-    "verified": false,
-    "followers": 4176
-   }
-  },
-  {
-   "liveId": 22309768,
-   "title": "[V]❤️고품격희망❤️ 어제 첫눈 내렸는데 본 사람? GTA6 재밌다앙~ ",
-   "thumbnail": null,
-   "viewers": 27,
-   "openDate": "2026-11-20 07:03:24",
-   "adult": true,
-   "tags": [
-    "종합게임",
-    "버튜버",
-    "리액션맛집",
-    "고품격라디오방송",
-    "상여자"
-   ],
-   "category": "GTA 6",
-   "channel": {
-    "id": "325aee7d0bb35ff33ef8713f75289253",
-    "name": "퀸냐옹",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA5MjRfOTcg/MDAxNzkwMTgyMzc5MzEz.1CBQhaKmUdRvDyXI5hLanDzF0Qv9pkuQ5SELd1q4XQ0g.YNLnqDWlztpVHG_1VinAG-cNAhYqIrZjfYBYPSCVLV0g.PNG/image.png",
-    "verified": false,
-    "followers": 1723
-   }
-  },
-  {
-   "liveId": 22311437,
-   "title": "읏추읏추 𐔌՞･·･՞𐦯",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/49209893/live/22311437/publish/69126320/thumbnail/image_720.jpg",
-   "viewers": 26,
-   "openDate": "2026-11-20 11:00:00",
+   "liveId": 22310323,
+   "title": "노 래 합 니 다",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/46886919/live/22310323/publish/69124237/thumbnail/image_720.jpg",
+   "viewers": 57,
+   "trend": {
+    "delta": 4,
+    "pct": 8
+   },
+   "openDate": "2026-11-20 08:56:33",
    "adult": false,
    "tags": [
-    "신입",
-    "종겜",
-    "담비",
-    "버추얼",
+    "카페카르테",
+    "트윌릿",
     "버튜버"
    ],
-   "category": "talk",
+   "category": "음악/노래",
    "channel": {
-    "id": "df15cb831b80356e79aab8bdb49ac577",
-    "name": "하쿵Hakung",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjEwMjZfMTAg/MDAxNzkyOTQyNTI4NzIy.eLLBQqhTBSXm52YiqjXovy3k-k8T2P0PacgXgckpPVYg.xLxgDROcNs_l-2MorlLHTcP9BH6NSVh155x0i9JI4lcg.PNG/image.png",
+    "id": "f794bcbf2cbab8f252b8e47d3c6e7fdf",
+    "name": "유우희 Uuhee",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA0MjBfMzkg/MDAxNzc2NjYyMTk2MzYy.2yNRzAAMC7iKFHOBbBeBqyidIwExrpHi9djrDQtyyOkg.p7P3Tc3LsgDgrxEiQDbYsibAK8JoiP6kCbxs3huSigcg.PNG/image.png",
     "verified": false,
-    "followers": 1491
+    "followers": 1815
    }
   },
   {
    "liveId": 22311415,
    "title": "룰렛 컨텐츠 기획 + 고품격 연구 방송",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27866891/live/22311415/publish/69126289/thumbnail/image_720.jpg",
-   "viewers": 26,
+   "viewers": 56,
+   "trend": {
+    "delta": 0,
+    "pct": 0
+   },
    "openDate": "2026-11-20 10:59:14",
    "adult": false,
    "tags": [
@@ -1188,169 +803,45 @@
     "name": "리연 L",
     "image": "https://nng-phinf.pstatic.net/MjAyNDAyMjNfNTAg/MDAxNzA4NjkzNzM0NjY5.daE0zVx6Q-UH-ECL49nJhj1lWS5vbHGUOZShO9trA_Ag.1iM6qF0ZR9vlwGP1iLBgYC-lno_qzYsD6mqdN8iXX5Eg.JPEG/channels4_profile.jpg",
     "verified": false,
-    "followers": 10356
+    "followers": 10355
    }
   },
   {
-   "liveId": 22310863,
-   "title": "빚쟁이",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/48127642/live/22310863/publish/69125265/thumbnail/image_720.jpg",
-   "viewers": 26,
-   "openDate": "2026-11-20 10:00:05",
+   "liveId": 22311661,
+   "title": "✿ 목욕캐스..💕 🦊",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/26594032/live/22311661/publish/69126738/thumbnail/image_720.jpg",
+   "viewers": 55,
+   "trend": {
+    "delta": -6,
+    "pct": -10
+   },
+   "openDate": "2026-11-20 11:20:55",
    "adult": false,
    "tags": [
-    "신입",
+    "브이튜버",
     "버튜버",
-    "메이플"
-   ],
-   "category": "메이플스토리",
-   "channel": {
-    "id": "2fd221fd3f4baeb71372ca56d84b841d",
-    "name": "마리맑음",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA0MjNfMTMy/MDAxNzc2OTE1NDIwMzkx.YFWrLcRNs_02Wu8VMlhF9EtW37Pf_Oy8JY7FBC0kp4Eg.FFrLsQmkr164RB7S_RSy4GQEy6k1EosUjgAZFKqKgxgg.PNG/image.png",
-    "verified": false,
-    "followers": 285
-   }
-  },
-  {
-   "liveId": 22310677,
-   "title": "나는 보았다 희망을",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27887883/live/22310677/publish/69124943/thumbnail/image_720.jpg",
-   "viewers": 26,
-   "openDate": "2026-11-20 09:38:51",
-   "adult": false,
-   "tags": [
-    "신입",
-    "버튜버",
-    "종합게임",
-    "nba",
-    "야구"
-   ],
-   "category": "이터널 리턴",
-   "channel": {
-    "id": "50ba1b9bd1f23f988a258bfa4e306228",
-    "name": "지롤썬다",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjExMTJfMTc0/MDAxNzk0NDc0MTA5MDgx.7qb5cDArwCW9ESBlfJ2JtWRWHL6j7nezG5GY6F827yog.CJHRTTuZM6oHLcunZ3aI6v8UX4T30SxVUFbBLAYkcDwg.PNG/image.png",
-    "verified": false,
-    "followers": 541
-   }
-  },
-  {
-   "liveId": 22310061,
-   "title": "🍫",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/34995337/live/22310061/publish/69123690/thumbnail/image_720.jpg",
-   "viewers": 25,
-   "openDate": "2026-11-20 08:05:44",
-   "adult": false,
-   "tags": [
-    "버튜버",
-    "목소리",
-    "잔잔",
-    "소통",
-    "숲의요정"
-   ],
-   "category": "종합 게임",
-   "channel": {
-    "id": "fab4b750f3b10593cd679c41aac0ec26",
-    "name": "라라 LALA",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA4MDZfMjAw/MDAxNzg1OTU2Mjg0MjQ0.j6cQ-DeZGNi1IrpwqFVcXdUis0FtEVMMgK5F965aGqcg.ovJOrPyC6_L56FUujPZrchjqWmqkfr654pzwvgqnzdEg.PNG/image.png",
-    "verified": false,
-    "followers": 472
-   }
-  },
-  {
-   "liveId": 22309832,
-   "title": "떠허... (ᵕ • ᴗ •)",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/35347708/live/22309832/publish/69123264/thumbnail/image_720.jpg",
-   "viewers": 25,
-   "openDate": "2026-11-20 07:20:23",
-   "adult": false,
-   "tags": [
-    "버튜버",
-    "버츄얼",
-    "과몰입",
-    "물범"
+    "여우",
+    "시야미아",
+    "전체이용가"
    ],
    "category": "talk",
    "channel": {
-    "id": "13add72a9cf1e296eaff035e9fe8b300",
-    "name": "에우아",
-    "image": "https://nng-phinf.pstatic.net/MjAyNTAxMTFfMTc3/MDAxNzM2NTI0MjIxODQ0.YRfroVKQLIv3PhcBMD9rnXtsfl-z1uP_Rcfd6K33Ve0g.g1ZmF3q6v5m7DfrljzIlyMtE8yFzSv9PsWM40WAXtKAg.PNG/vts-2025-01-11_00h35_58.png",
+    "id": "a3c5623862d0d1dda383f5efbc39c6f4",
+    "name": "빵룽",
+    "image": "https://nng-phinf.pstatic.net/MjAyNTEwMDlfMTY0/MDAxNzYwMDA4MDAxNTk3.kB5pRfS1SqrGMNcS-ydEDp9gBcHHuEi-qlnF-QACOV8g.hV3F9J8bXlh9XoQT0sx0oqmFeOtiomjQdVlC1rfn7e8g.PNG/image.png",
     "verified": false,
-    "followers": 1690
-   }
-  },
-  {
-   "liveId": 22299784,
-   "title": "🍒바늘바늘바늘바바늘바늘바늘바늘_노방종룰렛2일동안오픈🍒",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27312476/live/22299784/publish/69108369/thumbnail/image_720.jpg",
-   "viewers": 25,
-   "openDate": "2026-11-19 19:04:57",
-   "adult": false,
-   "tags": [
-    "버츄얼",
-    "찍먹장인",
-    "겜판오분전",
-    "타르코프",
-    "라온위버스2"
-   ],
-   "category": "월드 오브 워크래프트: 포에버",
-   "channel": {
-    "id": "6e872ef76e61aee6fd9aed66077a9f4c",
-    "name": "게임못하는보니",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA2MjNfMjkx/MDAxNzgyMjA4MzI1MTg5.uz-ZCPlF5ndYkTMXNYNqyEQCuAKJlb4e9P3sbl16ro8g.D5XCWbbNKayA-w3Zz_5tb5BHVa9eu7NXB5Svu-d5wDIg.PNG/image.png",
-    "verified": false,
-    "followers": 1879
-   }
-  },
-  {
-   "liveId": 22311464,
-   "title": "야생의 거울이 나타났다!",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/44571357/live/22311464/publish/69126352/thumbnail/image_720.jpg",
-   "viewers": 24,
-   "openDate": "2026-11-20 11:00:25",
-   "adult": false,
-   "tags": [
-    "버츄얼",
-    "거울",
-    "괴담"
-   ],
-   "category": "talk",
-   "channel": {
-    "id": "e0488306bfb284fc5d43f84af4a59ce4",
-    "name": "헤일라 미러",
-    "image": "https://nng-phinf.pstatic.net/MjAyNTEyMTJfMjMg/MDAxNzY1NTI1MTUxNDQ5.4053RxusebforR9kc4hEffHgXZDI6odDCu3nleUZEO8g.MtZe-Z-hKFLm_H_Ei3UQ30dqorD6ODEvBpuGz-isoOIg.PNG/image.png",
-    "verified": false,
-    "followers": 1801
-   }
-  },
-  {
-   "liveId": 22310410,
-   "title": "락스 새로운 선수분들 인터뷰 질문 받아요 ٩( 'ω' )و",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27313706/live/22310410/publish/69124396/thumbnail/image_720.jpg",
-   "viewers": 24,
-   "openDate": "2026-11-20 09:02:50",
-   "adult": false,
-   "tags": [
-    "버튜버",
-    "버츄얼",
-    "아침방송",
-    "이리고"
-   ],
-   "category": "이터널 리턴",
-   "channel": {
-    "id": "23a96c7728efd75092e69befd8d3630d",
-    "name": "유히히",
-    "image": "https://nng-phinf.pstatic.net/MjAyNTA1MTlfMTE1/MDAxNzQ3NjQzMTY0NTk3.oUxWXxcHvLT0pziZBmQYstpxCnPkST5Jvdl_p3SzrOgg.SpG0E7ZiEl9KE_kR9EU5loX1esvIRzDTX8f67jjzafUg.PNG/%ED%94%84%EC%82%AC_%ED%88%AC%EB%AA%85.png",
-    "verified": false,
-    "followers": 6335
+    "followers": 20508
    }
   },
   {
    "liveId": 22311651,
    "title": "낡은창고의 정품 창고콘 이터널리턴 바뀐섬을 가~~~~ \n일정: 그림그리기 > 트릭컬 이벤스 > 아주프로 공방 8시 ",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27950194/live/22311651/publish/69126722/thumbnail/image_720.jpg",
-   "viewers": 23,
+   "viewers": 54,
+   "trend": {
+    "delta": -4,
+    "pct": -7
+   },
    "openDate": "2026-11-20 11:19:48",
    "adult": false,
    "tags": [
@@ -1370,54 +861,277 @@
    }
   },
   {
-   "liveId": 22309762,
-   "title": "제 꿈은 골드에 가는겁니다 🪙",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/33077134/live/22309762/publish/69123115/thumbnail/image_720.jpg",
-   "viewers": 23,
-   "openDate": "2026-11-20 07:01:14",
+   "liveId": 22311654,
+   "title": "어서오세요. 루리커피 입니다. 주문은 게이샤인가요?",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/31917974/live/22311654/publish/69126725/thumbnail/image_720.jpg",
+   "viewers": 49,
+   "trend": {
+    "delta": -1,
+    "pct": -2
+   },
+   "openDate": "2026-11-20 11:20:01",
    "adult": false,
    "tags": [
-    "저챗",
-    "버츄얼",
-    "버튜버"
+    "라이브루리",
+    "버튜버",
+    "루리커피",
+    "버추얼유튜버",
+    "게이샤"
    ],
-   "category": "이터널 리턴",
+   "category": "talk",
    "channel": {
-    "id": "8f8dd50690143b06110c93ff9b1a6fd8",
-    "name": "해아 HAEA",
-    "image": "https://nng-phinf.pstatic.net/MjAyNTEwMzFfMjY2/MDAxNzYxODc5MTQzMDM0.5oEsb52Vb-lTynJB1qjKIgerVkLpsbY9jHdl4Aa6hVwg.No66i_SHmkPq1Q2QnB2EtX9tz50nDi0k4qrYquT5qK0g.JPEG/image.jpg",
+    "id": "3ef2872698aee4e944d808f27abca3a9",
+    "name": "냐루비카페",
+    "image": "https://nng-phinf.pstatic.net/MjAyNDA4MTBfNDQg/MDAxNzIzMjcyNDQ4NTQ2.zsKKnLTvngszvxFmuZsIb-Fnuh_L7hhKiIS91UoUfmYg.NhkzSoABO_EW-FUUeZrknXKRSCvTRKA_Ln7SNk-KLpMg.PNG/6e4801ad76a952a7.png",
     "verified": false,
-    "followers": 2139
+    "followers": 7566
    }
   },
   {
-   "liveId": 22310840,
-   "title": "와 오늘 톤 레전드 중저음 ",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/31988535/live/22310840/publish/69125245/thumbnail/image_720.jpg",
-   "viewers": 22,
-   "openDate": "2026-11-20 09:59:43",
+   "liveId": 22311016,
+   "title": "이삼둥을 괴롭게 할 벌칙 아이디어 받습니다",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27958922/live/22311016/publish/69125523/thumbnail/image_720.jpg",
+   "viewers": 49,
+   "trend": {
+    "delta": 1,
+    "pct": 2
+   },
+   "openDate": "2026-11-20 10:10:09",
    "adult": false,
    "tags": [
-    "talk",
-    "목소리",
     "버튜버",
-    "뉴비",
-    "버츄얼"
+    "버츄얼",
+    "vtuber",
+    "토크"
    ],
-   "category": "음악/노래",
+   "category": "talk",
    "channel": {
-    "id": "8e8cf052ea6fafd4f35be0ae453fdb17",
-    "name": "코사마",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjAyMTdfMjgx/MDAxNzcxMjg3ODUxNzky.TLmxM9BC7vQ5Oh9BkUuEZTKI74P1keTZgL49IuWIkRwg.gwEWB7RpSkyLBdMDKVVohjVLQ0O6shjBYJ-wJ1nMew8g.JPEG/image.jpg",
+    "id": "4385ebf9aa154e1bdd55fd12b0039912",
+    "name": "이삼둥",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA3MjdfMTU5/MDAxNzg1MTQyNTE2Nzk2.0jLqHlBudddHqsOJaxTMrtzCO871eqkYwH_Mktf_Bx4g.AwJajOPaOgONCoIOWPPG9cE58Z9v68J-jgIzNARLGO0g.PNG/image.png",
     "verified": false,
-    "followers": 1009
+    "followers": 5981
+   }
+  },
+  {
+   "liveId": 22311033,
+   "title": "GTA6 때문에 일 그만두...고 싶은 청년",
+   "thumbnail": null,
+   "viewers": 48,
+   "trend": {
+    "delta": 3,
+    "pct": 7
+   },
+   "openDate": "2026-11-20 10:11:48",
+   "adult": true,
+   "tags": [
+    "도마즈",
+    "패러블",
+    "노래",
+    "버튜버",
+    "종겜"
+   ],
+   "category": "GTA 6",
+   "channel": {
+    "id": "dcf8337aa57ed257b1c76bafbdb5c054",
+    "name": "레누 Lenu",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjEwMjZfMTQx/MDAxNzkyOTg4MDk0ODI5.h9bLFFn4G_mO731nNm7QQOJo1m7bPN1qToJnlLplNzQg.snoVuLWnMwYUeXmgiqjbJuhOxb8oVZVZ3sUeN3ACaA8g.PNG/image.png",
+    "verified": false,
+    "followers": 13997
+   }
+  },
+  {
+   "liveId": 22310793,
+   "title": "패치가 되었나요",
+   "thumbnail": null,
+   "viewers": 48,
+   "trend": {
+    "delta": 0,
+    "pct": 0
+   },
+   "openDate": "2026-11-20 09:58:10",
+   "adult": false,
+   "tags": [
+    "버츄얼",
+    "버튜버",
+    "착한북극늑대",
+    "종겜"
+   ],
+   "category": "패스 오브 엑자일",
+   "channel": {
+    "id": "aa847cbd6e13b50434daaa279238e260",
+    "name": "동이리오너라",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA4MThfMjQ5/MDAxNzg2OTc5OTczNTc2.MzaG7EpZ56fjjszZ1arhDyGZmI-apf0ntC35d2hzSvMg.BLbva_R-VB5e-BeD501mi-adM819v6t6wLldZoe2swgg.PNG/image.png",
+    "verified": false,
+    "followers": 616
+   }
+  },
+  {
+   "liveId": 22310677,
+   "title": "나는 보았다 희망을",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27887883/live/22310677/publish/69124943/thumbnail/image_720.jpg",
+   "viewers": 48,
+   "trend": {
+    "delta": 7,
+    "pct": 17
+   },
+   "openDate": "2026-11-20 09:38:51",
+   "adult": false,
+   "tags": [
+    "신입",
+    "버튜버",
+    "종합게임",
+    "nba",
+    "야구"
+   ],
+   "category": "이터널 리턴",
+   "channel": {
+    "id": "50ba1b9bd1f23f988a258bfa4e306228",
+    "name": "지롤썬다",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjExMTJfMTc0/MDAxNzk0NDc0MTA5MDgx.7qb5cDArwCW9ESBlfJ2JtWRWHL6j7nezG5GY6F827yog.CJHRTTuZM6oHLcunZ3aI6v8UX4T30SxVUFbBLAYkcDwg.PNG/image.png",
+    "verified": false,
+    "followers": 542
+   }
+  },
+  {
+   "liveId": 22310361,
+   "title": "모닝 여우",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/26691677/live/22310361/publish/69124311/thumbnail/image_720.jpg",
+   "viewers": 47,
+   "trend": {
+    "delta": -4,
+    "pct": -8
+   },
+   "openDate": "2026-11-20 08:59:44",
+   "adult": false,
+   "tags": [
+    "버츄얼",
+    "여우무녀",
+    "귀여움"
+   ],
+   "category": "talk",
+   "channel": {
+    "id": "dc132ee274a3c2034db4e6e188aa4bed",
+    "name": "아리스마나",
+    "image": "https://nng-phinf.pstatic.net/MjAyNTA5MDFfMTMy/MDAxNzU2Njk2NTU5MTgw.ylAy5zdRc2dgohNyC-BsZ6Oas7TrI7nxrQNU-R_bMVYg.mtvGEN7lAkjdf-KniXZPP7eAk8nPr_isfdqCWCQ9QEkg.JPEG/bESKvElr_400x400.jpg",
+    "verified": false,
+    "followers": 9928
+   }
+  },
+  {
+   "liveId": 22310961,
+   "title": "터질 듯이 큰 가슴? (터저서 없어짐 ㅅㄱ) ",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27804000/live/22310961/publish/69125427/thumbnail/image_720.jpg",
+   "viewers": 46,
+   "trend": {
+    "delta": -2,
+    "pct": -4
+   },
+   "openDate": "2026-11-20 10:04:07",
+   "adult": false,
+   "tags": [
+    "버튜버",
+    "vtuber",
+    "버츄얼",
+    "저챗",
+    "라디오"
+   ],
+   "category": "talk",
+   "channel": {
+    "id": "dd666151d48cc02d648db1e2193b7912",
+    "name": "아야세 테라",
+    "image": "https://nng-phinf.pstatic.net/MjAyNTA5MjdfOTkg/MDAxNzU4OTg0NDc3NTIy.3jHya0VKh8JL3flSrGdPY0qPfSEBSoPEt4QmNVGJTDsg.2V3ul7VaNPBtGERqnmSwEM4T2iigrS3W2si6EqyEyHMg.PNG/image.png",
+    "verified": false,
+    "followers": 2874
+   }
+  },
+  {
+   "liveId": 22310370,
+   "title": "장점은 성실함. 단점은 졸림.",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/29693944/live/22310370/publish/69124321/thumbnail/image_720.jpg",
+   "viewers": 45,
+   "trend": {
+    "delta": 0,
+    "pct": 0
+   },
+   "openDate": "2026-11-20 09:00:04",
+   "adult": false,
+   "tags": [
+    "천재",
+    "능능",
+    "버튜버",
+    "농농단"
+   ],
+   "category": "talk",
+   "channel": {
+    "id": "cd0b9939c10ac951dbb5fd4cd00567a9",
+    "name": "쫀득찹쌀도넛",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjEwMThfMTM2/MDAxNzkyMjgyMDU1MzIx.5N6CtLfYR5m71-_LjqcGz-CF6996zxa46pBUYIIQnI4g.jUg-X4XaBMvlWWJa678_7_oXnpZ0UUhq1YTObNoJYr8g.PNG/image.png",
+    "verified": false,
+    "followers": 1996
+   }
+  },
+  {
+   "liveId": 22311189,
+   "title": "ㅇㅅㅇ",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27733184/live/22311189/publish/69125843/thumbnail/image_720.jpg",
+   "viewers": 44,
+   "trend": {
+    "delta": -2,
+    "pct": -4
+   },
+   "openDate": "2026-11-20 10:30:13",
+   "adult": false,
+   "tags": [
+    "vtuber",
+    "버튜버",
+    "서브컬처",
+    "프문악귀"
+   ],
+   "category": "talk",
+   "channel": {
+    "id": "6ddd2ff1d43ae1e23e04e72409e40d84",
+    "name": "이 렌",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjExMTZfNzgg/MDAxNzk0ODMzMzM1OTE4.eVTjVm2YAtgtkRmo_S4Vp0TJHkqORd8kdTATZboFiYUg.MC95dkxKdE4dJbiY0YzT14BguA7J2aEqUbKcGdGPljAg.PNG/image.png",
+    "verified": false,
+    "followers": 6621
+   }
+  },
+  {
+   "liveId": 22303371,
+   "title": "GTA6 하려고 PS5 pro 샀다요",
+   "thumbnail": null,
+   "viewers": 43,
+   "trend": {
+    "delta": -2,
+    "pct": -4
+   },
+   "openDate": "2026-11-19 20:51:35",
+   "adult": true,
+   "tags": [
+    "버츄얼",
+    "검은사막",
+    "붉은사막",
+    "gta6"
+   ],
+   "category": "GTA 6",
+   "channel": {
+    "id": "2dccdac2998bce6a95ab428179e9db48",
+    "name": "루나냥",
+    "image": "https://nng-phinf.pstatic.net/MjAyMzEyMTlfMTU5/MDAxNzAyOTYxMjAyNTIx.dMB1Uuy-C5ad_oWUumZ2Gz2At1QwjH4gFu8vusLaPuMg.KPGPwWfVSoh7sc6Sahf3M2ugKSNzC7EvSBXgQxSEq3Ug.JPEG/11111.jpg",
+    "verified": true,
+    "followers": 6536
    }
   },
   {
    "liveId": 22310794,
    "title": "튜령이형 한번만 더 도와줘~ 2027치지직컵 미드 브론즈 아칼리 장인 실버 켠왕 드가야겠지?",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/51943119/live/22310794/publish/69125182/thumbnail/image_720.jpg",
-   "viewers": 22,
+   "viewers": 42,
+   "trend": {
+    "delta": 1,
+    "pct": 2
+   },
    "openDate": "2026-11-20 09:58:17",
    "adult": false,
    "tags": [
@@ -1433,37 +1147,307 @@
     "name": "동 그 리 아",
     "image": "https://nng-phinf.pstatic.net/MjAyNjA5MDRfMTE5/MDAxNzg4NTAwMTQxNDI1.YLipDEx4xRrIqb2WpeyiKnSuBIeL1WgUcuYN5oJwghUg.Oi5WGUXSpRY1rkEAfVF_czs1CjQWJYtc3pIK66qu9_Ag.PNG/image.png",
     "verified": false,
-    "followers": 582
+    "followers": 581
    }
   },
   {
-   "liveId": 22309865,
-   "title": "아침부터 하는 림부스컴퍼니♡(대충 SOS!!!!!도움!!!!도움!!!!)",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/28325004/live/22309865/publish/69123342/thumbnail/image_720.jpg",
-   "viewers": 21,
-   "openDate": "2026-11-20 07:30:04",
+   "liveId": 22310400,
+   "title": "열쇠 120개 돌파...",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/28179885/live/22310400/publish/69124382/thumbnail/image_720.jpg",
+   "viewers": 39,
+   "trend": {
+    "delta": -7,
+    "pct": -15
+   },
+   "openDate": "2026-11-20 09:02:16",
+   "adult": false,
+   "tags": [
+    "오타쿠호소인",
+    "버튜버",
+    "버츄얼"
+   ],
+   "category": "로스트아크",
+   "channel": {
+    "id": "b28d617a1d981cfff65d163f116cab7d",
+    "name": "디또띠",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjEwMjBfMjg0/MDAxNzkyNDk4NzQ2MDY0.7nIUz-SykQayDglmAZHLd2bRJv24QhNKpcFl6L1bT3Ag.722qhIM-4nmINC51KVKamYOLzY0GwVLVC084IOlvxS8g.PNG/image.png",
+    "verified": false,
+    "followers": 3239
+   }
+  },
+  {
+   "liveId": 22311437,
+   "title": "읏추읏추 𐔌՞･·･՞𐦯",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/49209893/live/22311437/publish/69126320/thumbnail/image_720.jpg",
+   "viewers": 37,
+   "trend": {
+    "delta": 5,
+    "pct": 16
+   },
+   "openDate": "2026-11-20 11:00:00",
+   "adult": false,
+   "tags": [
+    "신입",
+    "종겜",
+    "담비",
+    "버추얼",
+    "버튜버"
+   ],
+   "category": "talk",
+   "channel": {
+    "id": "df15cb831b80356e79aab8bdb49ac577",
+    "name": "하쿵Hakung",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjEwMjZfMTAg/MDAxNzkyOTQyNTI4NzIy.eLLBQqhTBSXm52YiqjXovy3k-k8T2P0PacgXgckpPVYg.xLxgDROcNs_l-2MorlLHTcP9BH6NSVh155x0i9JI4lcg.PNG/image.png",
+    "verified": false,
+    "followers": 1491
+   }
+  },
+  {
+   "liveId": 22310845,
+   "title": "[ 조립 Day ] RG / RX-78-2GUNDAM ver.2.0 -미쿠 버전 조립 2일차",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/26835066/live/22310845/publish/69125248/thumbnail/image_720.jpg",
+   "viewers": 36,
+   "trend": {
+    "delta": -1,
+    "pct": -3
+   },
+   "openDate": "2026-11-20 09:59:48",
    "adult": false,
    "tags": [
     "버튜버",
-    "버츄얼스트리머",
-    "게임",
-    "림버스컴퍼니",
-    "림버스10장"
+    "스타게이저",
+    "모모노미야",
+    "유부녀즈",
+    "건프라"
    ],
-   "category": "림버스 컴퍼니",
+   "category": "talk",
    "channel": {
-    "id": "5abd86365fee99b560451266cf8053bb",
-    "name": "리라비",
-    "image": "https://nng-phinf.pstatic.net/MjAyNTA2MjBfMTkz/MDAxNzUwNDExNDAxNzgz.mZ9H6sM-JkiUoyRM23c0d2X9oUXjGgy53CE3sRDC958g.nemqR-8UMf82uvIUAMqYgmZb77YdGF-SlRXTp21QVOQg.PNG/KakaoTalk_20250620_133201604.png",
+    "id": "3553849193a26f157ba0b83d6ea1857d",
+    "name": "월야화랑",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjExMTdfOTcg/MDAxNzk0OTExNDgzNjAy.1I4_y9kZt9EFbzKh4l_mPMlloTBKtUx1osSUdy8dC3Ig.Te00oL2yPKTzOOjnH2DVC_q2gc1qzdZYKdduggZnJ18g.JPEG/image.jpg",
     "verified": false,
-    "followers": 1019
+    "followers": 4079
+   }
+  },
+  {
+   "liveId": 22310410,
+   "title": "락스 새로운 선수분들 인터뷰 질문 받아요 ٩( 'ω' )و",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27313706/live/22310410/publish/69124396/thumbnail/image_720.jpg",
+   "viewers": 36,
+   "trend": {
+    "delta": 1,
+    "pct": 3
+   },
+   "openDate": "2026-11-20 09:02:50",
+   "adult": false,
+   "tags": [
+    "버튜버",
+    "버츄얼",
+    "아침방송",
+    "이리고"
+   ],
+   "category": "이터널 리턴",
+   "channel": {
+    "id": "23a96c7728efd75092e69befd8d3630d",
+    "name": "유히히",
+    "image": "https://nng-phinf.pstatic.net/MjAyNTA1MTlfMTE1/MDAxNzQ3NjQzMTY0NTk3.oUxWXxcHvLT0pziZBmQYstpxCnPkST5Jvdl_p3SzrOgg.SpG0E7ZiEl9KE_kR9EU5loX1esvIRzDTX8f67jjzafUg.PNG/%ED%94%84%EC%82%AC_%ED%88%AC%EB%AA%85.png",
+    "verified": false,
+    "followers": 6335
+   }
+  },
+  {
+   "liveId": 22311367,
+   "title": "브론즈에서 키아나 안 하는 이유",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/37123980/live/22311367/publish/69126198/thumbnail/image_720.jpg",
+   "viewers": 34,
+   "trend": {
+    "delta": 6,
+    "pct": 21
+   },
+   "openDate": "2026-11-20 10:55:17",
+   "adult": false,
+   "tags": [
+    "버츄얼",
+    "귀여움",
+    "발랄"
+   ],
+   "category": "리그 오브 레전드",
+   "channel": {
+    "id": "b853cd157a4f76f5a5774b6efdf2a69a",
+    "name": "보리미당",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA0MjJfOTAg/MDAxNzc2ODU2OTA3NDk1.nKgxnFPL2pPg0nfRno44FGpYd5NTauFZypY5n7HFVOwg.mAcGhR_aj4nlAFG9t5DBlbfpcgcI1SxwE31vtkwZAsEg.PNG/image.png",
+    "verified": false,
+    "followers": 2178
+   }
+  },
+  {
+   "liveId": 22310957,
+   "title": "낭만에 살고 낭만에 뒤진다🔥슬기로운 건실청년생활 그타6 2일차 ٩ʕ◕౪◕ʔو",
+   "thumbnail": null,
+   "viewers": 34,
+   "trend": {
+    "delta": 5,
+    "pct": 17
+   },
+   "openDate": "2026-11-20 10:03:51",
+   "adult": true,
+   "tags": [
+    "아침10시",
+    "일본어",
+    "종합게임",
+    "버튜버",
+    "라디오"
+   ],
+   "category": "GTA 6",
+   "channel": {
+    "id": "d7fcdd7413c90d58e81f4720273795b2",
+    "name": "로쥬마리",
+    "image": "https://nng-phinf.pstatic.net/MjAyMzEyMjZfNDEg/MDAxNzAzNTU4MTU3ODM5.8K3FiY2zEoSXShU0x3MiBeU6ZC98N64JT3TLlUT4yd0g.jflB80yr92-4x12C9-m_FkVXLG8Tr304p5OLfc_LIEYg.PNG/%EC%A0%9C%EB%AA%A9_%EC%97%86%EC%9D%8C2.png",
+    "verified": false,
+    "followers": 4176
+   }
+  },
+  {
+   "liveId": 22311464,
+   "title": "야생의 거울이 나타났다!",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/44571357/live/22311464/publish/69126352/thumbnail/image_720.jpg",
+   "viewers": 31,
+   "trend": {
+    "delta": 3,
+    "pct": 11
+   },
+   "openDate": "2026-11-20 11:00:25",
+   "adult": false,
+   "tags": [
+    "버츄얼",
+    "거울",
+    "괴담"
+   ],
+   "category": "talk",
+   "channel": {
+    "id": "e0488306bfb284fc5d43f84af4a59ce4",
+    "name": "헤일라 미러",
+    "image": "https://nng-phinf.pstatic.net/MjAyNTEyMTJfMjMg/MDAxNzY1NTI1MTUxNDQ5.4053RxusebforR9kc4hEffHgXZDI6odDCu3nleUZEO8g.MtZe-Z-hKFLm_H_Ei3UQ30dqorD6ODEvBpuGz-isoOIg.PNG/image.png",
+    "verified": false,
+    "followers": 1801
+   }
+  },
+  {
+   "liveId": 22310899,
+   "title": "[일본인/V] 27 수능 일본어 만점맞아 보자",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/50939372/live/22310899/publish/69125321/thumbnail/image_720.jpg",
+   "viewers": 31,
+   "trend": {
+    "delta": -1,
+    "pct": -3
+   },
+   "openDate": "2026-11-20 10:00:50",
+   "adult": false,
+   "tags": [
+    "일본인",
+    "신입",
+    "버츄얼",
+    "루루",
+    "버튜버"
+   ],
+   "category": "talk",
+   "channel": {
+    "id": "80b428af42a25278ed9363c975acb912",
+    "name": "와루가키 루루",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA5MjFfMTUg/MDAxNzg5OTUwMzQyNTM0.mCRs1GQJfJfvykd2_glvrZEnypSFd5U5fenkAyi0iv4g.OR75lOvRpWh5CDWBEozv_A_NDqOUKEfDnXp03aGZA2Yg.PNG/image.png",
+    "verified": false,
+    "followers": 822
+   }
+  },
+  {
+   "liveId": 22309735,
+   "title": "[신입] 연차 쓰고 방구석에서 게임 하기 🫯",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/49262555/live/22309735/publish/69123063/thumbnail/image_720.jpg",
+   "viewers": 31,
+   "trend": {
+    "delta": 4,
+    "pct": 15
+   },
+   "openDate": "2026-11-20 06:57:00",
+   "adult": false,
+   "tags": [
+    "버튜버",
+    "퓨어블루",
+    "신입",
+    "뉴비",
+    "저챗"
+   ],
+   "category": "이환",
+   "channel": {
+    "id": "a6fe7b9c3f982b022eba1045ceab8ff2",
+    "name": "마요이 미아",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA3MzBfMjc4/MDAxNzg1MzQwNTI1MDg2.PvXGH9GpgN6JC_tAjfI7j7k66E13dBOe8Kp9GkHi0Wkg.P9gY4BrdlelD2UGLkWQNtFs3rSUtvevyWrLSu2fp6Lgg.PNG/image.png",
+    "verified": false,
+    "followers": 524
+   }
+  },
+  {
+   "liveId": 22303487,
+   "title": "[V] 복귀 모코코/ 잠시 동생 집에좀 다녀올게용!!!",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27440078/live/22303487/publish/69114109/thumbnail/image_720.jpg",
+   "viewers": 31,
+   "trend": {
+    "delta": -2,
+    "pct": -6
+   },
+   "openDate": "2026-11-19 20:54:55",
+   "adult": false,
+   "tags": [
+    "버츄얼",
+    "늑대암컷",
+    "종합게임",
+    "영도"
+   ],
+   "category": "로스트아크",
+   "channel": {
+    "id": "6d92312348f17de35aa222ca3e159256",
+    "name": "꾸웅앗",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjExMDlfMTA4/MDAxNzk0MTk4NzQxMTIy._2HOZSgKLUoZ6nTTyMzCxi9xTuBStzJJr8SZ8T8mlHMg._H7x7OrreoRXuDHEyewHKMozmjmkO-G96IVSIMi4Qsog.PNG/image.png",
+    "verified": false,
+    "followers": 1149
+   }
+  },
+  {
+   "liveId": 22311539,
+   "title": "오늘은 삼국지 같이보기!! w.리샤",
+   "thumbnail": null,
+   "viewers": 30,
+   "trend": {
+    "delta": 3,
+    "pct": 11
+   },
+   "openDate": "2026-11-20 11:04:19",
+   "adult": false,
+   "tags": [
+    "신입",
+    "버츄얼",
+    "버튜버",
+    "종겜",
+    "오브스타하우스"
+   ],
+   "category": "드라마",
+   "channel": {
+    "id": "8d34b21830132425ba82bd6fe8e4fdb0",
+    "name": "레타 포스트",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjEwMTBfMjE3/MDAxNzkxNjAzNTc1Njcx.2Sd97oPSRs59vqF3nj-pGw_YCLp12MaoFgzgXyopbV4g.NfESjd_9cKokDRF0eVcbrk2OU6ZHEc13UPCiv2Rp90kg.PNG/image.png",
+    "verified": false,
+    "followers": 349
    }
   },
   {
    "liveId": 22311397,
    "title": "[신입 든쟌!] 유비가 하프 엘프시라며? (w. 레타)",
    "thumbnail": null,
-   "viewers": 20,
+   "viewers": 30,
+   "trend": {
+    "delta": 0,
+    "pct": 0
+   },
    "openDate": "2026-11-20 10:58:41",
    "adult": false,
    "tags": [
@@ -1479,145 +1463,121 @@
     "name": "리시아 로프트",
     "image": "https://nng-phinf.pstatic.net/MjAyNjA5MDhfMjcw/MDAxNzg4ODU1NDg2NjM4.-pPPCnryOBrgTmLfV4yplNrOdrTBeDNTaPEB0xzVG1cg.qQ2-wgOBCuIXASn1f9sW9gh0-K3EsbrDhJ5YmZYVkLAg.PNG/image.png",
     "verified": false,
-    "followers": 515
+    "followers": 519
    }
   },
   {
-   "liveId": 22311023,
-   "title": "내 RP는 어디로?",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/52122315/live/22311023/publish/69125541/thumbnail/image_720.jpg",
-   "viewers": 20,
-   "openDate": "2026-11-20 10:11:00",
+   "liveId": 22310924,
+   "title": "오전  특급  정보/ 12시 게임 추천 룰렛 ",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27860685/live/22310924/publish/69125363/thumbnail/image_720.jpg",
+   "viewers": 30,
+   "trend": {
+    "delta": -1,
+    "pct": -3
+   },
+   "openDate": "2026-11-20 10:01:44",
    "adult": false,
    "tags": [
-    "소통조아",
+    "버튜버",
+    "종합게임",
+    "배치기"
+   ],
+   "category": "talk",
+   "channel": {
+    "id": "d4a790246202e97cfd90a193e17ebcb1",
+    "name": "겜나나",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA0MDJfNSAg/MDAxNzc1MDU3NTMyMDIw.W43Jl7AYH99Az5kfH4nI1oX435ktE72ZPfXvLwnavVcg.UBGAiUDn-_0n4ac0l9Ow1nafMyxThnDNbb3Nd14E6XUg.PNG/image.png",
+    "verified": false,
+    "followers": 6869
+   }
+  },
+  {
+   "liveId": 22310100,
+   "title": "친구창에 친구들이 접속을 안해여 ㅠㅠㅠㅠㅠ",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27607851/live/22310100/publish/69123778/thumbnail/image_720.jpg",
+   "viewers": 30,
+   "trend": {
+    "delta": -7,
+    "pct": -19
+   },
+   "openDate": "2026-11-20 08:13:06",
+   "adult": false,
+   "tags": [
+    "로스트아크",
+    "바드",
     "버튜버"
    ],
-   "category": "사이퍼즈",
+   "category": "로스트아크",
    "channel": {
-    "id": "0a36813846cea5266afe137cfc715758",
-    "name": "자현이오",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA5MTNfMTI2/MDAxNzg5Mjk0NTc1Mzg0.Yg7YpFdlBN9m4E5MKp40myhIZSUeDAno3PDY5T_4V5Qg.BT_Bxu2DB67qqNSTjzzeqrqXxb-jKxw9W_HvUJPZ4lIg.PNG/image.png",
+    "id": "5a3635024d638003515c9f2be9236ded",
+    "name": "쀼 쀼",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjAxMThfNjcg/MDAxNzY4NjgzMTM2Njgx.Jh9EKlsZfTsx5YFAvBDeLNkdQFc9K2lgNiiQZo3uVtgg.C0U341K9bXRQBC59tr1vgjkTuo1aB-gpfY_yeqx2ILYg.PNG/image.png",
     "verified": false,
-    "followers": 91
+    "followers": 1360
    }
   },
   {
-   "liveId": 22310789,
-   "title": "이 아이가 릴리를 뽑을 수 있을까요",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27951870/live/22310789/publish/69125168/thumbnail/image_720.jpg",
-   "viewers": 19,
-   "openDate": "2026-11-20 09:57:52",
+   "liveId": 22312015,
+   "title": "💙요세하녕안💙",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/26902713/live/22312015/publish/69127345/thumbnail/image_720.jpg",
+   "viewers": 29,
+   "trend": {
+    "delta": 14,
+    "pct": 93
+   },
+   "openDate": "2026-11-20 12:00:31",
    "adult": false,
    "tags": [
-    "버추얼",
+    "별님",
+    "그림토피아",
+    "팔레트",
     "버튜버",
-    "젊탱버",
-    "종합게임",
-    "구라쟁이"
-   ],
-   "category": "명조:워더링 웨이브",
-   "channel": {
-    "id": "3cd51d9cb1dde566c5629b1dcebdf57b",
-    "name": "타마고 아치",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA0MjZfMTY2/MDAxNzc3MTYyOTIzMTk2.BSewEBbSCtPtXucA2vXbi5doyzyPuNWGZmFhoNhEZ8cg._UmWuW-IddAJG5nREfZHzBpe5oY41R9IQPWSFKU9juQg.PNG/image.png",
-    "verified": false,
-    "followers": 1204
-   }
-  },
-  {
-   "liveId": 22310074,
-   "title": "밥 먹었으니까 다시 솔랭~",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/32166483/live/22310074/publish/69123711/thumbnail/image_720.jpg",
-   "viewers": 19,
-   "openDate": "2026-11-20 08:07:51",
-   "adult": false,
-   "tags": [
-    "말걸어주면좋아함",
-    "낯가림주의",
-    "버츄얼",
-    "수다수다",
-    "즐겜유저"
-   ],
-   "category": "에이펙스 레전드",
-   "channel": {
-    "id": "206311513574a80237c320731bb26a7d",
-    "name": "히아늘",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA5MDZfOTcg/MDAxNzg4NjI4MDUyNDMy.GVrZE-XZYNCrl7h2mM2kVDXn40d9NmVmnacm4Gv-Fywg.4JGhKFtTBZG_EcV9tVSC1ZiWraWZTi1v1J7c7uLkXzEg.JPEG/image.jpg",
-    "verified": false,
-    "followers": 356
-   }
-  },
-  {
-   "liveId": 22311488,
-   "title": "🧃추워추워",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27971824/live/22311488/publish/69126393/thumbnail/image_720.jpg",
-   "viewers": 18,
-   "openDate": "2026-11-20 11:01:11",
-   "adult": false,
-   "tags": [
-    "버츄얼",
-    "햇빛알러지",
-    "식물",
-    "콩찬호"
-   ],
-   "category": "승리의 여신: 니케",
-   "channel": {
-    "id": "2d9f8e70cdc009df2e01c74b92f04130",
-    "name": "콩그라미",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA2MDJfNDcg/MDAxNzgwNDEwOTM0MDYz.4bxi1ohk8yMqhAJogdoLgxUcC0AzXVf9Rx-8EkRR0jQg.da6iaLKU6G_16EphaMUwnQt_Fxhs_KfDKfM5wIRHMXQg.PNG/image.png",
-    "verified": false,
-    "followers": 878
-   }
-  },
-  {
-   "liveId": 22310479,
-   "title": "(버미육) 헐레벌떡",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27737410/live/22310479/publish/69124549/thumbnail/image_720.jpg",
-   "viewers": 18,
-   "openDate": "2026-11-20 09:12:48",
-   "adult": false,
-   "tags": [
-    "버미육",
-    "버튜버",
-    "아트"
+    "버츄얼"
    ],
    "category": "그림/아트",
    "channel": {
-    "id": "9a71adf8e4e761833f5173f4477acfe9",
-    "name": "미시코",
-    "image": "https://nng-phinf.pstatic.net/MjAyNTA3MjdfODQg/MDAxNzUzNjA4NjQxMzI1.3DSysUgKJcYrcqrBc36S09UEg6bi-ZzZevDfUqcEBNQg.7t7Jzj1lOLlJQTCcYR4gWtZwyPOjhYzMu8S4c3TPAqYg.PNG/vts-2024-11-18_10h01_13.png",
+    "id": "40132b11317951dafff8c1a770b34b63",
+    "name": "산 SAN",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA3MTNfMjIz/MDAxNzgzOTA5NTk1ODIw.uuSAo8n6bEmn85KslV97XxMTGCW9x0vRXln-TPz0KSEg.RD2ciU9LO_3ZVoII5E8J23c6Lo7namcy3zPZMZZyndAg.PNG/image.png",
     "verified": false,
-    "followers": 2346
+    "followers": 4638
    }
   },
   {
-   "liveId": 22310016,
-   "title": "[36일차] 사이버펑크 세계관에서 전당포 하는 게임 프라버블리 스톨른",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/52056543/live/22310016/publish/69123608/thumbnail/image_720.jpg",
-   "viewers": 18,
-   "openDate": "2026-11-20 08:00:07",
+   "liveId": 22311799,
+   "title": "✨그묘일조아╰(*°▽°*)╯",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/26700686/live/22311799/publish/69127003/thumbnail/image_720.jpg",
+   "viewers": 29,
+   "trend": {
+    "delta": 1,
+    "pct": 4
+   },
+   "openDate": "2026-11-20 11:40:20",
    "adult": false,
    "tags": [
     "버튜버",
-    "신입",
-    "종합게임",
-    "아침방송"
+    "먼데이푸쉬즈",
+    "삼국개전2",
+    "치지직제작지원"
    ],
-   "category": "프라버블리 스톨른 - 사이버펑크 숍키퍼 심",
+   "category": "talk",
    "channel": {
-    "id": "37307197efb55a06a0648f0e640d0b0e",
-    "name": "초 람",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA5MjNfMTIz/MDAxNzkwMTcyOTAzMjgx.lFoh4ajVfuCLEs5Wr51JLH-1HWBQp6YxfQmpgKQvGjAg.4o1nU80g42g6SfgrcRreZzIcXz54m52TmrWfjmAcchIg.PNG/image.png",
+    "id": "5c92903d370e18878dd4f38bbddc929c",
+    "name": "어화둥둥이",
+    "image": "https://nng-phinf.pstatic.net/MjAyNTA3MjRfNTAg/MDAxNzUzMzMyOTgzMjAy.xN3n7eYBAVnb2e-Tmo4eucikVVSU7R0vgi5EGhIbbaIg._SKx5C-sWq1pgYLIebtXjPBSNrk8f1Vr-1n5TzC2DyYg.PNG/13.png",
     "verified": false,
-    "followers": 130
+    "followers": 11414
    }
   },
   {
    "liveId": 22311574,
    "title": " 3D 공개",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/46442228/live/22311574/publish/69124106/thumbnail/image_720.jpg",
-   "viewers": 17,
+   "viewers": 29,
+   "trend": {
+    "delta": 2,
+    "pct": 7
+   },
    "openDate": "2026-11-20 11:09:56",
    "adult": false,
    "tags": [
@@ -1637,31 +1597,539 @@
    }
   },
   {
-   "liveId": 22297075,
-   "title": "헬기 1일차 훈수 받습니다",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27868809/live/22297075/publish/69103793/thumbnail/image_720.jpg",
-   "viewers": 17,
-   "openDate": "2026-11-19 16:55:54",
+   "liveId": 22311488,
+   "title": "🧃명애기 스토리보기 금주 1장 8막 후일담 스토리부터",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27971824/live/22311488/publish/69126393/thumbnail/image_720.jpg",
+   "viewers": 29,
+   "trend": {
+    "delta": 7,
+    "pct": 32
+   },
+   "openDate": "2026-11-20 11:01:11",
    "adult": false,
    "tags": [
     "버츄얼",
-    "시참",
-    "내전"
+    "햇빛알러지",
+    "식물",
+    "콩찬호"
    ],
-   "category": "워독스",
+   "category": "명조:워더링 웨이브",
    "channel": {
-    "id": "d5dca9ea32224d5a8fcf625c92750861",
-    "name": "고래요 Goraeyo",
-    "image": "https://nng-phinf.pstatic.net/MjAyNTA2MDlfMTIy/MDAxNzQ5NDI4Mzk0NTEw.YoJuNEx79gXJJCVKPDVbt8Mq52W1ZibJHdUeGhotAngg.H27DrR5TgMv9UftKaSFpa_GtOZxaNb9BfyvXEZ34Pg8g.PNG/vts-2025-06-09_09h13_36_3.png",
+    "id": "2d9f8e70cdc009df2e01c74b92f04130",
+    "name": "콩그라미",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA2MDJfNDcg/MDAxNzgwNDEwOTM0MDYz.4bxi1ohk8yMqhAJogdoLgxUcC0AzXVf9Rx-8EkRR0jQg.da6iaLKU6G_16EphaMUwnQt_Fxhs_KfDKfM5wIRHMXQg.PNG/image.png",
     "verified": false,
-    "followers": 2404
+    "followers": 878
+   }
+  },
+  {
+   "liveId": 22311490,
+   "title": "🌊💙일루와잇!",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/49034850/live/22311490/publish/69126396/thumbnail/image_720.jpg",
+   "viewers": 28,
+   "trend": {
+    "delta": 5,
+    "pct": 22
+   },
+   "openDate": "2026-11-20 11:01:14",
+   "adult": false,
+   "tags": [
+    "토크",
+    "종합게임",
+    "커피중독",
+    "버츄얼"
+   ],
+   "category": "talk",
+   "channel": {
+    "id": "e764cd10c1b63a30b63fd32717783b1f",
+    "name": "오늘도나츠",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA4MTJfNzIg/MDAxNzg2NTQyOTU2NjI1.gtkvm4j9AiqNaiaAHNpbErn3dEUiJCnJOFtQoj8VJ74g.yyYoERDL9ZGHtUbo-FSkmLDPtTo6SG6WBooDEE9KseUg.PNG/image.png",
+    "verified": false,
+    "followers": 908
+   }
+  },
+  {
+   "liveId": 22311023,
+   "title": "내 RP는 어디로?",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/52122315/live/22311023/publish/69125541/thumbnail/image_720.jpg",
+   "viewers": 25,
+   "trend": {
+    "delta": 3,
+    "pct": 14
+   },
+   "openDate": "2026-11-20 10:11:00",
+   "adult": false,
+   "tags": [
+    "소통조아",
+    "버튜버"
+   ],
+   "category": "사이퍼즈",
+   "channel": {
+    "id": "0a36813846cea5266afe137cfc715758",
+    "name": "자현이오",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA5MTNfMTI2/MDAxNzg5Mjk0NTc1Mzg0.Yg7YpFdlBN9m4E5MKp40myhIZSUeDAno3PDY5T_4V5Qg.BT_Bxu2DB67qqNSTjzzeqrqXxb-jKxw9W_HvUJPZ4lIg.PNG/image.png",
+    "verified": false,
+    "followers": 91
+   }
+  },
+  {
+   "liveId": 22310061,
+   "title": "🍫",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/34995337/live/22310061/publish/69123690/thumbnail/image_720.jpg",
+   "viewers": 25,
+   "trend": {
+    "delta": 4,
+    "pct": 19
+   },
+   "openDate": "2026-11-20 08:05:44",
+   "adult": false,
+   "tags": [
+    "버튜버",
+    "목소리",
+    "잔잔",
+    "소통",
+    "숲의요정"
+   ],
+   "category": "종합 게임",
+   "channel": {
+    "id": "fab4b750f3b10593cd679c41aac0ec26",
+    "name": "라라 LALA",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA4MDZfMjAw/MDAxNzg1OTU2Mjg0MjQ0.j6cQ-DeZGNi1IrpwqFVcXdUis0FtEVMMgK5F965aGqcg.ovJOrPyC6_L56FUujPZrchjqWmqkfr654pzwvgqnzdEg.PNG/image.png",
+    "verified": false,
+    "followers": 473
+   }
+  },
+  {
+   "liveId": 22310033,
+   "title": "연차쓴 남편과 평화로운 부부 와우",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/37357888/live/22310033/publish/69123634/thumbnail/image_720.jpg",
+   "viewers": 25,
+   "trend": {
+    "delta": 4,
+    "pct": 19
+   },
+   "openDate": "2026-11-20 08:00:49",
+   "adult": false,
+   "tags": [
+    "유부녀",
+    "금쪽이",
+    "버츄얼",
+    "버튜버",
+    "프로젝트하루"
+   ],
+   "category": "월드 오브 워크래프트: 포에버",
+   "channel": {
+    "id": "df611e80a67667f3bfb39e4f5af9914e",
+    "name": "욤미 Yommi",
+    "image": "https://nng-phinf.pstatic.net/MjAyNTA4MDhfODAg/MDAxNzU0NjYyMzYxNTY3.CpA9B2BhfeX4jQt4yalpXddIpe21aIJx9BxskaHAbfAg.PZ-Wa3MUyHWmC3SZQclEAc3Xps7K6ltLGQXSXu088q0g.PNG/KakaoTalk_20250808_231117446.png",
+    "verified": false,
+    "followers": 1438
+   }
+  },
+  {
+   "liveId": 22309768,
+   "title": "[V]❤️고품격희망❤️ 어제 첫눈 내렸는데 본 사람? GTA6 재밌다앙~ ",
+   "thumbnail": null,
+   "viewers": 25,
+   "trend": {
+    "delta": -4,
+    "pct": -14
+   },
+   "openDate": "2026-11-20 07:03:24",
+   "adult": true,
+   "tags": [
+    "종합게임",
+    "버튜버",
+    "리액션맛집",
+    "고품격라디오방송",
+    "상여자"
+   ],
+   "category": "GTA 6",
+   "channel": {
+    "id": "325aee7d0bb35ff33ef8713f75289253",
+    "name": "퀸냐옹",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA5MjRfOTcg/MDAxNzkwMTgyMzc5MzEz.1CBQhaKmUdRvDyXI5hLanDzF0Qv9pkuQ5SELd1q4XQ0g.YNLnqDWlztpVHG_1VinAG-cNAhYqIrZjfYBYPSCVLV0g.PNG/image.png",
+    "verified": false,
+    "followers": 1723
+   }
+  },
+  {
+   "liveId": 22310074,
+   "title": "밥 먹었으니까 다시 솔랭~",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/32166483/live/22310074/publish/69123711/thumbnail/image_720.jpg",
+   "viewers": 24,
+   "trend": {
+    "delta": 0,
+    "pct": 0
+   },
+   "openDate": "2026-11-20 08:07:51",
+   "adult": false,
+   "tags": [
+    "말걸어주면좋아함",
+    "낯가림주의",
+    "버츄얼",
+    "수다수다",
+    "즐겜유저"
+   ],
+   "category": "에이펙스 레전드",
+   "channel": {
+    "id": "206311513574a80237c320731bb26a7d",
+    "name": "히아늘",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA5MDZfOTcg/MDAxNzg4NjI4MDUyNDMy.GVrZE-XZYNCrl7h2mM2kVDXn40d9NmVmnacm4Gv-Fywg.4JGhKFtTBZG_EcV9tVSC1ZiWraWZTi1v1J7c7uLkXzEg.JPEG/image.jpg",
+    "verified": false,
+    "followers": 358
+   }
+  },
+  {
+   "liveId": 22309762,
+   "title": "제 꿈은 골드에 가는겁니다 🪙",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/33077134/live/22309762/publish/69123115/thumbnail/image_720.jpg",
+   "viewers": 24,
+   "trend": {
+    "delta": -1,
+    "pct": -4
+   },
+   "openDate": "2026-11-20 07:01:14",
+   "adult": false,
+   "tags": [
+    "저챗",
+    "버츄얼",
+    "버튜버"
+   ],
+   "category": "이터널 리턴",
+   "channel": {
+    "id": "8f8dd50690143b06110c93ff9b1a6fd8",
+    "name": "해아 HAEA",
+    "image": "https://nng-phinf.pstatic.net/MjAyNTEwMzFfMjY2/MDAxNzYxODc5MTQzMDM0.5oEsb52Vb-lTynJB1qjKIgerVkLpsbY9jHdl4Aa6hVwg.No66i_SHmkPq1Q2QnB2EtX9tz50nDi0k4qrYquT5qK0g.JPEG/image.jpg",
+    "verified": false,
+    "followers": 2139
+   }
+  },
+  {
+   "liveId": 22311737,
+   "title": "패션 전공이 하는 드레스메이커",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27346870/live/22311737/publish/69126882/thumbnail/image_720.jpg",
+   "viewers": 23,
+   "trend": {
+    "delta": 1,
+    "pct": 5
+   },
+   "openDate": "2026-11-20 11:31:24",
+   "adult": false,
+   "tags": [
+    "갸루",
+    "리밋",
+    "버튜버",
+    "소통",
+    "패션"
+   ],
+   "category": "드레스메이커",
+   "channel": {
+    "id": "9e107eff3724459489486e721054e7bf",
+    "name": "이로아 IROA",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjExMTFfMjI4/MDAxNzk0Mzg5MTI2ODMy.ZpFxsm82ufN-16zjtNJjFP9aYoyW137aZzQGRDiHPrYg.1UiTRSXd-cYdlhXvrAttxShayrX15mJ3FN28_QVyAE4g.JPEG/image.jpg",
+    "verified": false,
+    "followers": 1784
+   }
+  },
+  {
+   "liveId": 22309750,
+   "title": "[신입21일차] 니케 처음 시작 하는 사람 어떻게 해요? 이거 좋아요?",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/49965235/live/22309750/publish/69123098/thumbnail/image_720.jpg",
+   "viewers": 23,
+   "trend": {
+    "delta": -8,
+    "pct": -26
+   },
+   "openDate": "2026-11-20 07:00:12",
+   "adult": false,
+   "tags": [
+    "루미플래닛",
+    "버튜버",
+    "vtuber",
+    "신입",
+    "노래"
+   ],
+   "category": "승리의 여신: 니케",
+   "channel": {
+    "id": "12becf5fcf23a553b03fd5761fd17db8",
+    "name": "나비나 Navina",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjEwMDNfNDQg/MDAxNzkxMDIxMDg3OTUw.biWLXXLLpCmy26AAa_7r1MfHarhVUz7b6RWY5y9IXY0g.7ExtPYemVIGTO2q1wkMmMLfDHvokOnfnkiXADkDNY8sg.JPEG/image.jpg",
+    "verified": false,
+    "followers": 629
+   }
+  },
+  {
+   "liveId": 22299708,
+   "title": "🐧₊˚ 선릿밸리 1억 벌기✦ ݁˖  🩵⚓",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/43775878/live/22299708/publish/69108256/thumbnail/image_720.jpg",
+   "viewers": 23,
+   "trend": {
+    "delta": -2,
+    "pct": -8
+   },
+   "openDate": "2026-11-19 19:02:40",
+   "adult": false,
+   "tags": [
+    "버츄얼",
+    "버튜버",
+    "종합게임",
+    "허당"
+   ],
+   "category": "마인크래프트",
+   "channel": {
+    "id": "a242701c91ae3c4d47bfad996c557dc6",
+    "name": "쿠아 Qua",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA0MTFfMjcy/MDAxNzc1ODgxNDc2OTEz.7I6GYHyqGaKRJAE7y49qlFCuZyRr36A_yC5Q-mDdq3cg.VsJK8uTLHWopH5jXAixtiDF2TLAJC_NTM31dOAvYgOsg.PNG/image.png",
+    "verified": false,
+    "followers": 758
+   }
+  },
+  {
+   "liveId": 22310416,
+   "title": "수능 끝났으니 재시작 study with me ^^",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/26856748/live/22310416/publish/69124417/thumbnail/image_720.jpg",
+   "viewers": 22,
+   "trend": {
+    "delta": -1,
+    "pct": -4
+   },
+   "openDate": "2026-11-20 09:03:48",
+   "adult": false,
+   "tags": [
+    "버튜버",
+    "버츄얼",
+    "능능",
+    "일루전라이브",
+    "치레동"
+   ],
+   "category": "talk",
+   "channel": {
+    "id": "a63d77c588c72b4d09f203e1bd06edaa",
+    "name": "냐루 NYARU",
+    "image": "https://nng-phinf.pstatic.net/MjAyNDA5MDVfNTEg/MDAxNzI1NTA1OTE5ODQw.JWNM7n9EI4dSSthODc4lAXepVXeQJqWv6Xso6LPQmA0g.bZW9eFMpU24mh728KQUdBIRF2vlrivq0y48iQ54upisg.PNG/0C6F9152-B410-4DC1-A83C-4B0A831DC292-1725505919.png",
+    "verified": false,
+    "followers": 4002
+   }
+  },
+  {
+   "liveId": 22312042,
+   "title": "룰루랄라  (●-⩊-●)",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27818741/live/22312042/publish/69127382/thumbnail/image_720.jpg",
+   "viewers": 21,
+   "trend": {
+    "delta": 8,
+    "pct": 62
+   },
+   "openDate": "2026-11-20 12:01:18",
+   "adult": false,
+   "tags": [
+    "버츄얼",
+    "버튜버",
+    "일루전라이브",
+    "잔잔흐물수염"
+   ],
+   "category": "talk",
+   "channel": {
+    "id": "7a54f99072535a6976b2a43cf5a4d26a",
+    "name": "서몽 ILLUSION LIVE",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA0MDFfMTQ5/MDAxNzc1MDQxOTU3MjY4.scGP5HsfNiGcydIEY2WDb4OJghq_GCewy8d9jdrR5CIg.SLqMCiWnRoEl1SHa4FzmqJ_A-uU2q4bjFVzp0uDD_L8g.PNG/image.png",
+    "verified": false,
+    "followers": 3701
+   }
+  },
+  {
+   "liveId": 22312018,
+   "title": "이번시즌 첫 랭크 뉴우비 잘부탁드립니다´◡`",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/26482739/live/22312018/publish/69127347/thumbnail/image_720.jpg",
+   "viewers": 21,
+   "trend": {
+    "delta": -1,
+    "pct": -5
+   },
+   "openDate": "2026-11-20 12:00:34",
+   "adult": false,
+   "tags": [
+    "아스날",
+    "버튜버"
+   ],
+   "category": "talk",
+   "channel": {
+    "id": "416d86cee659cca1320eac67f0e6fc22",
+    "name": "바뀐",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA0MjBfMjUx/MDAxNzc2NjMwMjgzMTEz.5mhr5G3Kn4Zy8WeJ2QJH25-exoUqzdt0s3iAJNrC8f0g.mNcWCGEstPPfbsoM6-3fYUpCCGZYM5JbPcDa1LEdKlsg.PNG/image.png",
+    "verified": false,
+    "followers": 23610
+   }
+  },
+  {
+   "liveId": 22311980,
+   "title": "점심은 컵라묜",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/39678232/live/22311980/publish/69127305/thumbnail/image_720.jpg",
+   "viewers": 21,
+   "trend": {
+    "delta": 6,
+    "pct": 40
+   },
+   "openDate": "2026-11-20 11:59:42",
+   "adult": false,
+   "tags": [
+    "루미플래닛",
+    "베이킹",
+    "버튜버",
+    "버츄얼",
+    "신입"
+   ],
+   "category": "talk",
+   "channel": {
+    "id": "4ea75a0d255c7b40f5cbb2a350ea01b8",
+    "name": "레리리 RIRI",
+    "image": "https://nng-phinf.pstatic.net/MjAyNTEyMjZfNzIg/MDAxNzY2NjgzNDgxMTEx.lw_28MuPjtpIAtEgevt7tg9fBlhi_EcJ4vSgdZyBZzIg.8Bt6msp9ruv3BgbysnAOqKNQMpdLVA3nH0SNs0tHJAIg.PNG/image.png",
+    "verified": false,
+    "followers": 4091
+   }
+  },
+  {
+   "liveId": 22311942,
+   "title": "노래놀래올래얼래놀놀놀래",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/31465835/live/22311942/publish/69127262/thumbnail/image_720.jpg",
+   "viewers": 21,
+   "trend": {
+    "delta": 6,
+    "pct": 40
+   },
+   "openDate": "2026-11-20 11:58:00",
+   "adult": false,
+   "tags": [
+    "버튜버",
+    "vtuber",
+    "음악",
+    "노래",
+    "한식맛집"
+   ],
+   "category": "음악/노래",
+   "channel": {
+    "id": "bf74f594072e4430f3b12705a8079580",
+    "name": "달뽀",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA4MDhfMTA1/MDAxNzg2MTg3OTI0Mjcy.6Sf681_flLjpIYRO1wPprNPWWhX_wBjqSWxBnnqvwEYg.wGKF-N29Dr60DhalF3piWuqo4HKsUZBhSEwQxIbTuCQg.PNG/image.png",
+    "verified": false,
+    "followers": 1273
+   }
+  },
+  {
+   "liveId": 22311585,
+   "title": "디지몬마스터즈 점심시간의 도파민 보여드리죠",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27760749/live/22311585/publish/69126592/thumbnail/image_720.jpg",
+   "viewers": 21,
+   "trend": {
+    "delta": 3,
+    "pct": 17
+   },
+   "openDate": "2026-11-20 11:11:37",
+   "adult": false,
+   "tags": [
+    "버튜버",
+    "던전앤파이터",
+    "천하제일거상",
+    "디지몬마스터즈"
+   ],
+   "category": "디지몬마스터즈",
+   "channel": {
+    "id": "1bb109ad2fe81ace703c69fc73c7cb86",
+    "name": "만애쿠",
+    "image": "https://nng-phinf.pstatic.net/MjAyNDAyMTdfNjYg/MDAxNzA4MTAzNTcwMjk0.a26dxbbCVxOhQwBj5H32LY1sqPVl78i6UWxEeTBjIjsg.qcPPDBfdmxCCmLHJp5j2Nqt0zFZrdxQ_fGqIP6yPHuMg.JPEG/KakaoTalk_20231207_221539956.jpg",
+    "verified": false,
+    "followers": 449
+   }
+  },
+  {
+   "liveId": 22310840,
+   "title": "아침 잔잔 노래뱅",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/31988535/live/22310840/publish/69125245/thumbnail/image_720.jpg",
+   "viewers": 21,
+   "trend": {
+    "delta": 0,
+    "pct": 0
+   },
+   "openDate": "2026-11-20 09:59:43",
+   "adult": false,
+   "tags": [
+    "talk",
+    "목소리",
+    "버튜버",
+    "뉴비",
+    "버츄얼"
+   ],
+   "category": "음악/노래",
+   "channel": {
+    "id": "8e8cf052ea6fafd4f35be0ae453fdb17",
+    "name": "코사마",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjAyMTdfMjgx/MDAxNzcxMjg3ODUxNzky.TLmxM9BC7vQ5Oh9BkUuEZTKI74P1keTZgL49IuWIkRwg.gwEWB7RpSkyLBdMDKVVohjVLQ0O6shjBYJ-wJ1nMew8g.JPEG/image.jpg",
+    "verified": false,
+    "followers": 1010
+   }
+  },
+  {
+   "liveId": 22310479,
+   "title": "(버미육) 헐레벌떡",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27737410/live/22310479/publish/69124549/thumbnail/image_720.jpg",
+   "viewers": 21,
+   "trend": {
+    "delta": 3,
+    "pct": 17
+   },
+   "openDate": "2026-11-20 09:12:48",
+   "adult": false,
+   "tags": [
+    "버미육",
+    "버튜버",
+    "아트"
+   ],
+   "category": "그림/아트",
+   "channel": {
+    "id": "9a71adf8e4e761833f5173f4477acfe9",
+    "name": "미시코",
+    "image": "https://nng-phinf.pstatic.net/MjAyNTA3MjdfODQg/MDAxNzUzNjA4NjQxMzI1.3DSysUgKJcYrcqrBc36S09UEg6bi-ZzZevDfUqcEBNQg.7t7Jzj1lOLlJQTCcYR4gWtZwyPOjhYzMu8S4c3TPAqYg.PNG/vts-2024-11-18_10h01_13.png",
+    "verified": false,
+    "followers": 2346
+   }
+  },
+  {
+   "liveId": 22311396,
+   "title": "오늘도 GTA6 해야게찌~?",
+   "thumbnail": null,
+   "viewers": 20,
+   "trend": {
+    "delta": 0,
+    "pct": 0
+   },
+   "openDate": "2026-11-20 10:58:36",
+   "adult": true,
+   "tags": [
+    "버튜버",
+    "구미호",
+    "헤쿠",
+    "여자맞음",
+    "gta6"
+   ],
+   "category": "GTA 6",
+   "channel": {
+    "id": "d06d0f8f764dc783743dab1ee41bde12",
+    "name": "헤 쿠",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA5MjJfNTMg/MDAxNzkwMDQzOTQ0MTgz.jPf11ASVJu1haxPVpG7cCK0Gf-pdOynunJYWe45kGe8g.fbLyA3kWVv50WZwE8kYrwFlJnQbTm1zj8PimBcwHj8Ug.JPEG/image.jpg",
+    "verified": false,
+    "followers": 923
    }
   },
   {
    "liveId": 22311188,
    "title": "🌈[낮뱅데바데🐣밤뱅배그]✨온전히 너마늘 즐겨주마 김데바데. (!데바데/!시참)✨",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/29285171/live/22311188/publish/69125842/thumbnail/image_720.jpg",
-   "viewers": 16,
+   "viewers": 20,
+   "trend": {
+    "delta": 0,
+    "pct": 0
+   },
    "openDate": "2026-11-20 10:30:09",
    "adult": false,
    "tags": [
@@ -1681,54 +2149,144 @@
    }
   },
   {
-   "liveId": 22310924,
-   "title": "오전  특급  정보/ 12시 게임 추천 룰렛 ",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27860685/live/22310924/publish/69125363/thumbnail/image_720.jpg",
-   "viewers": 16,
-   "openDate": "2026-11-20 10:01:44",
+   "liveId": 22310863,
+   "title": "빚쟁이",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/48127642/live/22310863/publish/69125265/thumbnail/image_720.jpg",
+   "viewers": 20,
+   "trend": {
+    "delta": -2,
+    "pct": -9
+   },
+   "openDate": "2026-11-20 10:00:05",
    "adult": false,
    "tags": [
+    "신입",
     "버튜버",
-    "종합게임",
-    "배치기"
+    "메이플"
    ],
-   "category": "talk",
+   "category": "메이플스토리",
    "channel": {
-    "id": "d4a790246202e97cfd90a193e17ebcb1",
-    "name": "겜나나",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA0MDJfNSAg/MDAxNzc1MDU3NTMyMDIw.W43Jl7AYH99Az5kfH4nI1oX435ktE72ZPfXvLwnavVcg.UBGAiUDn-_0n4ac0l9Ow1nafMyxThnDNbb3Nd14E6XUg.PNG/image.png",
+    "id": "2fd221fd3f4baeb71372ca56d84b841d",
+    "name": "마리맑음",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA0MjNfMTMy/MDAxNzc2OTE1NDIwMzkx.YFWrLcRNs_02Wu8VMlhF9EtW37Pf_Oy8JY7FBC0kp4Eg.FFrLsQmkr164RB7S_RSy4GQEy6k1EosUjgAZFKqKgxgg.PNG/image.png",
     "verified": false,
-    "followers": 6868
+    "followers": 285
    }
   },
   {
-   "liveId": 22310847,
-   "title": "11시부터 에스더 노래 월드컵 128강 할 예정",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/49579996/live/22310847/publish/69125252/thumbnail/image_720.jpg",
-   "viewers": 16,
-   "openDate": "2026-11-20 09:59:51",
+   "liveId": 22312022,
+   "title": "오늘은 핑꾸야 /ᐠ ᓀωᓂ.マ",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/35605858/live/22312022/publish/69127354/thumbnail/image_720.jpg",
+   "viewers": 19,
+   "trend": null,
+   "openDate": "2026-11-20 12:00:46",
    "adult": false,
    "tags": [
-    "vtuber",
-    "버츄얼",
     "버튜버",
-    "라디오",
-    "신입"
+    "베리타",
+    "요괴",
+    "asmr",
+    "포켓몬"
    ],
-   "category": "음악/노래",
+   "category": "talk",
    "channel": {
-    "id": "7adaadec7096df91b56900f999d69016",
-    "name": "로요 R0Y0",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA4MjdfMjU0/MDAxNzg3ODExODM4MzMy.b5_B81QRxsfXQcVculJYIb_zFUptW34-6J4WTH7tl1Mg.WI1YLoO4ZMMvTZca6lRcFzuH_5VcyiPchw6wdbkwhVgg.PNG/image.png",
+    "id": "19e50acc081bbbe156c836dde6becb65",
+    "name": "치카게 사쿠야",
+    "image": "https://nng-phinf.pstatic.net/MjAyNTA5MTFfMTg2/MDAxNzU3NTg3MTUzNTcz._r1FfMyomhPfrhZ8Xzj1DtgXLkmfSKpWugF-lbBgw0kg.Rn3PLW8fDKpbYmVsa4AqYx3tVJehpp-NI4ESMqnqvbog.JPEG/image.jpg",
     "verified": false,
-    "followers": 2641
+    "followers": 5008
+   }
+  },
+  {
+   "liveId": 22311756,
+   "title": "이 게임 하려고 잠도 안자고 달려왔다. [ 데스게임 보고서 ]",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/42560129/live/22311756/publish/69126920/thumbnail/image_720.jpg",
+   "viewers": 19,
+   "trend": {
+    "delta": 4,
+    "pct": 27
+   },
+   "openDate": "2026-11-20 11:33:49",
+   "adult": false,
+   "tags": [
+    "신입",
+    "버튜버",
+    "종합게임",
+    "저챗",
+    "야랄"
+   ],
+   "category": "종합 게임",
+   "channel": {
+    "id": "d83b5c6b9f6e51294034a7c53caa0ab7",
+    "name": "심팔두",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA5MDJfMjIy/MDAxNzg4MzUxNTc3NTUy.i7fHtrydDM7quxVkYLeciObqW1DWNcG_Wpx_oOA30QQg.6Fu4zDgt83hF68ViiuYuspHU7-uqyvEXuKpEKG5UfYcg.PNG/image.png",
+    "verified": false,
+    "followers": 1021
+   }
+  },
+  {
+   "liveId": 22311406,
+   "title": "워독스 망한 거 같은데 아직 못 놓음...아직 희망이 있나요?",
+   "thumbnail": null,
+   "viewers": 19,
+   "trend": {
+    "delta": 2,
+    "pct": 12
+   },
+   "openDate": "2026-11-20 10:59:03",
+   "adult": false,
+   "tags": [
+    "소통",
+    "이터널리턴",
+    "버츄얼",
+    "가끔캠방",
+    "워독스초보"
+   ],
+   "category": "워독스",
+   "channel": {
+    "id": "a57df5bebba78db17189b24b54d5a2e4",
+    "name": "모다해",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjAyMjRfOTAg/MDAxNzcxODc1OTM2OTk5.KWJ3erFLuX1CB44HWOFBAllzrsxS1O3lsyCnIvAnjjgg.7Y_s4vuc_m-B4Kai6PluIJjUw8ISPOe8bLsCwrma8QEg.PNG/image.png",
+    "verified": false,
+    "followers": 1970
+   }
+  },
+  {
+   "liveId": 22311275,
+   "title": "[PS5pro][GTA6] 밤새 제이슨 옹댕이 생각이 나쒀...이런 할모니라 미야네",
+   "thumbnail": null,
+   "viewers": 19,
+   "trend": {
+    "delta": -1,
+    "pct": -5
+   },
+   "openDate": "2026-11-20 10:42:00",
+   "adult": true,
+   "tags": [
+    "플스5pro",
+    "플스5",
+    "gta6",
+    "버츄얼",
+    "영감있음"
+   ],
+   "category": "GTA 6",
+   "channel": {
+    "id": "521773e099f57be9404b932fa76677de",
+    "name": "또 양",
+    "image": "https://nng-phinf.pstatic.net/MjAyNDAzMTRfMTk5/MDAxNzEwMzgyNzk4MDg2.pTuJcXZ1eWOV7eA0x7WQL0W1vQtb-EgZt9gRATpx6b4g.Aht0VqSMX9nOCOSorZNb7jW5WS-OKjri_YZagijlfm8g.JPEG/NNG-17103827977564225412942312944781.jpg",
+    "verified": false,
+    "followers": 1356
    }
   },
   {
    "liveId": 22310583,
-   "title": "금요일 아침, 저랑 어떠세요?",
+   "title": "금요일 아침, 저랑 어떠세요? /12시 게임룰렛",
    "thumbnail": null,
-   "viewers": 16,
+   "viewers": 19,
+   "trend": {
+    "delta": 1,
+    "pct": 6
+   },
    "openDate": "2026-11-20 09:26:05",
    "adult": false,
    "tags": [
@@ -1748,33 +2306,122 @@
    }
   },
   {
-   "liveId": 22310033,
-   "title": "연차쓴 남편과 평화로운 부부 와우",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/37357888/live/22310033/publish/69123634/thumbnail/image_720.jpg",
-   "viewers": 16,
-   "openDate": "2026-11-20 08:00:49",
+   "liveId": 22311812,
+   "title": "릴리쨩 30뽑 안쪽으로 나와줬음해 음~무기는 20뽑? 근데 안나와줄거지? 응? 나 멘헤라 온다? 나 나와줄거라고 믿고있는데 안나와주면 나 멘헤라 씨게 터져서 밧줄들고 쫓아간다?응?",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/30834783/live/22311812/publish/69127026/thumbnail/image_720.jpg",
+   "viewers": 18,
+   "trend": {
+    "delta": 5,
+    "pct": 38
+   },
+   "openDate": "2026-11-20 11:41:49",
    "adult": false,
    "tags": [
-    "유부녀",
-    "금쪽이",
+    "저챗",
+    "버튜버",
+    "신입",
+    "유사버튜버",
+    "종겜"
+   ],
+   "category": "명조:워더링 웨이브",
+   "channel": {
+    "id": "d06d354816380d071a3ea98411c60bfb",
+    "name": "박시러",
+    "image": "https://nng-phinf.pstatic.net/MjAyNDA2MjlfMSAg/MDAxNzE5NjY5MDI3OTk3.014espcf9ybAzqIT5hbeyxNnJeZwOUXo8S-qRLexI4Ug.m6hUfMzp42UAqErBST-shwuFBcEvZnSErRmg6Eipafgg.PNG/0acd22086fc2bf2e22.png",
+    "verified": false,
+    "followers": 1112
+   }
+  },
+  {
+   "liveId": 22311470,
+   "title": "이화니 후 콜옵/오늘은 진짜진짜 엔딩보나?!!",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/37965380/live/22311470/publish/69126366/thumbnail/image_720.jpg",
+   "viewers": 18,
+   "trend": {
+    "delta": 4,
+    "pct": 29
+   },
+   "openDate": "2026-11-20 11:00:38",
+   "adult": false,
+   "tags": [
+    "버츄얼",
+    "신입",
+    "이환",
+    "목소리",
+    "명조"
+   ],
+   "category": "이환",
+   "channel": {
+    "id": "6eacc4757a8ebacc190aa642fef86b16",
+    "name": "냐류룽",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjEwMTJfMjMw/MDAxNzkxNzk5MDYzOTY2.npTKMamlszoDkJKukBgCYjId-WsMm8BWPd2Ab7MSJOMg.mt9C2AdIfthslIX-M7KchiXwpWCbnlj38eTs-yJWxZEg.PNG/image.png",
+    "verified": false,
+    "followers": 191
+   }
+  },
+  {
+   "liveId": 22310847,
+   "title": "11시부터 에스더 노래 월드컵 128강 할 예정",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/49579996/live/22310847/publish/69125252/thumbnail/image_720.jpg",
+   "viewers": 18,
+   "trend": {
+    "delta": 2,
+    "pct": 12
+   },
+   "openDate": "2026-11-20 09:59:51",
+   "adult": false,
+   "tags": [
+    "vtuber",
     "버츄얼",
     "버튜버",
-    "프로젝트하루"
+    "라디오",
+    "신입"
    ],
-   "category": "월드 오브 워크래프트: 포에버",
+   "category": "음악/노래",
    "channel": {
-    "id": "df611e80a67667f3bfb39e4f5af9914e",
-    "name": "욤미 Yommi",
-    "image": "https://nng-phinf.pstatic.net/MjAyNTA4MDhfODAg/MDAxNzU0NjYyMzYxNTY3.CpA9B2BhfeX4jQt4yalpXddIpe21aIJx9BxskaHAbfAg.PZ-Wa3MUyHWmC3SZQclEAc3Xps7K6ltLGQXSXu088q0g.PNG/KakaoTalk_20250808_231117446.png",
+    "id": "7adaadec7096df91b56900f999d69016",
+    "name": "로요 R0Y0",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA4MjdfMjU0/MDAxNzg3ODExODM4MzMy.b5_B81QRxsfXQcVculJYIb_zFUptW34-6J4WTH7tl1Mg.WI1YLoO4ZMMvTZca6lRcFzuH_5VcyiPchw6wdbkwhVgg.PNG/image.png",
     "verified": false,
-    "followers": 1437
+    "followers": 2641
+   }
+  },
+  {
+   "liveId": 22310789,
+   "title": "이 아이가 릴리를 뽑을 수 있을까요",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27951870/live/22310789/publish/69125168/thumbnail/image_720.jpg",
+   "viewers": 18,
+   "trend": {
+    "delta": 4,
+    "pct": 29
+   },
+   "openDate": "2026-11-20 09:57:52",
+   "adult": false,
+   "tags": [
+    "버추얼",
+    "버튜버",
+    "젊탱버",
+    "종합게임",
+    "구라쟁이"
+   ],
+   "category": "명조:워더링 웨이브",
+   "channel": {
+    "id": "3cd51d9cb1dde566c5629b1dcebdf57b",
+    "name": "타마고 아치",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA0MjZfMTY2/MDAxNzc3MTYyOTIzMTk2.BSewEBbSCtPtXucA2vXbi5doyzyPuNWGZmFhoNhEZ8cg._UmWuW-IddAJG5nREfZHzBpe5oY41R9IQPWSFKU9juQg.PNG/image.png",
+    "verified": false,
+    "followers": 1205
    }
   },
   {
    "liveId": 22298510,
    "title": "[라온위버스] 내실 조아 청년 수집품 다모은다 오늘",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/34472746/live/22298510/publish/69106388/thumbnail/image_720.jpg",
-   "viewers": 16,
+   "viewers": 17,
+   "trend": {
+    "delta": 2,
+    "pct": 13
+   },
    "openDate": "2026-11-19 18:18:27",
    "adult": false,
    "tags": [
@@ -1793,10 +2440,41 @@
    }
   },
   {
+   "liveId": 22311743,
+   "title": "[버미육] 방 뒤집어 엎고 몸살난 우파루파",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27780252/live/22311743/publish/69126894/thumbnail/image_720.jpg",
+   "viewers": 16,
+   "trend": {
+    "delta": 5,
+    "pct": 45
+   },
+   "openDate": "2026-11-20 11:31:58",
+   "adult": false,
+   "tags": [
+    "버미육",
+    "vtuber",
+    "버튜버",
+    "버츄얼",
+    "만화가"
+   ],
+   "category": "talk",
+   "channel": {
+    "id": "9a3de109da119b34dc6596c11468470c",
+    "name": "웨히히",
+    "image": "https://nng-phinf.pstatic.net/MjAyNTA5MDJfMTAw/MDAxNzU2ODIwODA2NzU3.TscgUS5d6b713LqfavkW4Fxczofo5BsvV10RXwZCD-Mg.p394NY-3G4bRpCnsODESHzUK4rnTAmH-14t4_KcEkBog.PNG/11122.png",
+    "verified": false,
+    "followers": 1833
+   }
+  },
+  {
    "liveId": 22311504,
-   "title": "우리집 양념소스 레시피 공개합니다",
+   "title": "저챗할 유입들 구함~ 빵게들 구함!!! 불량식품 얘기중",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/38197612/live/22311504/publish/69126417/thumbnail/image_720.jpg",
-   "viewers": 15,
+   "viewers": 16,
+   "trend": {
+    "delta": 1,
+    "pct": 7
+   },
    "openDate": "2026-11-20 11:01:56",
    "adult": false,
    "tags": [
@@ -1815,32 +2493,14 @@
    }
   },
   {
-   "liveId": 22311070,
-   "title": "[데뷔 4일차] 만나서 반가와",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/34374350/live/22311070/publish/69125617/thumbnail/image_720.jpg",
-   "viewers": 15,
-   "openDate": "2026-11-20 10:15:47",
-   "adult": false,
-   "tags": [
-    "버츄얼",
-    "v",
-    "버튜버",
-    "노래"
-   ],
-   "category": "talk",
-   "channel": {
-    "id": "df0e20ff2e2b966a2e4032054741c2e4",
-    "name": "자빈123",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjExMTdfMTkg/MDAxNzk0ODg1MDg5MjQ2.3oJrHY6iDsgqQv02efSFv6aVDXbMru-HihMeEMwkHDcg.Hq23cDHg2R_DaXCNP-z_5jK_gvCW63n5ZnH_xTdG-h4g.JPEG/image.jpg",
-    "verified": false,
-    "followers": 2235
-   }
-  },
-  {
    "liveId": 22310851,
    "title": "40명이 죽었다. 왜. 누가. 어떻게!!!!!!!!!!!!!!!!!!!!!!!",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/34503000/live/22310851/publish/69125256/thumbnail/image_720.jpg",
-   "viewers": 15,
+   "viewers": 16,
+   "trend": {
+    "delta": 0,
+    "pct": 0
+   },
    "openDate": "2026-11-20 09:59:58",
    "adult": false,
    "tags": [
@@ -1862,7 +2522,11 @@
    "liveId": 22310849,
    "title": "느에에엥 (,,◕﹃◕,,)♡",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27736596/live/22310849/publish/69125254/thumbnail/image_720.jpg",
-   "viewers": 15,
+   "viewers": 16,
+   "trend": {
+    "delta": 0,
+    "pct": 0
+   },
    "openDate": "2026-11-20 09:59:56",
    "adult": false,
    "tags": [
@@ -1882,48 +2546,82 @@
    }
   },
   {
-   "liveId": 22310382,
-   "title": "[신입] 방종하지말자고요 ? 거절합니다",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/47656536/live/22310382/publish/69124346/thumbnail/image_720.jpg",
+   "liveId": 22312002,
+   "title": "하요가 죽지않고 노래뱅으로 돌아와따 ฅ^•ﻌ•^ฅ",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/47669513/live/22312002/publish/69127328/thumbnail/image_720.jpg",
    "viewers": 15,
-   "openDate": "2026-11-20 09:00:53",
+   "trend": {
+    "delta": 2,
+    "pct": 15
+   },
+   "openDate": "2026-11-20 12:00:11",
    "adult": false,
    "tags": [
+    "루나데이즈",
     "버튜버",
-    "신입",
-    "소통",
-    "라디오"
-   ],
-   "category": "세이 노! 모어",
-   "channel": {
-    "id": "ef4231499f6c0e73ab1b15bdc20fd949",
-    "name": "연단오",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA2MTlfMjUz/MDAxNzgxODUzNDkwOTQy.ScKNNNlMD2Wf2q76j9Aleom8uFs34nijgHAqi-3o5dAg.zSc6auw4bMhVDSZXwv-adPUVRotSJnLckuGr16Pb7lsg.PNG/image.png",
-    "verified": false,
-    "followers": 538
-   }
-  },
-  {
-   "liveId": 22310295,
-   "title": "일단 아트머그 상세페이지 수정하는 게릴라",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27346870/live/22310295/publish/69124187/thumbnail/image_720.jpg",
-   "viewers": 15,
-   "openDate": "2026-11-20 08:52:56",
-   "adult": false,
-   "tags": [
-    "갸루",
-    "리밋",
-    "버튜버",
-    "소통",
-    "패션"
+    "츠키아라",
+    "매도",
+    "도마"
    ],
    "category": "talk",
    "channel": {
-    "id": "9e107eff3724459489486e721054e7bf",
-    "name": "이로아 IROA",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjExMTFfMjI4/MDAxNzk0Mzg5MTI2ODMy.ZpFxsm82ufN-16zjtNJjFP9aYoyW137aZzQGRDiHPrYg.1UiTRSXd-cYdlhXvrAttxShayrX15mJ3FN28_QVyAE4g.JPEG/image.jpg",
+    "id": "a7e1f3166ce8d8ad86e1f85fc07cec1e",
+    "name": "아오하라 하요",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA4MjRfMTYx/MDAxNzg3NTY2MDczNjEw.wChE9ITLtpti64ew9-ZFM4-q013Y4k96cMu-A28dkBAg.AN0ruIaf2EyuLzHXFHOnRb02_UAv-qFfx78IciwjSt8g.PNG/image.png",
     "verified": false,
-    "followers": 1784
+    "followers": 309
+   }
+  },
+  {
+   "liveId": 22311738,
+   "title": "낮방 짧",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27934464/live/22311738/publish/69126885/thumbnail/image_720.jpg",
+   "viewers": 15,
+   "trend": {
+    "delta": 2,
+    "pct": 15
+   },
+   "openDate": "2026-11-20 11:31:36",
+   "adult": false,
+   "tags": [
+    "버츄얼",
+    "infp",
+    "히키즈",
+    "히키코모리"
+   ],
+   "category": "talk",
+   "channel": {
+    "id": "e8ff504bacb0216638849e6a7932615a",
+    "name": "비야무",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA2MzBfNTgg/MDAxNzgyODE0MDkyOTgy.pkqNaZTq_6ZKPfx-5OQazxHN4jFftvJ8G_f9S8MnrhAg.zHOZrMjgbCD6VkHixPflAn0WMHr1Qlx19A74BcI8DQYg.PNG/image.png",
+    "verified": false,
+    "followers": 1796
+   }
+  },
+  {
+   "liveId": 22310687,
+   "title": "[V][📺+1736] 김귤몽 생일 축하해 굿모닝",
+   "thumbnail": null,
+   "viewers": 15,
+   "trend": {
+    "delta": 3,
+    "pct": 25
+   },
+   "openDate": "2026-11-20 09:41:23",
+   "adult": true,
+   "tags": [
+    "버츄얼",
+    "발음이슈",
+    "즐겜스트리머",
+    "세상조신한사람"
+   ],
+   "category": "GTA 6",
+   "channel": {
+    "id": "8d5ed2dcfde122205a547a5dc6f0671d",
+    "name": "귤탱이몽",
+    "image": "https://nng-phinf.pstatic.net/MjAyMzEyMTlfMjgy/MDAxNzAyOTg1MDA4ODY2.RgDx7SKd8zEZZu7E88JuQx0Cymo26GVBBv6YCy6YIwYg.6CGwHVIbVY0Vr_20HW3OJvpfvQO7LqWfvXm62hl4Jpcg.JPEG/NNG-17029850087593759416818576502047.jpg",
+    "verified": false,
+    "followers": 1023
    }
   },
   {
@@ -1931,6 +2629,10 @@
    "title": "시보일차 짝짝짝 홀짝",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27363084/live/22310183/publish/69123963/thumbnail/image_720.jpg",
    "viewers": 15,
+   "trend": {
+    "delta": 1,
+    "pct": 7
+   },
    "openDate": "2026-11-20 08:31:02",
    "adult": false,
    "tags": [
@@ -1949,212 +2651,135 @@
    }
   },
   {
-   "liveId": 22298790,
-   "title": "(룰렛1+1)💙!이벤트💙채팅규칙필독",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/30934786/live/22298790/publish/69106870/thumbnail/image_720.jpg",
+   "liveId": 22309686,
+   "title": "( •̀ ω •́ )✧ 오늘은 그림 룰렛 하는 날!!",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/40875905/live/22309686/publish/69122764/thumbnail/image_720.jpg",
    "viewers": 15,
-   "openDate": "2026-11-19 18:33:13",
+   "trend": {
+    "delta": -1,
+    "pct": -6
+   },
+   "openDate": "2026-11-20 06:40:21",
    "adult": false,
    "tags": [
-    "버튜버",
-    "배틀그라운드",
-    "종합게임",
-    "버츄얼",
-    "촉각슈트"
+    "신입",
+    "버츄얼"
    ],
    "category": "그림/아트",
    "channel": {
-    "id": "3529ba0837370fda96671bac835b9e06",
-    "name": "청 시안",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA3MjVfMTU4/MDAxNzg0OTY0MjA1MTQ4.2T_EsDk6iZpB8eTX_u9puYNJDgrgbr7VkRMdAxQ_3RUg.RsZijGm8BZ1r7_SjUerJ1Yb6prtiQuFpCRYj4xaJfPUg.PNG/image.png",
+    "id": "90019787d7f0f02c270f431d0b4c5dd7",
+    "name": "PiNA피나",
+    "image": "https://nng-phinf.pstatic.net/MjAyNTA4MDZfMTU2/MDAxNzU0NDY1NjIxMTM1.R7eolZYlrqKoPcHu9CdkLXA4BP2sivNVSIEpW-fAN-4g.RW3oVe4WwJKkJwksTjbUTvKa3g2DCQAbDbQZ0y5SpAog.PNG/www.png",
     "verified": false,
-    "followers": 1655
+    "followers": 308
    }
   },
   {
-   "liveId": 22311539,
-   "title": "오늘은 삼국지 같이보기!! w.리샤",
-   "thumbnail": null,
+   "liveId": 22311971,
+   "title": "오늘 벌써 금요일 ♥",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/45359315/live/22311971/publish/69127289/thumbnail/image_720.jpg",
    "viewers": 14,
-   "openDate": "2026-11-20 11:04:19",
+   "trend": null,
+   "openDate": "2026-11-20 11:59:10",
    "adult": false,
    "tags": [
-    "신입",
-    "버츄얼",
     "버튜버",
-    "종겜",
-    "오브스타하우스"
-   ],
-   "category": "드라마",
-   "channel": {
-    "id": "8d34b21830132425ba82bd6fe8e4fdb0",
-    "name": "레타 포스트",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjEwMTBfMjE3/MDAxNzkxNjAzNTc1Njcx.2Sd97oPSRs59vqF3nj-pGw_YCLp12MaoFgzgXyopbV4g.NfESjd_9cKokDRF0eVcbrk2OU6ZHEc13UPCiv2Rp90kg.PNG/image.png",
-    "verified": false,
-    "followers": 348
-   }
-  },
-  {
-   "liveId": 22311490,
-   "title": "🌊💙일루와잇!",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/49034850/live/22311490/publish/69126396/thumbnail/image_720.jpg",
-   "viewers": 14,
-   "openDate": "2026-11-20 11:01:14",
-   "adult": false,
-   "tags": [
-    "토크",
-    "종합게임",
-    "커피중독",
-    "버츄얼"
+    "신입",
+    "룰렛",
+    "유입환영"
    ],
    "category": "talk",
    "channel": {
-    "id": "e764cd10c1b63a30b63fd32717783b1f",
-    "name": "오늘도나츠",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA4MTJfNzIg/MDAxNzg2NTQyOTU2NjI1.gtkvm4j9AiqNaiaAHNpbErn3dEUiJCnJOFtQoj8VJ74g.yyYoERDL9ZGHtUbo-FSkmLDPtTo6SG6WBooDEE9KseUg.PNG/image.png",
+    "id": "96e7f7df22670b394e07d1cd4cae1ee4",
+    "name": "먕먕몽",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjExMDRfODgg/MDAxNzkzNzc5MTg1Njg4.RDX2xY47q8fIy8ISQ7S4KUI9pDlXUGKI9lIEVw4_wT8g.znG4HgLUzcvNoezo8YD3Gy42a8UXr9i0KrRqacfH8xMg.PNG/image.png",
     "verified": false,
-    "followers": 906
+    "followers": 1124
    }
   },
   {
-   "liveId": 22311360,
-   "title": "[모코코 14일차] 셀프 휴방 반납한 막내",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/49068724/live/22311360/publish/69126186/thumbnail/image_720.jpg",
+   "liveId": 22311789,
+   "title": "아이온 오랜만?!너 쫌 할거많더라 그래서 좀 귀찮아",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27486711/live/22311789/publish/69126991/thumbnail/image_720.jpg",
    "viewers": 14,
-   "openDate": "2026-11-20 10:54:21",
+   "trend": {
+    "delta": 1,
+    "pct": 8
+   },
+   "openDate": "2026-11-20 11:39:10",
    "adult": false,
    "tags": [
-    "신입",
-    "모코코",
-    "wwe",
-    "팔레튜드",
+    "vtuber",
     "버튜버"
    ],
-   "category": "로스트아크",
+   "category": "아이온2",
    "channel": {
-    "id": "f95b8bb47c03b72c558f68c484786707",
-    "name": "마토라",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjExMDlfMTg1/MDAxNzk0MTkwNTQ2ODky.T7tUqreeVOeCVYQX6vbfY4xhT9KL5ndMxN42jw4GaaIg.AIZrZcFN_kx7ZEBz2eOBniGJ7-_PTN-XKhfLTEuI_3cg.PNG/image.png",
+    "id": "74ef5cf32251b60ae4ca94808a130aaa",
+    "name": "한애정",
+    "image": "https://nng-phinf.pstatic.net/MjAyNDA0MzBfMjgz/MDAxNzE0NDg2NjQ4OTU4.HAFHHCSMDshyuJ5aJjdBVWCJh6KXl8BDMDPc_D8V_Uog.RceZKov-yWw5NA2Ud12MtqH0i1mzmcohiMjZqAGPUccg.JPEG/NNG-17144866501496015224694095719969.jpg",
     "verified": false,
-    "followers": 100
+    "followers": 1226
    }
   },
   {
-   "liveId": 22311304,
-   "title": "다음주에 캠 키는 사람",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/29105877/live/22311304/publish/69126075/thumbnail/image_720.jpg",
+   "liveId": 22311070,
+   "title": "[데뷔 4일차] 저점매수 해주세요 유 입 환 영",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/34374350/live/22311070/publish/69125617/thumbnail/image_720.jpg",
    "viewers": 14,
-   "openDate": "2026-11-20 10:46:02",
+   "trend": {
+    "delta": -1,
+    "pct": -7
+   },
+   "openDate": "2026-11-20 10:15:47",
    "adult": false,
    "tags": [
-    "신입",
-    "여캠",
-    "talk",
     "버츄얼",
-    "꿀보이스"
+    "v",
+    "버튜버",
+    "노래"
    ],
    "category": "talk",
    "channel": {
-    "id": "81e73bb29a5ceb1ebb25af37aed09ca0",
-    "name": "리륭",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA2MDFfNTQg/MDAxNzgwMjU3NTAwNDg4.nFC5CF9T6RS8NHEiw9oJogpFsuzF2Yl9ef6jKuYoS70g.de0-c_SUiPbap45gX6p2CDF-e-P0EeBM1s0_ORDsTcQg.JPEG/image.jpg",
+    "id": "df0e20ff2e2b966a2e4032054741c2e4",
+    "name": "자빈123",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjExMTdfMTkg/MDAxNzk0ODg1MDg5MjQ2.3oJrHY6iDsgqQv02efSFv6aVDXbMru-HihMeEMwkHDcg.Hq23cDHg2R_DaXCNP-z_5jK_gvCW63n5ZnH_xTdG-h4g.JPEG/image.jpg",
     "verified": false,
-    "followers": 4217
+    "followers": 2236
    }
   },
   {
-   "liveId": 22310627,
-   "title": "and Roger : 누군데 우리 집에 있어!! 💌 !룰렛",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/46115832/live/22310627/publish/69124828/thumbnail/image_720.jpg",
+   "liveId": 22310562,
+   "title": "[룰렛 4일차] 천천히 와우하기",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27791089/live/22310562/publish/69124681/thumbnail/image_720.jpg",
    "viewers": 14,
-   "openDate": "2026-11-20 09:31:11",
-   "adult": false,
-   "tags": [
-    "데뷔",
-    "뉴걸",
-    "소통",
-    "아침",
-    "버튜버"
-   ],
-   "category": "종합 게임",
-   "channel": {
-    "id": "6a5ac2954c2dd7d04caa01a5bd864f24",
-    "name": "얌하",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA5MTNfMjYx/MDAxNzg5MjM4ODY0OTA2.J3KsH_HSDsvOtkBn-3c9fC12VMeoCGq9HbCWP6_Y3Jgg.76tAlI-jSFI3t0xE-p73deRcE1bYnNwZLxnE8eXNk_kg.JPEG/image.jpg",
-    "verified": false,
-    "followers": 1014
-   }
-  },
-  {
-   "liveId": 22310594,
-   "title": "오늘도 엘든링",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27295911/live/22310594/publish/69124750/thumbnail/image_720.jpg",
-   "viewers": 14,
-   "openDate": "2026-11-20 09:27:27",
+   "trend": {
+    "delta": -2,
+    "pct": -12
+   },
+   "openDate": "2026-11-20 09:22:55",
    "adult": false,
    "tags": [
     "종합게임",
-    "가끔버튜버"
+    "버튜버"
    ],
-   "category": "엘든 링",
+   "category": "월드 오브 워크래프트: 포에버",
    "channel": {
-    "id": "73734613d23b30997c4ea879a085280c",
-    "name": "고롱롱",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA0MDFfMTc3/MDAxNzc1MDU0Nzg3NDUz.INDsPQPYfH0hgagdd0J1FxKoSKgVD-lUlRDKtfFEeDIg.sBjxXzyhGxX3n7kscNFXYPAzAOIJ8zH6P_byyktyb-Mg.PNG/image.png",
+    "id": "321e636891d7142669250534b184413c",
+    "name": "두푸",
+    "image": "https://nng-phinf.pstatic.net/MjAyNTA1MzFfMjEg/MDAxNzQ4NjkyMDU5MDkx.ezuOnBQeisJL3YmP8UP4iqfv5Z_LntYUoDfMoRT8utYg.63Jetn4ODSb9PRVWf47ao6rjkuxJHlIbTEAEsAvDGAUg.PNG/%EB%91%90%ED%91%B8%EB%8B%98_%EC%B1%84%EC%83%89_%EC%99%84%EC%84%B1%EB%B3%B8%28%ED%9D%B0%EB%B0%B0%EA%B2%BD%29.png",
     "verified": false,
-    "followers": 560
-   }
-  },
-  {
-   "liveId": 22311654,
-   "title": "어서오세요. 루리커피 입니다. 주문은 게이샤인가요?",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/31917974/live/22311654/publish/69126725/thumbnail/image_720.jpg",
-   "viewers": 13,
-   "openDate": "2026-11-20 11:20:01",
-   "adult": false,
-   "tags": [
-    "라이브루리",
-    "버튜버",
-    "루리커피",
-    "버추얼유튜버",
-    "게이샤"
-   ],
-   "category": "talk",
-   "channel": {
-    "id": "3ef2872698aee4e944d808f27abca3a9",
-    "name": "냐루비카페",
-    "image": "https://nng-phinf.pstatic.net/MjAyNDA4MTBfNDQg/MDAxNzIzMjcyNDQ4NTQ2.zsKKnLTvngszvxFmuZsIb-Fnuh_L7hhKiIS91UoUfmYg.NhkzSoABO_EW-FUUeZrknXKRSCvTRKA_Ln7SNk-KLpMg.PNG/6e4801ad76a952a7.png",
-    "verified": false,
-    "followers": 7566
-   }
-  },
-  {
-   "liveId": 22311394,
-   "title": "동그란건 좋은거야",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27342009/live/22311394/publish/69126257/thumbnail/image_720.jpg",
-   "viewers": 13,
-   "openDate": "2026-11-20 10:58:26",
-   "adult": false,
-   "tags": [
-    "버튜버",
-    "버츄얼",
-    "귀여움",
-    "듣방최적화"
-   ],
-   "category": "talk",
-   "channel": {
-    "id": "8c10d0b3eca53a19d8396e276bed1e17",
-    "name": "감라빛",
-    "image": "https://nng-phinf.pstatic.net/MjAyNTAzMTBfMTkx/MDAxNzQxNjAwODYwMjUy.R4Jm4Nqc7WEQk3ucdpkKbmCuFf0iHyWvk2u7e0mzb1Mg.GJblbRfHzauGtLxAnsMoowCxNA0W50YXpng4P3jg7FMg.PNG/2.png",
-    "verified": false,
-    "followers": 1716
+    "followers": 437
    }
   },
   {
    "liveId": 22310028,
    "title": "💫뉴비 7일차 / 나 진짜 아무것도 몰라 ㅜㅠㅜ❤️☁️",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/41288038/live/22310028/publish/69123625/thumbnail/image_720.jpg",
-   "viewers": 13,
+   "viewers": 14,
+   "trend": {
+    "delta": 2,
+    "pct": 17
+   },
    "openDate": "2026-11-20 08:00:34",
    "adult": false,
    "tags": [
@@ -2170,37 +2795,44 @@
     "name": "잘님",
     "image": "https://nng-phinf.pstatic.net/MjAyNjA3MzFfMTA1/MDAxNzg1NDk5MTc5ODg1.h9U0UH61oS6e10DviuzVGhw5YChkdkr1SRlF6JEvD60g.HzySnv3x8vCGwgo81ufux9oUBqj-rPno0CpuhpZWockg.PNG/image.png",
     "verified": false,
-    "followers": 754
+    "followers": 755
    }
   },
   {
-   "liveId": 22309383,
-   "title": "❤️LINE❤️행배엥~배린이팟  날씨춥다앙  룰렛on [미션환영/쉴드환영]\n #소통#음악맛집",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/33499183/live/22309383/publish/69121864/thumbnail/image_720.jpg",
+   "liveId": 22311394,
+   "title": "동그란건 좋은거야",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27342009/live/22311394/publish/69126257/thumbnail/image_720.jpg",
    "viewers": 13,
-   "openDate": "2026-11-20 04:38:25",
+   "trend": {
+    "delta": 2,
+    "pct": 18
+   },
+   "openDate": "2026-11-20 10:58:26",
    "adult": false,
    "tags": [
-    "거상",
-    "뉴비",
-    "배그",
-    "종합게임",
-    "버츄얼"
+    "버튜버",
+    "버츄얼",
+    "귀여움",
+    "듣방최적화"
    ],
-   "category": "PUBG: 배틀그라운드",
+   "category": "음악/노래",
    "channel": {
-    "id": "8fd06e2a5145109c399795140b63987d",
-    "name": "문여니",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjEwMjlfMzkg/MDAxNzkzMjgyNDA3Mzgy.Zu1mo6aQZ-eqGvLxTqiPFg4uO0ZfeEsilkiapWq7PD0g.L-tdd9SHzN5Rz9X5Ao0yflLuYHw9XLtrc1OY4kR0mI8g.PNG/image.png",
+    "id": "8c10d0b3eca53a19d8396e276bed1e17",
+    "name": "감라빛",
+    "image": "https://nng-phinf.pstatic.net/MjAyNTAzMTBfMTkx/MDAxNzQxNjAwODYwMjUy.R4Jm4Nqc7WEQk3ucdpkKbmCuFf0iHyWvk2u7e0mzb1Mg.GJblbRfHzauGtLxAnsMoowCxNA0W50YXpng4P3jg7FMg.PNG/2.png",
     "verified": false,
-    "followers": 1368
+    "followers": 1716
    }
   },
   {
    "liveId": 22311362,
    "title": "[신입/유입환영] 태서와 함께 걸스토크! (˵˃ ᵕ ˂˵🫶🏻)",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/49301810/live/22311362/publish/69126188/thumbnail/image_720.jpg",
-   "viewers": 12,
+   "viewers": 13,
+   "trend": {
+    "delta": 2,
+    "pct": 18
+   },
    "openDate": "2026-11-20 10:54:25",
    "adult": false,
    "tags": [
@@ -2219,53 +2851,88 @@
    }
   },
   {
-   "liveId": 22311275,
-   "title": "[PS5pro][GTA6] 밤새 제이슨 옹댕이 생각이 나쒀...이런 할모니라 미야네",
-   "thumbnail": null,
-   "viewers": 12,
-   "openDate": "2026-11-20 10:42:00",
-   "adult": true,
-   "tags": [
-    "플스5pro",
-    "플스5",
-    "gta6",
-    "버츄얼",
-    "영감있음"
-   ],
-   "category": "GTA 6",
-   "channel": {
-    "id": "521773e099f57be9404b932fa76677de",
-    "name": "또 양",
-    "image": "https://nng-phinf.pstatic.net/MjAyNDAzMTRfMTk5/MDAxNzEwMzgyNzk4MDg2.pTuJcXZ1eWOV7eA0x7WQL0W1vQtb-EgZt9gRATpx6b4g.Aht0VqSMX9nOCOSorZNb7jW5WS-OKjri_YZagijlfm8g.JPEG/NNG-17103827977564225412942312944781.jpg",
-    "verified": false,
-    "followers": 1357
-   }
-  },
-  {
-   "liveId": 22311244,
-   "title": "나는야아침강태공",
-   "thumbnail": null,
-   "viewers": 12,
-   "openDate": "2026-11-20 10:38:56",
+   "liveId": 22311313,
+   "title": "급속냉동 신선식품 와일즈 ",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/53224929/live/22311313/publish/69126089/thumbnail/image_720.jpg",
+   "viewers": 13,
+   "trend": {
+    "delta": 1,
+    "pct": 8
+   },
+   "openDate": "2026-11-20 10:47:32",
    "adult": false,
    "tags": [
     "버튜버",
-    "음지"
+    "뉴비",
+    "talk",
+    "급발진",
+    "겁쟁이"
    ],
-   "category": "드라마",
+   "category": "몬스터 헌터 와일즈",
    "channel": {
-    "id": "cec29effc1b43d4f9040ff860f4289a5",
-    "name": "01142",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjAyMTZfMTA1/MDAxNzcxMjI5MDkwNTQ3.PhfWHtALccxWHYHojbE2tZEDlLoqbeZxxMKGdJmXNpgg.txnyaeW7YdpqzdAB1NUqAarjKjCPCa9qsFkiCuHkkk4g.JPEG/image.jpg",
+    "id": "2e860f1e0eb1d5304988fa827d83a954",
+    "name": "하백향",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjEwMTJfNjYg/MDAxNzkxODA0NDc0MDUy.v69n8nn5NUaXo6Q9o2oe80obh3IinBxMQbNQOSGIuAYg.nMwYPy4q92ISfTxBKgkVoEW5YgPkWKfQ5MZshjaezbog.PNG/image.png",
     "verified": false,
-    "followers": 786
+    "followers": 82
+   }
+  },
+  {
+   "liveId": 22311210,
+   "title": "[v](시참)분대한테 이 분대장은 실망해따 [EZ42클랜원모집중]ᡣ 𓈒⋅ ⩊ ⋅𓈒ྀིა\n",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27299693/live/22311210/publish/69125891/thumbnail/image_720.jpg",
+   "viewers": 13,
+   "trend": {
+    "delta": -3,
+    "pct": -19
+   },
+   "openDate": "2026-11-20 10:33:02",
+   "adult": false,
+   "tags": [
+    "팀카니발",
+    "마크",
+    "잼민력on",
+    "버튜버"
+   ],
+   "category": "워독스",
+   "channel": {
+    "id": "a32cfbf5b21bffec0dd110859b474af9",
+    "name": "백샤이",
+    "image": "https://nng-phinf.pstatic.net/MjAyNTA2MTlfMTE4/MDAxNzUwMzMyNzg4Nzgy.-TsOKzguMa2teIQxwqbJaqEweLaqTcNTew3a4-UxjOsg.zqsV36bv0SNuPHqx2IzUu-TR4Vf-frhrx6iL9py7egsg.PNG/%EC%BA%A1%EC%B2%98.PNG",
+    "verified": false,
+    "followers": 1489
+   }
+  },
+  {
+   "liveId": 22310594,
+   "title": "오늘도 엘든링",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27295911/live/22310594/publish/69124750/thumbnail/image_720.jpg",
+   "viewers": 13,
+   "trend": null,
+   "openDate": "2026-11-20 09:27:27",
+   "adult": false,
+   "tags": [
+    "종합게임",
+    "가끔버튜버"
+   ],
+   "category": "엘든 링",
+   "channel": {
+    "id": "73734613d23b30997c4ea879a085280c",
+    "name": "고롱롱",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA0MDFfMTc3/MDAxNzc1MDU0Nzg3NDUz.INDsPQPYfH0hgagdd0J1FxKoSKgVD-lUlRDKtfFEeDIg.sBjxXzyhGxX3n7kscNFXYPAzAOIJ8zH6P_byyktyb-Mg.PNG/image.png",
+    "verified": false,
+    "followers": 560
    }
   },
   {
    "liveId": 22310548,
    "title": "₍ᐢ.ˬ.ᐡ₎ 💜 마크중독인가바",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/26886118/live/22310548/publish/69124660/thumbnail/image_720.jpg",
-   "viewers": 12,
+   "viewers": 13,
+   "trend": {
+    "delta": 0,
+    "pct": 0
+   },
    "openDate": "2026-11-20 09:20:49",
    "adult": false,
    "tags": [
@@ -2284,55 +2951,38 @@
    }
   },
   {
-   "liveId": 22310402,
-   "title": "오늘은 진짜 진짜 진짜 진짜 리치 잡는다!!!",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27334463/live/22310402/publish/69124386/thumbnail/image_720.jpg",
-   "viewers": 12,
-   "openDate": "2026-11-20 09:02:24",
+   "liveId": 22310337,
+   "title": "- ̗̀ ෆ‎‎‎(｡•⩊•ಣ  곰 출몰! 3종 대대대형 면허따서 트럭몰기",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/53410124/live/22310337/publish/69124244/thumbnail/image_720.jpg",
+   "viewers": 13,
+   "trend": {
+    "delta": 1,
+    "pct": 8
+   },
+   "openDate": "2026-11-20 08:58:00",
    "adult": false,
    "tags": [
-    "신입",
-    "유입환영",
-    "버츄얼",
-    "종합게임"
-   ],
-   "category": "마인크래프트",
-   "channel": {
-    "id": "c95d476610949334065e94d04dd2aee9",
-    "name": "김쿠엔",
-    "image": "https://nng-phinf.pstatic.net/MjAyNDA3MjhfMTYx/MDAxNzIyMTcxMTE2NzE0.5Vcxv4umPqhBw7uR6bDqP7cldV0lM-9FToh2m0SSljAg.KoCgcjPDXDhHLOPDYYno4HrAd3LLiQwLIqhNUPXFTqMg.PNG/%EC%BF%A0%EC%97%94%EB%8B%98_%ED%8C%8C%EC%B8%A0%EB%B6%84%EB%A6%AC_%281%29.png",
-    "verified": false,
-    "followers": 1492
-   }
-  },
-  {
-   "liveId": 22310350,
-   "title": "[신입] 의 밥 먹방",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/53265139/live/22310350/publish/69124293/thumbnail/image_720.jpg",
-   "viewers": 12,
-   "openDate": "2026-11-20 08:59:15",
-   "adult": false,
-   "tags": [
-    "데뷔",
-    "신입",
     "버튜버",
-    "노래",
-    "asmr"
+    "vloom",
+    "1기생",
+    "곰",
+    "신입"
    ],
-   "category": "talk",
+   "category": "유로 트럭 시뮬레이터 2",
    "channel": {
-    "id": "e8ebe39783ad60e8cbaa8562b278aaca",
-    "name": "시리얼404",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjExMTdfMTg4/MDAxNzk0ODU1Mzc4MjM4.1fl-tc5j8IuBiFio2G8eQtTRs1aekamc6LzeK6ANnEAg.CbCZJkjHc0iw3bCugGDBEo5kbJiiZmsjLDEJy5Ho9Fwg.PNG/image.png",
+    "id": "88e7eb0ecc19cfe047ec260e0eca282e",
+    "name": "유카리 미유 VLooM",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjExMTJfMTE2/MDAxNzk0NDUzMjE2MDQ2.qq7Hqyq_aCeSwYWszbrR9jchy47Fq1tohy0ksI0wKtwg.mv4JmEHpEZk3iaIf-yGllM0j2IUOhtqL1DCc3G9V3dYg.PNG/image.png",
     "verified": false,
-    "followers": 224
+    "followers": 182
    }
   },
   {
    "liveId": 22309575,
    "title": "[신입/유입 환영/난민 환영/!신청곡] 수능이 끝났으니 유럽 여행을 가자요!",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/46404516/live/22309575/publish/69122655/thumbnail/image_720.jpg",
-   "viewers": 12,
+   "viewers": 13,
+   "trend": null,
    "openDate": "2026-11-20 05:58:36",
    "adult": false,
    "tags": [
@@ -2352,185 +3002,64 @@
    }
   },
   {
-   "liveId": 22311367,
-   "title": "나는 시뮬 덕후",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/37123980/live/22311367/publish/69126198/thumbnail/image_720.jpg",
-   "viewers": 11,
-   "openDate": "2026-11-20 10:55:17",
-   "adult": false,
-   "tags": [
-    "버츄얼",
-    "귀여움",
-    "발랄"
-   ],
-   "category": "talk",
-   "channel": {
-    "id": "b853cd157a4f76f5a5774b6efdf2a69a",
-    "name": "보리미당",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA0MjJfOTAg/MDAxNzc2ODU2OTA3NDk1.nKgxnFPL2pPg0nfRno44FGpYd5NTauFZypY5n7HFVOwg.mAcGhR_aj4nlAFG9t5DBlbfpcgcI1SxwE31vtkwZAsEg.PNG/image.png",
-    "verified": false,
-    "followers": 2177
-   }
-  },
-  {
-   "liveId": 22311006,
-   "title": "[유입환영] 모닝 드롭스 방송이얌~-~",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27977046/live/22311006/publish/69125507/thumbnail/image_720.jpg",
-   "viewers": 11,
-   "openDate": "2026-11-20 10:09:12",
-   "adult": false,
-   "tags": [
-    "잔잔뱅",
-    "저챗",
-    "팔레튜드",
-    "버츄얼",
-    "드롭스"
-   ],
-   "category": "작혼: 리치 마작",
-   "channel": {
-    "id": "9e90d2d993a5bd1d868e96629623aae0",
-    "name": "민포포",
-    "image": "https://nng-phinf.pstatic.net/MjAyNTA4MjBfMzEg/MDAxNzU1NzAxOTA2ODg4.q5-3Pm9kCqjqdOMB5EMwwrtkhUd35GXmzdJkYw42klwg.92Pp7aq1-jpofTThZ9jpJDYmbKQLeBFMBsN5pj0m2s8g.PNG/2.0.png",
-    "verified": false,
-    "followers": 550
-   }
-  },
-  {
-   "liveId": 22310832,
-   "title": "(채팅쳐줘!) 오하요오 아사카라 아서부 [!룰렛]",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/49851949/live/22310832/publish/69125229/thumbnail/image_720.jpg",
-   "viewers": 11,
-   "openDate": "2026-11-20 09:59:25",
-   "adult": false,
-   "tags": [
-    "유입환영",
-    "소통",
-    "버츄얼",
-    "하꼬자가진단서"
-   ],
-   "category": "발로란트",
-   "channel": {
-    "id": "9c62b97557e43ab83630f16c4eeb3f94",
-    "name": "봄양울",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjExMTdfMTY0/MDAxNzk0ODUwNzk2MTAw._UPzE6TeksU3ZlhNwF9YqvJOU5BiFBHTAywUupUsBUcg.CtCS28DaoAwH3eQFdLtwDFQVu6lWEp1RZduaKSndAXgg.JPEG/image.jpg",
-    "verified": false,
-    "followers": 924
-   }
-  },
-  {
-   "liveId": 22310514,
-   "title": "모닝은 롤이지~ /ᐠ - ˕ -マ Ⳋ",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/46176305/live/22310514/publish/69124604/thumbnail/image_720.jpg",
-   "viewers": 11,
-   "openDate": "2026-11-20 09:17:15",
+   "liveId": 22311873,
+   "title": "어라? 이 시간에 차령이가 여기 왜 있지?",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27002650/live/22311873/publish/69127138/thumbnail/image_720.jpg",
+   "viewers": 12,
+   "trend": null,
+   "openDate": "2026-11-20 11:49:52",
    "adult": false,
    "tags": [
     "버튜버",
-    "신입",
-    "담비",
-    "소통"
+    "고양이",
+    "생존마",
+    "종겜"
    ],
-   "category": "리그 오브 레전드",
+   "category": "프라버블리 스톨른 - 사이버펑크 숍키퍼 심",
    "channel": {
-    "id": "520707ca325f88e232932cf638223f00",
-    "name": "텐치비 TenChibi",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjAyMTdfMTI0/MDAxNzcxMjU4ODYyNzY2.VGb9xcJGTDvhsIv_U-Z0LW7y6wG7FYgz7JIcIfniT6Ag.5I3v8TUyFDEVurAz3JxwyPF_EmtFkyBGh1x7xJQ7RJIg.PNG/image.png",
+    "id": "abc1e389bd769b52034052c4a5e78dc4",
+    "name": "차령",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA0MDJfNTUg/MDAxNzc1MDY5NzgzMDc0.RYan84atdeIagNWBZT6bRor-scLyBTsSBAhk4UEZ7YUg.PKpk1_BkXYNvRtAym54N6EY2OtB6gJ8LqYE7KxDdKnAg.JPEG/image.jpg",
     "verified": false,
-    "followers": 1062
+    "followers": 1717
    }
   },
   {
-   "liveId": 22309849,
-   "title": "미라클모닝~ 고민상담 해드려요💕 (리방)",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/50331641/live/22309849/publish/69122238/thumbnail/image_720.jpg",
-   "viewers": 11,
-   "openDate": "2026-11-20 07:25:09",
+   "liveId": 22311360,
+   "title": "[모코코 14일차] 플레체 스토리+아크라시아 투어",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/49068724/live/22311360/publish/69126186/thumbnail/image_720.jpg",
+   "viewers": 12,
+   "trend": {
+    "delta": -6,
+    "pct": -33
+   },
+   "openDate": "2026-11-20 10:54:21",
    "adult": false,
    "tags": [
-    "노래",
-    "롤",
-    "반캠",
-    "저챗",
+    "신입",
+    "모코코",
+    "wwe",
+    "팔레튜드",
     "버튜버"
    ],
-   "category": "talk",
+   "category": "로스트아크",
    "channel": {
-    "id": "0fd65c4cbd02135720f0153164367c37",
-    "name": "하나리 영",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA3MjdfMTE0/MDAxNzg1MTU3MTQzNjQ3.c1bvNjhNjS5kN2HcO59uMwnMTzIgHypr-379G9LPA_Mg.azS9eJ2smRUVMbcgdZOKuZsd4bzWNVJOfOIMoCBEnRYg.JPEG/image.jpg",
+    "id": "f95b8bb47c03b72c558f68c484786707",
+    "name": "마토라",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjExMDlfMTg1/MDAxNzk0MTkwNTQ2ODky.T7tUqreeVOeCVYQX6vbfY4xhT9KL5ndMxN42jw4GaaIg.AIZrZcFN_kx7ZEBz2eOBniGJ7-_PTN-XKhfLTEuI_3cg.PNG/image.png",
     "verified": false,
-    "followers": 2124
-   }
-  },
-  {
-   "liveId": 22309686,
-   "title": "( •̀ ω •́ )✧ 오늘은 그림 룰렛 하는 날!!",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/40875905/live/22309686/publish/69122764/thumbnail/image_720.jpg",
-   "viewers": 11,
-   "openDate": "2026-11-20 06:40:21",
-   "adult": false,
-   "tags": [
-    "신입",
-    "버츄얼"
-   ],
-   "category": "그림/아트",
-   "channel": {
-    "id": "90019787d7f0f02c270f431d0b4c5dd7",
-    "name": "PiNA피나",
-    "image": "https://nng-phinf.pstatic.net/MjAyNTA4MDZfMTU2/MDAxNzU0NDY1NjIxMTM1.R7eolZYlrqKoPcHu9CdkLXA4BP2sivNVSIEpW-fAN-4g.RW3oVe4WwJKkJwksTjbUTvKa3g2DCQAbDbQZ0y5SpAog.PNG/www.png",
-    "verified": false,
-    "followers": 307
-   }
-  },
-  {
-   "liveId": 22311496,
-   "title": "날씨가 추워지니 잔잔 캐롤과 함께 미리 크리스마스 | 🌊 ep 41. 겨울 바다, 파도랑 마을 ❄️",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/51945850/live/22311496/publish/69126403/thumbnail/image_720.jpg",
-   "viewers": 10,
-   "openDate": "2026-11-20 11:01:30",
-   "adult": false,
-   "tags": [
-    "신입",
-    "버튜버",
-    "중저음",
-    "파도랑마을",
-    "잔잔유부"
-   ],
-   "category": "talk",
-   "channel": {
-    "id": "ccd9b454f2e957a7bd0eae729bc7459f",
-    "name": "웬이 WENI",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA5MTBfOTgg/MDAxNzg4OTk3NzMwNzU0.J4dTZINgIKpllXPkMjYJi2-5ht94BROiVenoKbiwAhYg.5A-mbXTLNx8aRjb_qPf2vhNFbiZjf-_yw5gDB9DcoxMg.PNG/image.png",
-    "verified": false,
-    "followers": 91
-   }
-  },
-  {
-   "liveId": 22310775,
-   "title": "[삼국지] 67~76화. 미운 50살 관우",
-   "thumbnail": null,
-   "viewers": 10,
-   "openDate": "2026-11-20 09:56:41",
-   "adult": false,
-   "tags": [
-    "남자임",
-    "버튜버",
-    "버미육"
-   ],
-   "category": "드라마",
-   "channel": {
-    "id": "e091903d7c99c05776aab1ed72ce2cc5",
-    "name": "마티니 Martini",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjExMDRfMTcg/MDAxNzkzNzkwMDQwMzY4.GU3bK1sWK0SNDYQ-PP1Qy9nclYM6TulZx9-YGo9e_Fwg.35DtFm4aAxTtS7GiSm_uLY8sI-fawRm3pkQRdL00QLQg.PNG/image.png",
-    "verified": false,
-    "followers": 10
+    "followers": 100
    }
   },
   {
    "liveId": 22310588,
    "title": "!!뱅 83일차!! 유로버스! 야! 타~ ㅋ ૮ ˶ ˆ ᴥ ˆ ˶ ა",
    "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/51747475/live/22310588/publish/69124732/thumbnail/image_720.jpg",
-   "viewers": 10,
+   "viewers": 12,
+   "trend": {
+    "delta": 0,
+    "pct": 0
+   },
    "openDate": "2026-11-20 09:26:30",
    "adult": false,
    "tags": [
@@ -2546,116 +3075,206 @@
     "name": "쿠로 이누",
     "image": "https://nng-phinf.pstatic.net/MjAyNjA5MDNfMTYy/MDAxNzg4NDQzNTMxODU1.MNpYyeKUlBy_QdPLWg5mhuR30MHGgTiK_i7vCmC1iKog.9Ea0L3abTZPivKKs_c3pfdwUCFJqyeM7aFNzhNYU1mcg.PNG/image.png",
     "verified": false,
-    "followers": 205
+    "followers": 206
    }
   },
   {
-   "liveId": 22310562,
-   "title": "[룰렛 4일차] 천천히 와우하기",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27791089/live/22310562/publish/69124681/thumbnail/image_720.jpg",
-   "viewers": 10,
-   "openDate": "2026-11-20 09:22:55",
+   "liveId": 22310440,
+   "title": "💎퍼즐할래...✨",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/40431338/live/22310440/publish/69124474/thumbnail/image_720.jpg",
+   "viewers": 12,
+   "trend": {
+    "delta": 1,
+    "pct": 9
+   },
+   "openDate": "2026-11-20 09:07:11",
    "adult": false,
    "tags": [
+    "사투리",
+    "노래흥얼거림주의",
+    "버츄얼",
     "종합게임",
-    "버튜버"
+    "모닝방송"
    ],
-   "category": "월드 오브 워크래프트: 포에버",
+   "category": "종합 게임",
    "channel": {
-    "id": "321e636891d7142669250534b184413c",
-    "name": "두푸",
-    "image": "https://nng-phinf.pstatic.net/MjAyNTA1MzFfMjEg/MDAxNzQ4NjkyMDU5MDkx.ezuOnBQeisJL3YmP8UP4iqfv5Z_LntYUoDfMoRT8utYg.63Jetn4ODSb9PRVWf47ao6rjkuxJHlIbTEAEsAvDGAUg.PNG/%EB%91%90%ED%91%B8%EB%8B%98_%EC%B1%84%EC%83%89_%EC%99%84%EC%84%B1%EB%B3%B8%28%ED%9D%B0%EB%B0%B0%EA%B2%BD%29.png",
+    "id": "fad981710a240c690f46d635231a3e78",
+    "name": "유리구두 YuriGooDoo",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjEwMTRfMTAg/MDAxNzkxOTY0Mzc1NTc3.psx9ZDGJUTZ3teXQDXocc92LpgLC6TMuyJ8-jDQg3W0g.YGmFkTWZUB84i_tETgiywdYQO2r2FjvQL3mecwEVO0Mg.PNG/image.png",
     "verified": false,
-    "followers": 436
+    "followers": 966
    }
   },
   {
-   "liveId": 22310472,
-   "title": "🍀20번째 뱅🍀넘모 추운 아침~ 팰월드 세번째 날!",
-   "thumbnail": null,
-   "viewers": 10,
-   "openDate": "2026-11-20 09:11:18",
+   "liveId": 22310350,
+   "title": "[신입] 의 밥 먹방",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/53265139/live/22310350/publish/69124293/thumbnail/image_720.jpg",
+   "viewers": 12,
+   "trend": {
+    "delta": -3,
+    "pct": -20
+   },
+   "openDate": "2026-11-20 08:59:15",
+   "adult": false,
+   "tags": [
+    "데뷔",
+    "신입",
+    "버튜버",
+    "노래",
+    "asmr"
+   ],
+   "category": "talk",
+   "channel": {
+    "id": "e8ebe39783ad60e8cbaa8562b278aaca",
+    "name": "시리얼404",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjExMTdfMTg4/MDAxNzk0ODU1Mzc4MjM4.1fl-tc5j8IuBiFio2G8eQtTRs1aekamc6LzeK6ANnEAg.CbCZJkjHc0iw3bCugGDBEo5kbJiiZmsjLDEJy5Ho9Fwg.PNG/image.png",
+    "verified": false,
+    "followers": 224
+   }
+  },
+  {
+   "liveId": 22310284,
+   "title": "🩵 루나비와 같이 불🔥금 ㅣ 1시까지 증바람 시참 🩵",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/45892241/live/22310284/publish/69124169/thumbnail/image_720.jpg",
+   "viewers": 12,
+   "trend": {
+    "delta": -2,
+    "pct": -14
+   },
+   "openDate": "2026-11-20 08:50:48",
    "adult": false,
    "tags": [
     "버튜버",
     "버츄얼",
     "신입",
-    "팰월드"
+    "잔잔",
+    "게임"
    ],
-   "category": "팰월드",
+   "category": "리그 오브 레전드",
    "channel": {
-    "id": "172530b55e0a20a859f1ebc5a8668b2e",
-    "name": "주영아",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjExMDJfMTMw/MDAxNzkzNjE1NzgyODky.M_Wd-S1B_u5yczpdLfXNB9OfGCpwsjzFbc7cSt3ZWU8g.QgHjvMGEVg2EvjjI2BMD2Z3Z4O4t6LrNWniQg9U3cF8g.PNG/image.png",
+    "id": "9809b3db226b07fc5b1abe7c9814f18b",
+    "name": "루나비 LUNABI",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA4MjFfMjMg/MDAxNzg3MjYxMDYyODAy.xNdlvTrBIDGrmiULrfD5Pa5DFJFy_T33WUahpR2vyJ4g.ucKvSWIvZLKK76zImET72aFgPpYcBHzSTubuu3YxUO4g.PNG/image.png",
     "verified": false,
-    "followers": 110
+    "followers": 593
    }
   },
   {
-   "liveId": 22310267,
-   "title": "아침마당",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27765953/live/22310267/publish/69124122/thumbnail/image_720.jpg",
-   "viewers": 10,
-   "openDate": "2026-11-20 08:46:12",
+   "liveId": 22310016,
+   "title": "[36일차] 예 아니오로 대답하는 질문으로 진상을 찾아가는 게임 yes no 탐정",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/52056543/live/22310016/publish/69123608/thumbnail/image_720.jpg",
+   "viewers": 12,
+   "trend": null,
+   "openDate": "2026-11-20 08:00:07",
    "adult": false,
    "tags": [
     "버튜버",
-    "버츄얼",
-    "메이플스토리"
+    "신입",
+    "종합게임",
+    "아침방송"
    ],
-   "category": "이터널 리턴",
+   "category": "종합 게임",
    "channel": {
-    "id": "766d31d0520597a41d9fcfb8a20f9fd9",
-    "name": "솔향이야",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA5MTNfMjIx/MDAxNzg5Mjg3NzUwNjc3.wSvTPqfxFTcZHk7XZhXIFoAiwcuQ5LXvuz0aD5MOR6gg.tdGZVf4sX0C-EeEkrQm9tuq01YUOb5-zaafuZdp_f_4g.PNG/image.png",
+    "id": "37307197efb55a06a0648f0e640d0b0e",
+    "name": "초 람",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA5MjNfMTIz/MDAxNzkwMTcyOTAzMjgx.lFoh4ajVfuCLEs5Wr51JLH-1HWBQp6YxfQmpgKQvGjAg.4o1nU80g42g6SfgrcRreZzIcXz54m52TmrWfjmAcchIg.PNG/image.png",
     "verified": false,
-    "followers": 346
+    "followers": 130
    }
   },
   {
-   "liveId": 22311406,
-   "title": "워독스 망한 거 같은데 아직 못 놓음...아직 희망이 있나요?",
-   "thumbnail": null,
-   "viewers": 9,
-   "openDate": "2026-11-20 10:59:03",
+   "liveId": 22312101,
+   "title": "지스타 후기",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/28135909/live/22312101/publish/69127488/thumbnail/image_720.jpg",
+   "viewers": 11,
+   "trend": null,
+   "openDate": "2026-11-20 12:06:59",
    "adult": false,
    "tags": [
-    "소통",
-    "이터널리턴",
     "버츄얼",
-    "가끔캠방",
-    "워독스초보"
-   ],
-   "category": "워독스",
-   "channel": {
-    "id": "a57df5bebba78db17189b24b54d5a2e4",
-    "name": "모다해",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjAyMjRfOTAg/MDAxNzcxODc1OTM2OTk5.KWJ3erFLuX1CB44HWOFBAllzrsxS1O3lsyCnIvAnjjgg.7Y_s4vuc_m-B4Kai6PluIJjUw8ISPOe8bLsCwrma8QEg.PNG/image.png",
-    "verified": false,
-    "followers": 1970
-   }
-  },
-  {
-   "liveId": 22311396,
-   "title": "오늘도 GTA6 해야게찌~?",
-   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/41589671/live/22311396/publish/69126260/thumbnail/image_720.jpg",
-   "viewers": 9,
-   "openDate": "2026-11-20 10:58:36",
-   "adult": false,
-   "tags": [
-    "버튜버",
-    "구미호",
-    "헤쿠",
-    "여자맞음",
-    "talk"
+    "힙스터",
+    "비흡연자"
    ],
    "category": "talk",
    "channel": {
-    "id": "d06d0f8f764dc783743dab1ee41bde12",
-    "name": "헤 쿠",
-    "image": "https://nng-phinf.pstatic.net/MjAyNjA5MjJfNTMg/MDAxNzkwMDQzOTQ0MTgz.jPf11ASVJu1haxPVpG7cCK0Gf-pdOynunJYWe45kGe8g.fbLyA3kWVv50WZwE8kYrwFlJnQbTm1zj8PimBcwHj8Ug.JPEG/image.jpg",
+    "id": "9a3ed215c3ac19a3f75159a674485921",
+    "name": "베 뉴",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjExMTFfNzQg/MDAxNzk0MzI2Mjk0OTY4.zDOsXaCe0wqm5BIKyD800kq2ALONnMl9JtmuCVfqh_Ag.5GQTqeXkBJV6tnYXojWrq17xzV_9o6orXDf_WxGGFtwg.PNG/image.png",
     "verified": false,
-    "followers": 923
+    "followers": 1952
+   }
+  },
+  {
+   "liveId": 22311487,
+   "title": "(짤뱅이애오)히히 발싸",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/44663070/live/22311487/publish/69126388/thumbnail/image_720.jpg",
+   "viewers": 11,
+   "trend": null,
+   "openDate": "2026-11-20 11:01:08",
+   "adult": false,
+   "tags": [
+    "신입",
+    "버튜버",
+    "ㅇㅅㅇ"
+   ],
+   "category": "데드 바이 데이라이트",
+   "channel": {
+    "id": "019c5a85c3492756e22ae1e61c7340f2",
+    "name": "령 아",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA2MTJfODMg/MDAxNzgxMTkzMTQ2NTQx.HzM0ljLopeuBQLHkuwOLiXOlJ0qO0f_UBX1o2G660WIg.Gu9wxggaXNPGRjI5xI5VfagXLkrJtMQIoVDnE3JUD7Yg.PNG/image.png",
+    "verified": false,
+    "followers": 400
+   }
+  },
+  {
+   "liveId": 22311343,
+   "title": "신입) 중저음 좋아하면 들어와",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/50925173/live/22311343/publish/69126149/thumbnail/image_720.jpg",
+   "viewers": 11,
+   "trend": {
+    "delta": 0,
+    "pct": 0
+   },
+   "openDate": "2026-11-20 10:51:54",
+   "adult": false,
+   "tags": [
+    "버츄얼",
+    "talk",
+    "중저음",
+    "신입",
+    "유입"
+   ],
+   "category": "talk",
+   "channel": {
+    "id": "6437e5380da31b2723341181401458ab",
+    "name": "이바울",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjEwMjVfMjk0/MDAxNzkyOTMzMjEzNTc3.j69QizDfMqnorCCvtlWALobaNO3-OJX5UVSZ4r5sGFkg.n7Vi2e6B5M-EIVe3bakuwwpj714GB5F4FcGk2aJK2_Eg.PNG/image.png",
+    "verified": false,
+    "followers": 307
+   }
+  },
+  {
+   "liveId": 22310864,
+   "title": "촉수 아저씨",
+   "thumbnail": "https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27364587/live/22310864/publish/69125266/thumbnail/image_720.jpg",
+   "viewers": 11,
+   "trend": null,
+   "openDate": "2026-11-20 10:00:06",
+   "adult": false,
+   "tags": [
+    "촉수",
+    "버미육",
+    "버튜버",
+    "아저씨",
+    "공감능력없음"
+   ],
+   "category": "패스 오브 엑자일 2",
+   "channel": {
+    "id": "c9a7a8a4006fa8ed4cefbf97b398abf2",
+    "name": "촉수마왕",
+    "image": "https://nng-phinf.pstatic.net/MjAyNjA0MDJfODQg/MDAxNzc1MDU4NjEyMzc2.7wg0yS5476B8DSlb9zE7wvVMFz2NsEIeyFSVtzVfY2wg.qrvgHQeUmNKk1DaaqmxsyKmZ9A7ANNJKwhO_xMs6oiQg.PNG/image.png",
+    "verified": false,
+    "followers": 621
    }
   }
  ]
