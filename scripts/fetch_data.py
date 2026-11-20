@@ -19,6 +19,7 @@ MAX_PAGES = 8  # 최대 400개 라이브까지 훑는다
 VIRTUAL_TAGS = ("버튜버", "버츄얼")
 OUT = Path(__file__).resolve().parent.parent / "data" / "lives.json"
 PREV = Path(__file__).resolve().parent.parent / "data" / "prev.json"
+SEEN = Path(__file__).resolve().parent.parent / "data" / "seen.json"
 KST = timezone(timedelta(hours=9))
 
 
@@ -82,6 +83,16 @@ def channel_info(channel_id, cache):
     return followers, playback
 
 
+def load_seen():
+    try:
+        data = json.loads(SEEN.read_text(encoding="utf-8"))
+        return data.get("trackingSince"), {
+            str(k): v for k, v in (data.get("channels") or {}).items()
+        }
+    except Exception:
+        return None, {}
+
+
 def load_prev():
     try:
         data = json.loads(PREV.read_text(encoding="utf-8"))
@@ -96,6 +107,10 @@ def main():
     lives = fetch_lives()
     virtual = [live for live in lives if is_virtual(live)]
     prev_at, prev_viewers = load_prev()
+    tracking_since, seen = load_seen()
+    today = datetime.now(KST).date()
+    if not tracking_since:
+        tracking_since = today.isoformat()
     cache = {}
     out = []
     for live in virtual:
@@ -111,12 +126,15 @@ def main():
             delta = viewers - before
             trend = {"delta": delta, "pct": round(delta / before * 100)}
         followers, playback = channel_info(channel_id, cache)
+        if channel_id and channel_id not in seen:
+            seen[channel_id] = today.isoformat()
         out.append(
             {
                 "liveId": live.get("liveId"),
                 "title": live.get("liveTitle"),
                 "thumbnail": thumb,
                 "playback": playback,
+                "firstSeen": seen.get(channel_id),
                 "viewers": viewers,
                 "trend": trend,
                 "openDate": live.get("openDate"),
@@ -137,6 +155,7 @@ def main():
     payload = {
         "updatedAt": now.isoformat(timespec="seconds"),
         "prevAt": prev_at,
+        "trackingSince": tracking_since,
         "count": len(out),
         "lives": out,
     }
@@ -150,6 +169,15 @@ def main():
                 "savedAt": now.isoformat(timespec="seconds"),
                 "viewers": {str(l["liveId"]): l["viewers"] for l in out},
             },
+            ensure_ascii=False,
+        ),
+        encoding="utf-8",
+    )
+    cutoff = (today - timedelta(days=30)).isoformat()
+    seen = {k: v for k, v in seen.items() if v >= cutoff}
+    SEEN.write_text(
+        json.dumps(
+            {"trackingSince": tracking_since, "channels": seen},
             ensure_ascii=False,
         ),
         encoding="utf-8",
