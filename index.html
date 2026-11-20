@@ -294,24 +294,33 @@ function cardHtml(l, spot, mode){
           <span class="followers">팔로워 ${fmt(l.channel.followers)}</span>
         </div>
         <div class="tags">
-          ${l.category ? `<span class="tag cat">${escapeHtml(l.category)}</span>` : ''}
+          ${l.category ? `<span class="tag cat">${escapeHtml(catLabel(l.category))}</span>` : ''}
           ${(l.tags || []).map(t => `<span class="tag">#${escapeHtml(String(t))}</span>`).join('')}
         </div>
       </div>
     </article>`;
 }
 
+const CHO = ['ㄱ','ㄲ','ㄴ','ㄷ','ㄸ','ㄹ','ㅁ','ㅂ','ㅃ','ㅅ','ㅆ','ㅇ','ㅈ','ㅉ','ㅊ','ㅋ','ㅌ','ㅍ','ㅎ'];
+function toCho(str){ return [...String(str || '')].map(ch => { const c = ch.charCodeAt(0); return (c >= 0xAC00 && c <= 0xD7A3) ? CHO[Math.floor((c - 0xAC00) / 588)] : ch; }).join(''); }
+function normStr(str){ return String(str || '').toLowerCase().replace(/\s+/g, ''); }
+function catLabel(c){ return c === 'talk' ? '토크' : (c || ''); }
+function matchesQuery(l, qRaw){
+  const fields = [l.title, l.channel.name, l.category, catLabel(l.category), ...(l.tags || [])];
+  const words = qRaw.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  if (!words.length) return true;
+  const hay = fields.map(normStr);
+  if (words.every(w => { const wn = normStr(w); return hay.some(h => h.includes(wn)); })) return true;
+  const qt = qRaw.trim();
+  if ([...qt].every(ch => CHO.includes(ch))) return fields.some(f => toCho(f).includes(qt));
+  return false;
+}
 function currentList(){
   let list = [...state.lives];
   if (state.tab === 'fav') list = list.filter(l => favs.has(l.channel.id));
   if (state.category === '__new__') list = list.filter(l => l.isNew);
   else if (state.category) list = list.filter(l => (l.category || '') === state.category);
-  const q = state.query.trim().toLowerCase();
-  if (q) list = list.filter(l =>
-    (l.title || '').toLowerCase().includes(q) ||
-    (l.channel.name || '').toLowerCase().includes(q) ||
-    (l.category || '').toLowerCase().includes(q) ||
-    (l.tags || []).some(t => String(t).toLowerCase().includes(q)));
+  if (state.query.trim()) list = list.filter(l => matchesQuery(l, state.query));
   if (state.sort === 'viewers') list.sort((a, b) => b.viewers - a.viewers);
   else list.sort((a, b) => (b.channel.followers || 0) - (a.channel.followers || 0));
   return list;
@@ -324,7 +333,7 @@ function renderChips(){
   const cats = ['', ...top];
   const hasNew = state.lives.some(l => l.isNew);
   $('chips').innerHTML = cats.map(c =>
-    `<button class="chip ${state.category === c ? 'active' : ''}" data-cat="${escapeHtml(c)}">${c ? escapeHtml(c) : '전체'}</button>`).join('')
+    `<button class="chip ${state.category === c ? 'active' : ''}" data-cat="${escapeHtml(c)}">${c ? escapeHtml(catLabel(c)) : '전체'}</button>`).join('')
     + (hasNew ? `<button class="chip ${state.category === '__new__' ? 'active' : ''}" data-cat="__new__">🆕 오늘의 신규</button>` : '');
 }
 
@@ -398,6 +407,7 @@ document.addEventListener('click', (e) => {
   const chip = e.target.closest('[data-cat]');
   if (chip) {
     state.category = chip.dataset.cat;
+    if (state.query) { state.query = ''; $('search').value = ''; }
     renderChips(); render();
     return;
   }
@@ -432,7 +442,11 @@ document.querySelectorAll('.nav-btn').forEach(btn => {
   });
 });
 $('reroll').addEventListener('click', () => { pickHidden(); render(); });
-$('search').addEventListener('input', (e) => { state.query = e.target.value; render(); });
+$('search').addEventListener('input', (e) => {
+  state.query = e.target.value;
+  if (state.query.trim() && state.category) { state.category = ''; renderChips(); }
+  render();
+});
 
 // 호버 미리보기 — 데스크톱에서 카드에 마우스를 올리면 무음으로 라이브 재생
 const canHover = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
