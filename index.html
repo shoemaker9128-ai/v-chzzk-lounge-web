@@ -133,7 +133,7 @@
   <section id="ratioSection">
     <div class="section-head">
       <h2>💎 시청률 TOP</h2>
-      <span class="sub">팔로워 대비 시청자가 몰린 방송</span>
+      <span class="sub">팔로워 수 대비 지금 시청 중인 비율이 높은 방송</span>
     </div>
     <div class="grid" id="ratioGrid"></div>
   </section>
@@ -204,7 +204,7 @@ function cardHtml(l, spot, mode){
         ${l.thumbnail ? `<img src="${l.thumbnail}" alt="" loading="lazy" onerror="this.outerHTML='<div class=&quot;noimg&quot;>화면 준비 중</div>'">` : '<div class="noimg">화면 준비 중</div>'}
         <div class="badges"><span class="badge-live">LIVE</span>${l.adult ? '<span class="badge-adult">19</span>' : ''}${l.isNew ? '<span class="badge-new">NEW</span>' : ''}</div>
         <span class="preview-tag">미리보기</span>
-        ${mode === 'ratio' ? `<span class="ratio-badge">시청률 ${Math.round(l.viewers / l.channel.followers * 100)}%</span>` : (l.trend && l.trend.pct >= 10 ? `<span class="trend-badge">▲ +${l.trend.pct}%</span>` : '')}
+        ${mode === 'ratio' ? `<span class="ratio-badge">팔로워의 ${Math.round(l.viewers / l.channel.followers * 100)}% 시청 중</span>` : (l.trend && l.trend.pct >= 10 ? `<span class="trend-badge">▲ +${l.trend.pct}%</span>` : '')}
         <span class="viewers">👁 ${fmt(l.viewers)}명</span>
       </div>
       <div class="body">
