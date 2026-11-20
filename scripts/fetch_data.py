@@ -15,7 +15,7 @@ from pathlib import Path
 API = "https://api.chzzk.naver.com/service/v1"
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 PAGE_SIZE = 50
-MAX_PAGES = 8  # 최대 400개 라이브까지 훑는다
+MAX_PAGES = 45  # 전체 라이브(약 2,000개) 전수 스캔
 VIRTUAL_TAGS = ("버튜버", "버츄얼")
 OUT = Path(__file__).resolve().parent.parent / "data" / "lives.json"
 PREV = Path(__file__).resolve().parent.parent / "data" / "prev.json"
