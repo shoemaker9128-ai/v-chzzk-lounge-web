@@ -18,6 +18,7 @@ PAGE_SIZE = 50
 MAX_PAGES = 8  # 최대 400개 라이브까지 훑는다
 VIRTUAL_TAGS = ("버튜버", "버츄얼")
 OUT = Path(__file__).resolve().parent.parent / "data" / "lives.json"
+PREV = Path(__file__).resolve().parent.parent / "data" / "prev.json"
 KST = timezone(timedelta(hours=9))
 
 
@@ -67,9 +68,20 @@ def follower_count(channel_id, cache):
     return count
 
 
+def load_prev():
+    try:
+        data = json.loads(PREV.read_text(encoding="utf-8"))
+        return data.get("savedAt"), {
+            str(k): v for k, v in (data.get("viewers") or {}).items()
+        }
+    except Exception:
+        return None, {}
+
+
 def main():
     lives = fetch_lives()
     virtual = [live for live in lives if is_virtual(live)]
+    prev_at, prev_viewers = load_prev()
     cache = {}
     out = []
     for live in virtual:
@@ -78,12 +90,19 @@ def main():
         thumb = live.get("liveImageUrl") or live.get("defaultThumbnailImageUrl")
         if thumb:
             thumb = thumb.replace("{type}", "720")
+        viewers = live.get("concurrentUserCount") or 0
+        trend = None
+        before = prev_viewers.get(str(live.get("liveId")))
+        if before:
+            delta = viewers - before
+            trend = {"delta": delta, "pct": round(delta / before * 100)}
         out.append(
             {
                 "liveId": live.get("liveId"),
                 "title": live.get("liveTitle"),
                 "thumbnail": thumb,
-                "viewers": live.get("concurrentUserCount") or 0,
+                "viewers": viewers,
+                "trend": trend,
                 "openDate": live.get("openDate"),
                 "adult": bool(live.get("adult")),
                 "tags": live.get("tags") or [],
@@ -98,14 +117,26 @@ def main():
             }
         )
     out.sort(key=lambda x: x["viewers"], reverse=True)
+    now = datetime.now(KST)
     payload = {
-        "updatedAt": datetime.now(KST).isoformat(timespec="seconds"),
+        "updatedAt": now.isoformat(timespec="seconds"),
+        "prevAt": prev_at,
         "count": len(out),
         "lives": out,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(
         json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8"
+    )
+    PREV.write_text(
+        json.dumps(
+            {
+                "savedAt": now.isoformat(timespec="seconds"),
+                "viewers": {str(l["liveId"]): l["viewers"] for l in out},
+            },
+            ensure_ascii=False,
+        ),
+        encoding="utf-8",
     )
     print(f"scanned={len(lives)} virtual={len(out)} -> {OUT}")
 
