@@ -61,6 +61,7 @@ def channel_info(channel_id, cache):
         return cache[channel_id]
     followers = None
     playback = None
+    playback_ll = None
     try:
         content = get(f"{API}/channels/{channel_id}").get("content") or {}
         followers = content.get("followerCount")
@@ -76,11 +77,15 @@ def channel_info(channel_id, cache):
             hls = [m for m in media if m.get("mediaId") == "HLS"]
             if hls:
                 playback = hls[0].get("path")
+            ll = [m for m in media if m.get("mediaId") == "LLHLS"]
+            if ll:
+                playback_ll = ll[0].get("path")
     except Exception:
         playback = None
-    cache[channel_id] = (followers, playback)
+        playback_ll = None
+    cache[channel_id] = (followers, playback, playback_ll)
     time.sleep(0.1)
-    return followers, playback
+    return followers, playback, playback_ll
 
 
 def load_seen():
@@ -125,7 +130,7 @@ def main():
         if before:
             delta = viewers - before
             trend = {"delta": delta, "pct": round(delta / before * 100)}
-        followers, playback = channel_info(channel_id, cache)
+        followers, playback, playback_ll = channel_info(channel_id, cache)
         if channel_id and channel_id not in seen:
             seen[channel_id] = today.isoformat()
         out.append(
@@ -134,6 +139,7 @@ def main():
                 "title": live.get("liveTitle"),
                 "thumbnail": thumb,
                 "playback": playback,
+                "playbackLl": playback_ll,
                 "firstSeen": seen.get(channel_id),
                 "viewers": viewers,
                 "trend": trend,
