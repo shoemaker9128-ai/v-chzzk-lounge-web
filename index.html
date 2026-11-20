@@ -112,6 +112,43 @@
   .nav-btn{flex:1;padding:11px 0 calc(11px + env(safe-area-inset-bottom));background:none;border:none;color:var(--muted);font-size:13px;font-weight:700;cursor:pointer}
   .nav-btn.active{color:var(--accent-text)}
   footer{max-width:1400px;margin:0 auto;padding:18px 20px 6px;font-size:11px;color:var(--muted);line-height:1.6}
+
+  /* ===== 모바일 정리 (760px 이하) ===== */
+  @media (max-width:760px){
+    .wrap{padding:0 12px}
+    .controls{padding:8px 12px 2px}
+    .chips{flex-wrap:nowrap;overflow-x:auto;padding:8px 12px 4px;scrollbar-width:none}
+    .chips::-webkit-scrollbar{display:none}
+    .chip{flex:none}
+    .logo{font-size:19px}
+    .metrics{display:grid;grid-template-columns:1fr 1fr;width:100%;margin-left:0;margin-top:10px}
+    .metric{min-width:0;padding:7px 11px 6px}
+    .m-val{max-width:none;font-size:15px}
+    .grid{grid-template-columns:repeat(2,1fr);gap:10px;padding-top:8px}
+    .section-head{flex-wrap:wrap;padding-top:14px}
+    .section-head h2{font-size:15px}
+    .section-head .sub{order:3;width:100%;font-size:11.5px}
+    .count-line{order:3;width:100%}
+    .sorts{margin-left:auto}
+    .sort-btn{padding:6px 10px;font-size:11.5px}
+    .reroll{padding:6px 11px;font-size:12px}
+    .body{padding:8px 9px 9px}
+    .title{font-size:13px}
+    .chan{gap:5px;margin-top:6px}
+    .chan img{width:21px;height:21px}
+    .chan .name{font-size:13px}
+    .chan .followers{display:none}
+    .tags{margin-top:5px;gap:4px}
+    .tag{font-size:10.5px;padding:2px 6px}
+    .badges{left:6px;top:6px;gap:4px}
+    .viewers{right:6px;bottom:6px;font-size:10.5px;padding:2px 6px}
+    .trend-badge,.ratio-badge{left:6px;bottom:6px;font-size:10.5px;padding:2px 6px}
+    .thumb .play-ic{width:38px;height:38px;font-size:14px}
+    .search{font-size:16px}
+    .player-modal{padding:10px}
+    .player-meta{flex-wrap:wrap}
+    .player-meta a{margin-left:0}
+  }
 </style>
 </head>
 <body>
