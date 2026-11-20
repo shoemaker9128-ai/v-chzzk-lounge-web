@@ -201,11 +201,16 @@ function pickHidden(){
   state.picks = picks.map(l => l.liveId);
 }
 
+function thumbSrc(l){
+  if(!l.thumbnail) return '';
+  if(!state.updatedAt) return l.thumbnail;
+  return l.thumbnail + (l.thumbnail.includes('?') ? '&' : '?') + 't=' + encodeURIComponent(state.updatedAt);
+}
 function cardHtml(l, spot, mode){
   return `
     <article class="card ${spot ? 'spot' : ''}" data-live="${l.liveId}">
       <div class="thumb">
-        ${l.thumbnail ? `<img src="${l.thumbnail}" alt="" loading="lazy" onerror="this.outerHTML='<div class=&quot;noimg&quot;>화면 준비 중</div>'">` : '<div class="noimg">화면 준비 중</div>'}
+        ${l.thumbnail ? `<img src="${thumbSrc(l)}" alt="" loading="lazy" onerror="this.outerHTML='<div class=&quot;noimg&quot;>화면 준비 중</div>'">` : '<div class="noimg">화면 준비 중</div>'}
         <div class="badges"><span class="badge-live">LIVE</span>${l.adult ? '<span class="badge-adult">19</span>' : ''}${l.isNew ? '<span class="badge-new">NEW</span>' : ''}</div>
         <span class="preview-tag">미리보기</span>
         ${mode === 'ratio' ? `<span class="ratio-badge">팔로워의 ${Math.round(l.viewers / l.channel.followers * 100)}% 시청 중</span>` : (l.trend && l.trend.pct >= 10 ? `<span class="trend-badge">↑ +${l.trend.pct}%</span>` : '')}
