@@ -183,7 +183,7 @@
 
 <footer>
   치지직 공개 데이터를 10분 간격으로 수집해 보여주는 비공식 팬 페이지입니다.<br>
-  방송을 누르면 치지직 방송 페이지로 이동합니다.
+  방송을 누르면 여기서 바로 재생됩니다. 채팅은 치지직에서 볼 수 있어요.
 </footer>
 
 <div class="player-modal" id="playerModal">
@@ -434,7 +434,7 @@ document.addEventListener('mouseover', (e) => {
     thumb.appendChild(video);
     hoverVideo = video;
     if (video.canPlayType('application/vnd.apple.mpegurl')) {
-      video.src = live.playback;
+      video.src = src;
     } else if (await loadHlsJs() && window.Hls && Hls.isSupported()) {
       if (hoverVideo !== video) return;
       hoverHls = new Hls({ capLevelToPlayerSize: true, maxBufferLength: 10 });
@@ -474,13 +474,14 @@ async function openPlayer(live){
   $('playerModal').classList.add('open');
   document.body.style.overflow = 'hidden';
   const video = $('pvVideo');
-  if (!live.playback) { showPvError(); return; }
+  const src = live.playbackLl || live.playback;
+  if (!src) { showPvError(); return; }
   if (video.canPlayType('application/vnd.apple.mpegurl')) {
-    video.src = live.playback;
+    video.src = src;
     video.play().catch(() => {});
   } else if (await loadHlsJs() && window.Hls && Hls.isSupported()) {
     playerHls = new Hls({ maxBufferLength: 30 });
-    playerHls.loadSource(live.playback);
+    playerHls.loadSource(src);
     playerHls.attachMedia(video);
     playerHls.on(Hls.Events.MANIFEST_PARSED, () => video.play().catch(() => {}));
     playerHls.on(Hls.Events.ERROR, (ev, data) => { if (data && data.fatal) showPvError(); });
