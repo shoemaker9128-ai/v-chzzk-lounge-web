@@ -483,7 +483,17 @@ async function openPlayer(live){
     playerHls = new Hls({ maxBufferLength: 30 });
     playerHls.loadSource(src);
     playerHls.attachMedia(video);
-    playerHls.on(Hls.Events.MANIFEST_PARSED, () => video.play().catch(() => {}));
+    playerHls.on(Hls.Events.MANIFEST_PARSED, () => {
+      const levels = playerHls.levels || [];
+      let idx = levels.findIndex(lv => lv.height === 720);
+      if (idx < 0) {
+        let best = -1;
+        levels.forEach((lv, i) => { if (lv.height && lv.height <= 720 && (best < 0 || lv.height > levels[best].height)) best = i; });
+        idx = best >= 0 ? best : levels.length - 1;
+      }
+      if (idx >= 0) { playerHls.currentLevel = idx; playerHls.autoLevelEnabled = false; }
+      video.play().catch(() => {});
+    });
     playerHls.on(Hls.Events.ERROR, (ev, data) => { if (data && data.fatal) showPvError(); });
   } else {
     showPvError();
