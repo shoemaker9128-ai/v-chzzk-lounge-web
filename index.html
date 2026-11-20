@@ -62,6 +62,9 @@
   .thumb{position:relative;aspect-ratio:16/9;background:var(--surface2)}
   .thumb img{width:100%;height:100%;object-fit:cover;display:block}
   .thumb video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background:#000}
+  .card:hover .thumb{box-shadow:inset 0 0 0 2px var(--accent)}
+  .preview-tag{position:absolute;top:9px;right:48px;background:var(--accent);color:#04150c;font-size:11px;font-weight:800;padding:3px 8px;border-radius:6px;opacity:0;transition:opacity .15s;pointer-events:none;z-index:3}
+  .card:hover .preview-tag{opacity:1}
   .thumb .noimg{display:flex;align-items:center;justify-content:center;height:100%;color:var(--muted);font-size:13px}
   .badges{position:absolute;left:9px;top:9px;display:flex;gap:6px;align-items:center}
   .badge-live{background:var(--live);color:#fff;font-size:11px;font-weight:800;padding:3px 7px;border-radius:6px;letter-spacing:.4px}
@@ -190,6 +193,7 @@ function cardHtml(l, spot){
         ${l.thumbnail ? `<img src="${l.thumbnail}" alt="" loading="lazy" onerror="this.outerHTML='<div class=&quot;noimg&quot;>화면 준비 중</div>'">` : '<div class="noimg">화면 준비 중</div>'}
         <div class="badges"><span class="badge-live">LIVE</span>${l.adult ? '<span class="badge-adult">19</span>' : ''}</div>
         <button class="fav ${favs.has(l.channel.id) ? 'on' : ''}" data-fav="${l.channel.id}" aria-label="즐겨찾기">★</button>
+        <span class="preview-tag">미리보기</span>
         ${l.trend && l.trend.pct >= 10 ? `<span class="trend-badge">▲ +${l.trend.pct}%</span>` : ''}
         <span class="viewers">👁 ${fmt(l.viewers)}명</span>
       </div>
